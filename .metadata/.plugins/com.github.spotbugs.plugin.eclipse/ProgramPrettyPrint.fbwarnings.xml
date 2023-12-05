@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="16" timestamp="1649104242634" analysisTimestamp="1649104242318" release="">
+  <Project projectName="ProgramPrettyPrint">
+    <Jar>C:\Users\mrocc\Documents\workspace\ProgramPrettyPrint\bin\Program1PrettyPrint1.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\ProgramPrettyPrint\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ProgramPrettyPrint\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ProgramPrettyPrint\test</SrcDir>
+  </Project>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="2" last="2" removedByChange="true">
+    <Class classname="Program1PrettyPrint1">
+      <SourceLine classname="Program1PrettyPrint1" sourcefile="Program1PrettyPrint1.java" sourcepath="Program1PrettyPrint1.java"/>
+    </Class>
+    <Method classname="Program1PrettyPrint1" name="prettyPrint" signature="(Lcomponents/simplewriter/SimpleWriter;)V" isStatic="false">
+      <SourceLine classname="Program1PrettyPrint1" start="70" end="76" startBytecode="0" endBytecode="133" sourcefile="Program1PrettyPrint1.java" sourcepath="Program1PrettyPrint1.java"/>
+    </Method>
+    <SourceLine classname="Program1PrettyPrint1" start="73" end="73" startBytecode="52" endBytecode="52" sourcefile="Program1PrettyPrint1.java" sourcepath="Program1PrettyPrint1.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 4 Apr 2022 16:30:42 -0400" total_classes="1" referenced_classes="41" total_bugs="0" total_size="69" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="1.06" clock_seconds="0.32" peak_mbytes="1133.00" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="69">
+      <ClassStats class="Program1PrettyPrint1" sourceFile="Program1PrettyPrint1.java" interface="false" size="69" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="78" invocations="412" avgMicrosecondsPerInvocation="189" maxMicrosecondsPerInvocation="2567" standardDeviationMicrosecondsPerInvocation="350"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="74" invocations="2" avgMicrosecondsPerInvocation="37382" maxMicrosecondsPerInvocation="65934" standardDeviationMicrosecondsPerInvocation="28552"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="31" invocations="416" avgMicrosecondsPerInvocation="75" maxMicrosecondsPerInvocation="465" standardDeviationMicrosecondsPerInvocation="45"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="13" invocations="41" avgMicrosecondsPerInvocation="338" maxMicrosecondsPerInvocation="4314" standardDeviationMicrosecondsPerInvocation="748"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1646929875458" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1646929875458" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1646938304811" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1646938331258" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1646938811945" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1646939100234" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1646939142723" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1646939197062" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1646939687031" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1646939700041" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1646939761735" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1646939803986" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1646939996629" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1647916969996" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1647917212571" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1647917219100" release="" codeSize="69" numClasses="1"/>
+  </History>
+</BugCollection>

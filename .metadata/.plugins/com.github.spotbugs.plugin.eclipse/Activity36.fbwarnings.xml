@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="17" timestamp="1647916857979" analysisTimestamp="1647916856243" release="">
+  <Project projectName="Activity36">
+    <Jar>C:\Users\mrocc\Documents\workspace\Activity36\bin\RenameInstruction.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Activity36\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Activity36\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Activity36\test</SrcDir>
+  </Project>
+  <BugInstance type="SF_SWITCH_FALLTHROUGH" priority="2" rank="17" abbrev="SF" category="STYLE" first="11">
+    <Class classname="RenameInstruction">
+      <SourceLine classname="RenameInstruction" sourcefile="RenameInstruction.java" sourcepath="RenameInstruction.java"/>
+    </Class>
+    <Method classname="RenameInstruction" name="renameInstruction" signature="(Lcomponents/statement/Statement;Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="RenameInstruction" start="27" end="72" startBytecode="0" endBytecode="566" sourcefile="RenameInstruction.java" sourcepath="RenameInstruction.java"/>
+    </Method>
+    <SourceLine classname="RenameInstruction" start="41" end="45" startBytecode="129" endBytecode="134" sourcefile="RenameInstruction.java" sourcepath="RenameInstruction.java"/>
+    <SourceLine classname="RenameInstruction" start="41" end="45" startBytecode="129" endBytecode="134" sourcefile="RenameInstruction.java" sourcepath="RenameInstruction.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 21 Mar 2022 22:40:56 -0400" total_classes="1" referenced_classes="18" total_bugs="1" total_size="35" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="8.14" clock_seconds="1.75" peak_mbytes="574.48" alloc_mbytes="2048.00" gc_seconds="0.05" priority_2="1">
+    <PackageStats package="" total_bugs="1" total_types="1" total_size="35" priority_2="1">
+      <ClassStats class="RenameInstruction" sourceFile="RenameInstruction.java" interface="false" size="35" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="759" invocations="2" avgMicrosecondsPerInvocation="379849" maxMicrosecondsPerInvocation="624538" standardDeviationMicrosecondsPerInvocation="244688"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="284" invocations="357" avgMicrosecondsPerInvocation="797" maxMicrosecondsPerInvocation="18543" standardDeviationMicrosecondsPerInvocation="1704"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="111" invocations="358" avgMicrosecondsPerInvocation="310" maxMicrosecondsPerInvocation="1313" standardDeviationMicrosecondsPerInvocation="256"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="50" invocations="18" avgMicrosecondsPerInvocation="2787" maxMicrosecondsPerInvocation="14497" standardDeviationMicrosecondsPerInvocation="3916"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="32" invocations="33" avgMicrosecondsPerInvocation="995" maxMicrosecondsPerInvocation="19861" standardDeviationMicrosecondsPerInvocation="3443"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="29" invocations="59" avgMicrosecondsPerInvocation="498" maxMicrosecondsPerInvocation="2302" standardDeviationMicrosecondsPerInvocation="495"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1646939403647" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1646939403647" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1646939451835" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1646939466068" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1646939469544" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1646939486545" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1646939912823" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1646939975191" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1646940327832" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1646940349418" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1646940377957" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1646940391662" release="" codeSize="36" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1646940435193" release="" codeSize="36" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1646940631086" release="" codeSize="36" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1646940667617" release="" codeSize="36" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1646940704328" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1646940851512" release="" codeSize="35" numClasses="1"/>
+  </History>
+</BugCollection>

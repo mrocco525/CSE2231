@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="6" timestamp="1644952611956" analysisTimestamp="1644952611339" release="">
+  <Project projectName="QueueInsertionSort">
+    <Jar>C:\Users\mrocc\Documents\workspace\QueueInsertionSort\bin\SortingMachine3.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\QueueInsertionSort\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\QueueInsertionSort\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\QueueInsertionSort\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 15 Feb 2022 14:16:51 -0500" total_classes="1" referenced_classes="30" total_bugs="0" total_size="82" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="3.52" clock_seconds="0.62" peak_mbytes="665.90" alloc_mbytes="2048.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="82">
+      <ClassStats class="SortingMachine3" sourceFile="SortingMachine3.java" interface="false" size="82" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="176" invocations="421" avgMicrosecondsPerInvocation="419" maxMicrosecondsPerInvocation="23646" standardDeviationMicrosecondsPerInvocation="1379"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="134" invocations="2" avgMicrosecondsPerInvocation="67176" maxMicrosecondsPerInvocation="120316" standardDeviationMicrosecondsPerInvocation="53139"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="48" invocations="30" avgMicrosecondsPerInvocation="1627" maxMicrosecondsPerInvocation="24043" standardDeviationMicrosecondsPerInvocation="4435"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="48" invocations="424" avgMicrosecondsPerInvocation="114" maxMicrosecondsPerInvocation="455" standardDeviationMicrosecondsPerInvocation="60"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="21" invocations="387" avgMicrosecondsPerInvocation="54" maxMicrosecondsPerInvocation="1067" standardDeviationMicrosecondsPerInvocation="112"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="19" invocations="30" avgMicrosecondsPerInvocation="656" maxMicrosecondsPerInvocation="7562" standardDeviationMicrosecondsPerInvocation="1366"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="15" invocations="91" avgMicrosecondsPerInvocation="165" maxMicrosecondsPerInvocation="639" standardDeviationMicrosecondsPerInvocation="148"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1644951155956" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1644951155959" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1644951187453" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1644951403003" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1644952436316" release="" codeSize="81" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1644952607000" release="" codeSize="79" numClasses="1"/>
+  </History>
+</BugCollection>

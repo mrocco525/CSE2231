@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="17" timestamp="1649786489509" analysisTimestamp="1649786489127" release="">
+  <Project projectName="Activity49">
+    <Jar>C:\Users\mrocc\Documents\workspace\Activity49\bin\components\waitingLine\WaitingLine1.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Activity49\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Activity49\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Activity49\test</SrcDir>
+  </Project>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="11" last="13" removedByChange="true">
+    <Class classname="components.waitingLine.WaitingLine1">
+      <SourceLine classname="components.waitingLine.WaitingLine1" sourcefile="WaitingLine1.java" sourcepath="components/waitingLine/WaitingLine1.java"/>
+    </Class>
+    <Field classname="components.waitingLine.WaitingLine1" name="entries" signature="Lcomponents/sequence/Sequence;" isStatic="false">
+      <SourceLine classname="components.waitingLine.WaitingLine1" sourcefile="WaitingLine1.java" sourcepath="components/waitingLine/WaitingLine1.java"/>
+    </Field>
+    <SourceLine classname="components.waitingLine.WaitingLine1" start="31" end="31" startBytecode="8" endBytecode="8" sourcefile="WaitingLine1.java" sourcepath="components/waitingLine/WaitingLine1.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="6" last="8" removedByChange="true">
+    <Class classname="components.waitingLine.WaitingLine1">
+      <SourceLine classname="components.waitingLine.WaitingLine1" sourcefile="WaitingLine1.java" sourcepath="components/waitingLine/WaitingLine1.java"/>
+    </Class>
+    <Field classname="components.waitingLine.WaitingLine1" name="entries" signature="Lcomponents/sequence/Sequence;" isStatic="false">
+      <SourceLine classname="components.waitingLine.WaitingLine1" start="26" end="26" startBytecode="0" endBytecode="0" sourcefile="WaitingLine1.java" sourcepath="components/waitingLine/WaitingLine1.java"/>
+    </Field>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 12 Apr 2022 14:01:29 -0400" total_classes="1" referenced_classes="28" total_bugs="0" total_size="41" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="1.33" clock_seconds="0.38" peak_mbytes="661.39" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="components.waitingLine" total_bugs="0" total_types="1" total_size="41">
+      <ClassStats class="components.waitingLine.WaitingLine1" sourceFile="WaitingLine1.java" interface="false" size="41" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="115" invocations="410" avgMicrosecondsPerInvocation="282" maxMicrosecondsPerInvocation="15996" standardDeviationMicrosecondsPerInvocation="912"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="96" invocations="2" avgMicrosecondsPerInvocation="48131" maxMicrosecondsPerInvocation="86699" standardDeviationMicrosecondsPerInvocation="38568"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="32" invocations="413" avgMicrosecondsPerInvocation="79" maxMicrosecondsPerInvocation="704" standardDeviationMicrosecondsPerInvocation="52"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="13" invocations="377" avgMicrosecondsPerInvocation="36" maxMicrosecondsPerInvocation="904" standardDeviationMicrosecondsPerInvocation="73"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="13" invocations="28" avgMicrosecondsPerInvocation="484" maxMicrosecondsPerInvocation="3753" standardDeviationMicrosecondsPerInvocation="866"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1649783879181" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1649783879183" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="2" timestamp="1649783902626" release="" codeSize="108" numClasses="3"/>
+    <AppVersion sequence="3" timestamp="1649783930281" release="" codeSize="108" numClasses="3"/>
+    <AppVersion sequence="4" timestamp="1649783938881" release="" codeSize="108" numClasses="3"/>
+    <AppVersion sequence="5" timestamp="1649783956153" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1649784226605" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1649784249641" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1649784260397" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1649784301484" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1649784326793" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1649784367890" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1649784455028" release="" codeSize="27" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1649784476906" release="" codeSize="30" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1649786208202" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1649786232008" release="" codeSize="35" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1649786276203" release="" codeSize="35" numClasses="1"/>
+  </History>
+</BugCollection>

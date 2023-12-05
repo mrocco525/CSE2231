@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+net.sf.eclipsecs.warning.color=255,255,255
+net.sf.eclipsecs.warning.highlight=false
+net.sf.eclipsecs.warning.text=true
+net.sf.eclipsecs.warning.text.style=IBEAM
+overviewRuler_migration=migrated_3.1
+printMargin=true
+spacesForTabs=true

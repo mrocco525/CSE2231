@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>Cleaned up code, finished?</CommitComment>
+	<CommitComment>Finished method contracts</CommitComment>
+	<CommitComment>Initial import.</CommitComment>
+	<CommitComment>Added Javadoc Comments.</CommitComment>
+	<CommitComment>Updated separators
+</CommitComment>
+	<CommitComment>Implemented Program methods</CommitComment>
+	<CommitComment>Implemented nextPrimitiveInstructionAddress</CommitComment>
+	<CommitComment>Implemented 5 static methods</CommitComment>
+	<CommitComment>Implemented nextWordOrSeparator and tokens</CommitComment>
+	<CommitComment>Implemented Kernel methods for Statement.</CommitComment>
+</CommitComments>

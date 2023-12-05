@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="2" timestamp="1645583782862" analysisTimestamp="1645583782426" release="">
+  <Project projectName="Hw17">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw17\bin\Heapsort.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw17\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw17\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw17\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 22 Feb 2022 21:36:22 -0500" total_classes="1" referenced_classes="13" total_bugs="0" total_size="14" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="1.97" clock_seconds="0.44" peak_mbytes="991.60" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="14">
+      <ClassStats class="Heapsort" sourceFile="Heapsort.java" interface="false" size="14" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="169" invocations="325" avgMicrosecondsPerInvocation="521" maxMicrosecondsPerInvocation="7577" standardDeviationMicrosecondsPerInvocation="1025"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="94" invocations="2" avgMicrosecondsPerInvocation="47417" maxMicrosecondsPerInvocation="84110" standardDeviationMicrosecondsPerInvocation="36693"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="34" invocations="326" avgMicrosecondsPerInvocation="104" maxMicrosecondsPerInvocation="510" standardDeviationMicrosecondsPerInvocation="72"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="16" invocations="13" avgMicrosecondsPerInvocation="1266" maxMicrosecondsPerInvocation="6485" standardDeviationMicrosecondsPerInvocation="1884"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="14" invocations="45" avgMicrosecondsPerInvocation="324" maxMicrosecondsPerInvocation="1509" standardDeviationMicrosecondsPerInvocation="326"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1645583495102" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1645583495104" release="" codeSize="6" numClasses="1"/>
+  </History>
+</BugCollection>

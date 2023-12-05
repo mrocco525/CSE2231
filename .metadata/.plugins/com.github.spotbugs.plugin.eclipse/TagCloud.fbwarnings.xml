@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="14" timestamp="1649982079700" analysisTimestamp="1649982079401" release="">
+  <Project projectName="TagCloud">
+    <Jar>C:\Users\mrocc\Documents\workspace\TagCloud\bin\TagCloud$IntegerLT.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\TagCloud\bin\TagCloud$StringLT.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\TagCloud\bin\TagCloud.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\TagCloud\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\TagCloud\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\TagCloud\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="4" last="7" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="nextWordOrSeparator" signature="(Ljava/lang/String;ILcomponents/set/Set;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="TagCloud" start="98" end="125" startBytecode="0" endBytecode="85" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <LocalVariable name="letter" register="5" pc="98" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloud" start="105" end="105" startBytecode="96" endBytecode="96" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <SourceLine classname="TagCloud" start="105" end="105" startBytecode="96" endBytecode="96" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="letter"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="1" last="10" removedByChange="true">
+    <Class classname="TagCloud">
+      <SourceLine classname="TagCloud" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+    <Method classname="TagCloud" name="nextWordOrSeparator" signature="(Ljava/lang/String;ILcomponents/set/Set;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="TagCloud" start="98" end="120" startBytecode="0" endBytecode="414" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Method>
+    <SourceLine classname="TagCloud" start="109" end="109" startBytecode="101" endBytecode="101" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="TagCloud$IntegerLT">
+      <SourceLine classname="TagCloud$IntegerLT" start="1" end="68" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="TagCloud$StringLT">
+      <SourceLine classname="TagCloud$StringLT" start="1" end="54" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 14 Apr 2022 20:21:19 -0400" total_classes="3" referenced_classes="46" total_bugs="2" total_size="150" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="0.62" clock_seconds="0.30" peak_mbytes="673.55" alloc_mbytes="2048.00" gc_seconds="0.01" priority_2="2">
+    <PackageStats package="" total_bugs="2" total_types="3" total_size="150" priority_2="2">
+      <ClassStats class="TagCloud" sourceFile="TagCloud.java" interface="false" size="130" bugs="0"/>
+      <ClassStats class="TagCloud$IntegerLT" sourceFile="TagCloud.java" interface="false" size="10" bugs="1" priority_2="1"/>
+      <ClassStats class="TagCloud$StringLT" sourceFile="TagCloud.java" interface="false" size="10" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="89" invocations="506" avgMicrosecondsPerInvocation="177" maxMicrosecondsPerInvocation="11067" standardDeviationMicrosecondsPerInvocation="573"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="62" invocations="2" avgMicrosecondsPerInvocation="31105" maxMicrosecondsPerInvocation="55747" standardDeviationMicrosecondsPerInvocation="24642"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="28" invocations="508" avgMicrosecondsPerInvocation="55" maxMicrosecondsPerInvocation="274" standardDeviationMicrosecondsPerInvocation="29"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="11" invocations="46" avgMicrosecondsPerInvocation="248" maxMicrosecondsPerInvocation="1970" standardDeviationMicrosecondsPerInvocation="470"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1649974242273" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1649974242273" release="" codeSize="152" numClasses="3"/>
+    <AppVersion sequence="2" timestamp="1649974398476" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="3" timestamp="1649974422527" release="" codeSize="161" numClasses="3"/>
+    <AppVersion sequence="4" timestamp="1649974441451" release="" codeSize="153" numClasses="3"/>
+    <AppVersion sequence="5" timestamp="1649974458833" release="" codeSize="152" numClasses="3"/>
+    <AppVersion sequence="6" timestamp="1649974503258" release="" codeSize="152" numClasses="3"/>
+    <AppVersion sequence="7" timestamp="1649974712409" release="" codeSize="153" numClasses="3"/>
+    <AppVersion sequence="8" timestamp="1649974721463" release="" codeSize="160" numClasses="3"/>
+    <AppVersion sequence="9" timestamp="1649974737412" release="" codeSize="152" numClasses="3"/>
+    <AppVersion sequence="10" timestamp="1649975099370" release="" codeSize="152" numClasses="3"/>
+    <AppVersion sequence="11" timestamp="1649980505349" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="12" timestamp="1649981987023" release="" codeSize="150" numClasses="3"/>
+    <AppVersion sequence="13" timestamp="1649981995380" release="" codeSize="150" numClasses="3"/>
+  </History>
+</BugCollection>

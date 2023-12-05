@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;PrimitiveCalls&apos; to &apos;SimplifyIfElse&apos;&#x0D;&#x0A;- Original project: &apos;Hw23&apos;&#x0D;&#x0A;- Original element: &apos;PrimitiveCalls&apos;&#x0D;&#x0A;- Renamed element: &apos;SimplifyIfElse&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PrimitiveCalls&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{PrimitiveCalls.java[PrimitiveCalls" matchStrategy="1" name="SimplifyIfElse" qualified="false" references="true" similarDeclarations="false" stamp="1646771791673" textual="false" version="1.0"/>
+</session>

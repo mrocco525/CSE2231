@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Partitioner&apos; to &apos;Heapsort&apos;&#x0D;&#x0A;- Original project: &apos;Hw17&apos;&#x0D;&#x0A;- Original element: &apos;Partitioner&apos;&#x0D;&#x0A;- Renamed element: &apos;Heapsort&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Partitioner&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Partitioner.java[Partitioner" matchStrategy="1" name="Heapsort" qualified="false" references="true" similarDeclarations="false" stamp="1645583782096" textual="false" version="1.0"/>
+</session>

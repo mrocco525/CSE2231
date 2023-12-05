@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="6" timestamp="1648671388448" analysisTimestamp="1648671387986" release="">
+  <Project projectName="Hw30">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw30\bin\Hw30$CellState.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw30\bin\Hw30.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw30\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw30\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw30\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 30 Mar 2022 16:16:27 -0400" total_classes="2" referenced_classes="32" total_bugs="0" total_size="18" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="2.47" clock_seconds="0.46" peak_mbytes="588.68" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="2" total_size="18">
+      <ClassStats class="Hw30" sourceFile="Hw30.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="Hw30$CellState" sourceFile="Hw30.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="124" invocations="446" avgMicrosecondsPerInvocation="279" maxMicrosecondsPerInvocation="3973" standardDeviationMicrosecondsPerInvocation="495"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="82" invocations="2" avgMicrosecondsPerInvocation="41274" maxMicrosecondsPerInvocation="70154" standardDeviationMicrosecondsPerInvocation="28880"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="45" invocations="449" avgMicrosecondsPerInvocation="100" maxMicrosecondsPerInvocation="989" standardDeviationMicrosecondsPerInvocation="81"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="43" invocations="32" avgMicrosecondsPerInvocation="1360" maxMicrosecondsPerInvocation="18500" standardDeviationMicrosecondsPerInvocation="3429"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="21" invocations="32" avgMicrosecondsPerInvocation="682" maxMicrosecondsPerInvocation="5363" standardDeviationMicrosecondsPerInvocation="1299"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="19" invocations="409" avgMicrosecondsPerInvocation="47" maxMicrosecondsPerInvocation="1448" standardDeviationMicrosecondsPerInvocation="96"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="16" invocations="32" avgMicrosecondsPerInvocation="504" maxMicrosecondsPerInvocation="12552" standardDeviationMicrosecondsPerInvocation="2171"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1648671129440" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1648671129443" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1648671278615" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1648671299604" release="" codeSize="18" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1648671307980" release="" codeSize="18" numClasses="2"/>
+    <AppVersion sequence="5" timestamp="1648671350600" release="" codeSize="18" numClasses="2"/>
+  </History>
+</BugCollection>

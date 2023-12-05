@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Top 30 words in data/gettysburg.txt</title>
+<link href="http://web.cse.ohio-state.edu/software/2231/web-sw2/assignments/projects/tag-cloud-generator/data/tagcloud.css" rel="stylesheet" type="text/css">
+<link href="tagcloud.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h2>Top 30 words in data/gettysburg.txt</h2>
+<hr>
+<div class="cdiv">
+<p class="cbox">
+<span style="cursor:default" class="f29" title="count: 7">a</span>
+<span style="cursor:default" class="f26" title="count: 6">and</span>
+<span style="cursor:default" class="f17" title="count: 3">are</span>
+<span style="cursor:default" class="f23" title="count: 5">can</span>
+<span style="cursor:default" class="f17" title="count: 3">dead</span>
+<span style="cursor:default" class="f20" title="count: 4">dedicated</span>
+<span style="cursor:default" class="f14" title="count: 2">far</span>
+<span style="cursor:default" class="f14" title="count: 2">field</span>
+<span style="cursor:default" class="f23" title="count: 5">for</span>
+<span style="cursor:default" class="f17" title="count: 3">great</span>
+<span style="cursor:default" class="f23" title="count: 5">have</span>
+<span style="cursor:default" class="f32" title="count: 8">here</span>
+<span style="cursor:default" class="f20" title="count: 4">in</span>
+<span style="cursor:default" class="f17" title="count: 3">is</span>
+<span style="cursor:default" class="f23" title="count: 5">it</span>
+<span style="cursor:default" class="f23" title="count: 5">nation</span>
+<span style="cursor:default" class="f23" title="count: 5">not</span>
+<span style="cursor:default" class="f23" title="count: 5">of</span>
+<span style="cursor:default" class="f17" title="count: 3">people</span>
+<span style="cursor:default" class="f17" title="count: 3">shall</span>
+<span style="cursor:default" class="f17" title="count: 3">so</span>
+<span style="cursor:default" class="f48" title="count: 13">that</span>
+<span style="cursor:default" class="f41" title="count: 11">the</span>
+<span style="cursor:default" class="f14" title="count: 2">these</span>
+<span style="cursor:default" class="f17" title="count: 3">they</span>
+<span style="cursor:default" class="f20" title="count: 4">this</span>
+<span style="cursor:default" class="f32" title="count: 8">to</span>
+<span style="cursor:default" class="f17" title="count: 3">us</span>
+<span style="cursor:default" class="f38" title="count: 10">we</span>
+<span style="cursor:default" class="f17" title="count: 3">who</span>
+</p>
+</div>
+</body>
+</html>

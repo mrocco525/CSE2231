@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="4" timestamp="1650316865469" analysisTimestamp="1650316864869" release="">
+  <Project projectName="Hw38">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw38\bin\EmailAccount1.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw38\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw38\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw38\src</SrcDir>
+  </Project>
+  <BugInstance type="NP_TOSTRING_COULD_RETURN_NULL" priority="2" rank="14" abbrev="NP" category="BAD_PRACTICE" first="2" last="2" removedByChange="true">
+    <Class classname="EmailAccount1">
+      <SourceLine classname="EmailAccount1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Class>
+    <Method classname="EmailAccount1" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="EmailAccount1" start="61" end="61" startBytecode="0" endBytecode="43" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    </Method>
+    <SourceLine classname="EmailAccount1" start="61" end="61" startBytecode="1" endBytecode="1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+    <SourceLine classname="EmailAccount1" start="61" end="61" startBytecode="1" endBytecode="1" sourcefile="EmailAccount1.java" sourcepath="EmailAccount1.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="Hw38">
+      <SourceLine classname="Hw38" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+    </Class>
+    <Method classname="Hw38" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hw38" start="31" end="99" startBytecode="0" endBytecode="885" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="60" end="61" startBytecode="0" endBytecode="68" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="Hw38" start="38" end="38" startBytecode="45" endBytecode="45" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+    <SourceLine classname="Hw38" start="38" end="38" startBytecode="45" endBytecode="45" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="Hw38">
+      <SourceLine classname="Hw38" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+    </Class>
+    <Method classname="Hw38" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hw38" start="31" end="99" startBytecode="0" endBytecode="885" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="66" end="67" startBytecode="0" endBytecode="68" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="Hw38" start="54" end="54" startBytecode="134" endBytecode="134" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+    <SourceLine classname="Hw38" start="54" end="54" startBytecode="134" endBytecode="134" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="Hw38">
+      <SourceLine classname="Hw38" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+    </Class>
+    <Method classname="Hw38" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hw38" start="31" end="99" startBytecode="0" endBytecode="885" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="75" startBytecode="0" endBytecode="85" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="Hw38" start="32" end="32" startBytecode="11" endBytecode="11" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+    <SourceLine classname="Hw38" start="32" end="32" startBytecode="11" endBytecode="11" sourcefile="Hw38.java" sourcepath="Hw38.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 18 Apr 2022 17:21:04 -0400" total_classes="1" referenced_classes="17" total_bugs="3" total_size="37" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="2.61" clock_seconds="0.60" peak_mbytes="891.02" alloc_mbytes="2048.00" gc_seconds="0.00" priority_1="3">
+    <PackageStats package="" total_bugs="3" total_types="2" total_size="37" priority_1="3">
+      <ClassStats class="EmailAccount1" sourceFile="EmailAccount1.java" interface="false" size="37" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="249" invocations="357" avgMicrosecondsPerInvocation="698" maxMicrosecondsPerInvocation="11236" standardDeviationMicrosecondsPerInvocation="1376"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="105" invocations="2" avgMicrosecondsPerInvocation="52693" maxMicrosecondsPerInvocation="93257" standardDeviationMicrosecondsPerInvocation="40564"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="38" invocations="358" avgMicrosecondsPerInvocation="107" maxMicrosecondsPerInvocation="441" standardDeviationMicrosecondsPerInvocation="56"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="19" invocations="17" avgMicrosecondsPerInvocation="1170" maxMicrosecondsPerInvocation="5605" standardDeviationMicrosecondsPerInvocation="1754"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="19" invocations="322" avgMicrosecondsPerInvocation="60" maxMicrosecondsPerInvocation="933" standardDeviationMicrosecondsPerInvocation="102"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="15" invocations="60" avgMicrosecondsPerInvocation="252" maxMicrosecondsPerInvocation="1252" standardDeviationMicrosecondsPerInvocation="213"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1650316758642" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1650316758644" release="" codeSize="57" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1650316812108" release="" codeSize="14" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1650316856325" release="" codeSize="37" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="12" timestamp="1644460550282" analysisTimestamp="1644460549794" release="">
+  <Project projectName="Hw14">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw14\bin\IsInTree.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw14\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw14\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw14\src</SrcDir>
+  </Project>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="2" rank="17" abbrev="RV" category="STYLE" first="5" last="5" removedByChange="true">
+    <Class classname="IsInTree">
+      <SourceLine classname="IsInTree" sourcefile="IsInTree.java" sourcepath="IsInTree.java"/>
+    </Class>
+    <Method classname="IsInTree" name="isInTree" signature="(Lcomponents/binarytree/BinaryTree;Ljava/lang/Comparable;)Z" isStatic="true">
+      <SourceLine classname="IsInTree" start="32" end="39" startBytecode="0" endBytecode="153" sourcefile="IsInTree.java" sourcepath="IsInTree.java"/>
+    </Method>
+    <Method classname="java.lang.Comparable" name="compareTo" signature="(Ljava/lang/Object;)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Comparable" sourcefile="Comparable.java" sourcepath="java/lang/Comparable.java"/>
+    </Method>
+    <SourceLine classname="IsInTree" start="35" end="35" startBytecode="27" endBytecode="27" sourcefile="IsInTree.java" sourcepath="IsInTree.java"/>
+    <SourceLine classname="IsInTree" start="35" end="35" startBytecode="27" endBytecode="27" sourcefile="IsInTree.java" sourcepath="IsInTree.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 9 Feb 2022 21:35:49 -0500" total_classes="1" referenced_classes="14" total_bugs="0" total_size="19" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="2.42" clock_seconds="0.49" peak_mbytes="654.23" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="19">
+      <ClassStats class="IsInTree" sourceFile="IsInTree.java" interface="false" size="19" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="162" invocations="325" avgMicrosecondsPerInvocation="499" maxMicrosecondsPerInvocation="43338" standardDeviationMicrosecondsPerInvocation="2483"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="102" invocations="2" avgMicrosecondsPerInvocation="51172" maxMicrosecondsPerInvocation="87182" standardDeviationMicrosecondsPerInvocation="36010"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="65" invocations="326" avgMicrosecondsPerInvocation="200" maxMicrosecondsPerInvocation="10609" standardDeviationMicrosecondsPerInvocation="727"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="59" invocations="291" avgMicrosecondsPerInvocation="202" maxMicrosecondsPerInvocation="15487" standardDeviationMicrosecondsPerInvocation="1265"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1644459477957" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1644459477957" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1644459513534" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1644459525455" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1644459599489" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1644459635355" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1644459684638" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1644459688514" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1644459695484" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1644459705233" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1644459731244" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1644459744335" release="" codeSize="19" numClasses="1"/>
+  </History>
+</BugCollection>

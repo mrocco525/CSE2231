@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="26" timestamp="1643939448388" analysisTimestamp="1643939448106" release="">
+  <Project projectName="HashingExperiments">
+    <Jar>C:\Users\mrocc\Documents\workspace\HashingExperiments\bin\HashingExploration.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\HashingExperiments\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\HashingExperiments\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\HashingExperiments\test</SrcDir>
+  </Project>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT" priority="1" rank="15" abbrev="RV" category="STYLE" first="13" last="13" removedByChange="true">
+    <Class classname="HashingExploration">
+      <SourceLine classname="HashingExploration" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+    </Class>
+    <Method classname="HashingExploration" name="mod" signature="(II)I" isStatic="true">
+      <SourceLine classname="HashingExploration" start="39" end="43" startBytecode="0" endBytecode="133" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+    </Method>
+    <Method classname="java.lang.Math" name="abs" signature="(I)I" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Math" start="1370" end="1370" startBytecode="0" endBytecode="63" sourcefile="Math.java" sourcepath="java/lang/Math.java"/>
+    </Method>
+    <SourceLine classname="HashingExploration" start="40" end="40" startBytecode="21" endBytecode="21" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+    <SourceLine classname="HashingExploration" start="40" end="40" startBytecode="21" endBytecode="21" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+  </BugInstance>
+  <BugInstance type="SA_LOCAL_SELF_COMPUTATION" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="2" last="19" removedByChange="true">
+    <Class classname="HashingExploration">
+      <SourceLine classname="HashingExploration" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+    </Class>
+    <Method classname="HashingExploration" name="mod" signature="(II)I" isStatic="true">
+      <SourceLine classname="HashingExploration" start="39" end="47" startBytecode="0" endBytecode="171" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+    </Method>
+    <LocalVariable name="a" register="0" pc="28" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="HashingExploration" start="43" end="43" startBytecode="28" endBytecode="28" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+    <SourceLine classname="HashingExploration" start="43" end="43" startBytecode="28" endBytecode="28" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+  </BugInstance>
+  <BugInstance type="SA_LOCAL_SELF_COMPUTATION" priority="1" rank="1" abbrev="SA" category="CORRECTNESS" first="3" last="6" removedByChange="true">
+    <Class classname="HashingExploration">
+      <SourceLine classname="HashingExploration" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+    </Class>
+    <Method classname="HashingExploration" name="mod" signature="(II)I" isStatic="true">
+      <SourceLine classname="HashingExploration" start="39" end="45" startBytecode="0" endBytecode="129" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+    </Method>
+    <LocalVariable name="modulo" register="2" pc="33" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="HashingExploration" start="43" end="43" startBytecode="33" endBytecode="33" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+    <SourceLine classname="HashingExploration" start="43" end="43" startBytecode="33" endBytecode="33" sourcefile="HashingExploration.java" sourcepath="HashingExploration.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 3 Feb 2022 20:50:48 -0500" total_classes="1" referenced_classes="20" total_bugs="0" total_size="47" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="1.03" clock_seconds="0.28" peak_mbytes="1154.64" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="47">
+      <ClassStats class="HashingExploration" sourceFile="HashingExploration.java" interface="false" size="47" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="94" invocations="2" avgMicrosecondsPerInvocation="47366" maxMicrosecondsPerInvocation="87654" standardDeviationMicrosecondsPerInvocation="40288"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="85" invocations="363" avgMicrosecondsPerInvocation="236" maxMicrosecondsPerInvocation="3159" standardDeviationMicrosecondsPerInvocation="449"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="24" invocations="364" avgMicrosecondsPerInvocation="68" maxMicrosecondsPerInvocation="360" standardDeviationMicrosecondsPerInvocation="42"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1643915530648" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1643915530650" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1643933648740" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1643933809126" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1643933895215" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1643933914421" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1643933919570" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1643933931425" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1643934416232" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1643934518072" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1643934525379" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1643936835532" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1643936895796" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1643936933928" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1643936947074" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1643936988614" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1643936996251" release="" codeSize="48" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1643937062284" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1643937102479" release="" codeSize="48" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1643937115970" release="" codeSize="48" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1643937125070" release="" codeSize="48" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1643937459780" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1643937498228" release="" codeSize="43" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1643937664090" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1643938893661" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1643938908814" release="" codeSize="47" numClasses="1"/>
+  </History>
+</BugCollection>

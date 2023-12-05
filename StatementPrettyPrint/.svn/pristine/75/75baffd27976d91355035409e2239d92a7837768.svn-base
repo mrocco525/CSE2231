@@ -1,0 +1,123 @@
+import components.map.Map;
+import components.program.Program;
+import components.statement.Statement;
+import components.statement.StatementKernel.Condition;
+
+/**
+ * Rename Instruction program with recursive and static implementations.
+ *
+ * @author Mason Rocco
+ *
+ */
+public final class RenameInstruction {
+
+    /**
+     * Refactors the given {@code Program} by renaming instruction
+     * {@code oldName}, and every call to it, to {@code newName}. Everything
+     * else is left unmodified.
+     *
+     * @param p
+     *            the {@code Program}
+     * @param oldName
+     *            the name of the instruction to be renamed
+     * @param newName
+     *            the new name of the renamed instruction
+     * @updates p
+     * @requires <pre>
+     * oldName is in DOMAIN(p.context)  and
+     * [newName is a valid IDENTIFIER]  and
+     * newName is not in DOMAIN(p.context)
+     * </pre>
+     * @ensures <pre>
+     * p = [#p refactored so that instruction oldName and every call
+     *   to it are replaced by newName]
+     * </pre>
+     */
+    public static void renameInstruction(Program p, String oldName,
+            String newName) {
+        Map<String, Statement> context = p.newContext();
+        p.swapContext(context);
+        while (context.size() > 0) {
+            Map.Pair<String, Statement> instruction = context.removeAny();
+            if (instruction.key().equals(oldName)) {
+                context.add(newName, instruction.value());
+            } else {
+                context.add(oldName, instruction.value());
+            }
+            renameInstruction(instruction.value(), oldName, newName);
+        }
+        p.swapContext(context);
+        Statement body = p.newBody();
+        p.swapBody(body);
+        renameInstruction(body, oldName, newName);
+        p.swapBody(body);
+    }
+
+    /**
+     * Refactors the given {@code Statement} by renaming every occurrence of
+     * instruction {@code oldName} to {@code newName}. Every other statement is
+     * left unmodified.
+     *
+     * @param s
+     *            the {@code Statement}
+     * @param oldName
+     *            the name of the instruction to be renamed
+     * @param newName
+     *            the new name of the renamed instruction
+     * @updates s
+     * @requires [newName is a valid IDENTIFIER]
+     * @ensures <pre>
+     * s = [#s refactored so that every occurrence of instruction oldName
+     *   is replaced by newName]
+     * </pre>
+     */
+    public static void renameInstruction(Statement s, String oldName,
+            String newName) {
+        switch (s.kind()) {
+            case BLOCK: {
+                for (int i = 0; i < s.lengthOfBlock(); i++) {
+                    Statement block = s.removeFromBlock(i);
+                    renameInstruction(block, oldName, newName);
+                    s.addToBlock(i, block);
+                }
+                break;
+            }
+            case IF: {
+                Statement ifBlock = s.newInstance();
+                Condition condition = s.disassembleIf(ifBlock);
+                renameInstruction(ifBlock, oldName, newName);
+                s.assembleIf(condition, ifBlock);
+                break;
+            }
+            case IF_ELSE: {
+                Statement ifBlock = s.newInstance();
+                Statement elseBlock = s.newInstance();
+                Condition condition = s.disassembleIfElse(ifBlock, elseBlock);
+                renameInstruction(ifBlock, oldName, newName);
+                renameInstruction(elseBlock, oldName, newName);
+                s.assembleIfElse(condition, ifBlock, elseBlock);
+                break;
+            }
+            case WHILE: {
+                Statement whileBlock = s.newInstance();
+                Condition condition = s.disassembleWhile(whileBlock);
+                renameInstruction(whileBlock, oldName, newName);
+                s.assembleWhile(condition, whileBlock);
+                break;
+            }
+            case CALL: {
+                String call = s.disassembleCall();
+                if (call.equals(oldName)) {
+                    s.assembleCall(newName);
+                } else {
+                    s.assembleCall(oldName);
+                }
+                break;
+            }
+            default: {
+                // this will never happen...
+                break;
+            }
+        }
+    }
+}

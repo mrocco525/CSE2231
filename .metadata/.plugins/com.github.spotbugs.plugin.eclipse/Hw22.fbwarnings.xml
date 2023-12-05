@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="14" timestamp="1646704378003" analysisTimestamp="1646704377773" release="">
+  <Project projectName="Hw22">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw22\bin\PrimitiveCalls.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw22\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw22\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw22\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="11" last="12" removedByChange="true">
+    <Class classname="PrimitiveCalls">
+      <SourceLine classname="PrimitiveCalls" sourcefile="PrimitiveCalls.java" sourcepath="PrimitiveCalls.java"/>
+    </Class>
+    <Method classname="PrimitiveCalls" name="countOfPrimitiveCalls" signature="(Lcomponents/statement/Statement;)I" isStatic="true">
+      <SourceLine classname="PrimitiveCalls" start="30" end="83" startBytecode="0" endBytecode="53" sourcefile="PrimitiveCalls.java" sourcepath="PrimitiveCalls.java"/>
+    </Method>
+    <LocalVariable name="sCall" register="2" pc="135" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="PrimitiveCalls" start="74" end="74" startBytecode="134" endBytecode="134" sourcefile="PrimitiveCalls.java" sourcepath="PrimitiveCalls.java"/>
+    <SourceLine classname="PrimitiveCalls" start="74" end="74" startBytecode="134" endBytecode="134" sourcefile="PrimitiveCalls.java" sourcepath="PrimitiveCalls.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="sCall"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="height">
+      <SourceLine classname="height" start="9" end="87" sourcefile="height.java" sourcepath="height.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 7 Mar 2022 20:52:57 -0500" total_classes="1" referenced_classes="18" total_bugs="1" total_size="27" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="0.61" clock_seconds="0.23" peak_mbytes="807.33" alloc_mbytes="2048.00" gc_seconds="0.01" priority_2="1">
+    <PackageStats package="" total_bugs="1" total_types="2" total_size="27" priority_2="1">
+      <ClassStats class="PrimitiveCalls" sourceFile="PrimitiveCalls.java" interface="false" size="27" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="77" invocations="357" avgMicrosecondsPerInvocation="217" maxMicrosecondsPerInvocation="16298" standardDeviationMicrosecondsPerInvocation="903"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="50" invocations="2" avgMicrosecondsPerInvocation="25083" maxMicrosecondsPerInvocation="43550" standardDeviationMicrosecondsPerInvocation="18466"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="22" invocations="358" avgMicrosecondsPerInvocation="61" maxMicrosecondsPerInvocation="279" standardDeviationMicrosecondsPerInvocation="31"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1646697463487" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1646697463490" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1646697475721" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1646697502286" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1646703917010" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1646704002107" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1646704010880" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1646704032864" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1646704051707" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1646704077878" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1646704158970" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1646704168140" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1646704208676" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1646704358395" release="" codeSize="27" numClasses="1"/>
+  </History>
+</BugCollection>

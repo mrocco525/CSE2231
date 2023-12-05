@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;InsertionSort.java&apos; to &apos;Partitioner.java&apos;&#x0D;&#x0A;- Original project: &apos;Hw16&apos;&#x0D;&#x0A;- Original element: &apos;InsertionSort.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Partitioner.java&apos;" description="Rename compilation unit &apos;InsertionSort.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{InsertionSort.java" name="Partitioner.java" references="false" stamp="1645114185188" version="1.0"/>
+</session>

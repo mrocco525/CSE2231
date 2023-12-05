@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;WaitingLineKernel.java&apos; to &apos;WaitingLineKernel.java&apos;&#x0D;&#x0A;- Original project: &apos;Hw34&apos;&#x0D;&#x0A;- Destination element: &apos;WaitingLineKernel.java&apos;&#x0D;&#x0A;- Original element: &apos;WaitingLineKernel.java&apos;" description="Copy compilation unit" destination="/src&lt;{WaitingLineKernel.java" element1="/src&lt;{WaitingLineKernel.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1649709867179" units="1" version="1.0"/>
+</session>

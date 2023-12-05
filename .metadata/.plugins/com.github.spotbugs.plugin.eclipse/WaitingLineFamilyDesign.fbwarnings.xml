@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="6" timestamp="1649354328559" analysisTimestamp="1649354328135" release="">
+  <Project projectName="WaitingLineFamilyDesign">
+    <Jar>C:\Users\mrocc\Documents\workspace\WaitingLineFamilyDesign\bin\components\waitingline\WaitingLine.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\WaitingLineFamilyDesign\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\WaitingLineFamilyDesign\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\WaitingLineFamilyDesign\test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 7 Apr 2022 13:58:48 -0400" total_classes="1" referenced_classes="19" total_bugs="0" total_size="7" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="1.89" clock_seconds="0.43" peak_mbytes="928.49" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="components.waitingline" total_bugs="0" total_types="1" total_size="7">
+      <ClassStats class="components.waitingline.WaitingLine" sourceFile="WaitingLine.java" interface="true" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="147" invocations="2" avgMicrosecondsPerInvocation="73578" maxMicrosecondsPerInvocation="134560" standardDeviationMicrosecondsPerInvocation="60982"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="121" invocations="351" avgMicrosecondsPerInvocation="345" maxMicrosecondsPerInvocation="6365" standardDeviationMicrosecondsPerInvocation="681"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="36" invocations="354" avgMicrosecondsPerInvocation="102" maxMicrosecondsPerInvocation="462" standardDeviationMicrosecondsPerInvocation="59"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="18" invocations="318" avgMicrosecondsPerInvocation="58" maxMicrosecondsPerInvocation="1524" standardDeviationMicrosecondsPerInvocation="128"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1649354090323" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1649354090339" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="2" timestamp="1649354116021" release="" codeSize="11" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1649354137332" release="" codeSize="11" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1649354143236" release="" codeSize="11" numClasses="2"/>
+    <AppVersion sequence="5" timestamp="1649354301320" release="" codeSize="4" numClasses="1"/>
+  </History>
+</BugCollection>

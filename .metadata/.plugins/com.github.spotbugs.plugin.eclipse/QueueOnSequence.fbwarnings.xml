@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="7" timestamp="1643136932866" analysisTimestamp="1643136930630" release="">
+  <Project projectName="QueueOnSequence">
+    <Jar>C:\Users\mrocc\Documents\workspace\QueueOnSequence\bin\Queue3.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\QueueOnSequence\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\QueueOnSequence\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\QueueOnSequence\test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 25 Jan 2022 13:55:30 -0500" total_classes="1" referenced_classes="29" total_bugs="0" total_size="42" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="9.64" clock_seconds="2.25" peak_mbytes="480.81" alloc_mbytes="2048.00" gc_seconds="0.06">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="42">
+      <ClassStats class="Queue3" sourceFile="Queue3.java" interface="false" size="42" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="888" invocations="2" avgMicrosecondsPerInvocation="444401" maxMicrosecondsPerInvocation="695251" standardDeviationMicrosecondsPerInvocation="250849"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="413" invocations="415" avgMicrosecondsPerInvocation="996" maxMicrosecondsPerInvocation="24648" standardDeviationMicrosecondsPerInvocation="2281"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="121" invocations="418" avgMicrosecondsPerInvocation="291" maxMicrosecondsPerInvocation="1130" standardDeviationMicrosecondsPerInvocation="197"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="85" invocations="29" avgMicrosecondsPerInvocation="2947" maxMicrosecondsPerInvocation="24941" standardDeviationMicrosecondsPerInvocation="5537"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="47" invocations="77" avgMicrosecondsPerInvocation="620" maxMicrosecondsPerInvocation="7752" standardDeviationMicrosecondsPerInvocation="1079"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="46" invocations="29" avgMicrosecondsPerInvocation="1613" maxMicrosecondsPerInvocation="9921" standardDeviationMicrosecondsPerInvocation="2359"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="40" invocations="60" avgMicrosecondsPerInvocation="680" maxMicrosecondsPerInvocation="19755" standardDeviationMicrosecondsPerInvocation="2588"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1643085779139" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1643085779141" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1643085850121" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1643085875595" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1643085886340" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1643085963276" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1643086451156" release="" codeSize="42" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,38 @@
+move
+turnleft
+WHILE true DO
+  look-for-something
+  infect
+  infect
+  skip
+END WHILE
+turnright
+move
+turnback
+move
+infect
+move
+go-for-it
+WHILE next-is-empty DO
+END WHILE
+turnleft
+turnright
+skip
+skip-again
+move
+move-one-more-time
+move
+WHILE next-is-wall DO
+  WHILE next-is-enemy DO
+      infect
+      move
+      turnleft
+      skip
+      turnright
+      infect
+      move
+      turnleft
+      skip
+      turnright
+  END WHILE
+END WHILE

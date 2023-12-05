@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="17" timestamp="1642440557024" analysisTimestamp="1642440556823" release="">
+  <Project projectName="Hw4">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw4\bin\Hw4.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw4\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw4\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw4\test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 17 Jan 2022 12:29:16 -0500" total_classes="1" referenced_classes="12" total_bugs="0" total_size="10" num_packages="1" java_version="16.0.1" vm_version="16.0.1+9-24" cpu_seconds="0.44" clock_seconds="0.20" peak_mbytes="674.69" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="10">
+      <ClassStats class="Hw4" sourceFile="Hw4.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="59" invocations="317" avgMicrosecondsPerInvocation="187" maxMicrosecondsPerInvocation="3597" standardDeviationMicrosecondsPerInvocation="351"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="58" invocations="2" avgMicrosecondsPerInvocation="29024" maxMicrosecondsPerInvocation="51527" standardDeviationMicrosecondsPerInvocation="22503"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="40" invocations="318" avgMicrosecondsPerInvocation="128" maxMicrosecondsPerInvocation="847" standardDeviationMicrosecondsPerInvocation="100"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1642438977172" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1642438977174" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1642439182537" release="" codeSize="17" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1642439491353" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1642439542557" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1642439590797" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1642439602199" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1642439914710" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1642439936394" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1642439957702" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1642439969474" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1642439984144" release="" codeSize="23" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1642440019039" release="" codeSize="4" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1642440033900" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1642440040165" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1642440085949" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1642440490673" release="" codeSize="38" numClasses="1"/>
+  </History>
+</BugCollection>

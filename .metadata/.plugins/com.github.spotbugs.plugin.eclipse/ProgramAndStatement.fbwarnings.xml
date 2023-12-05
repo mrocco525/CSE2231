@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="20" timestamp="1648086198799" analysisTimestamp="1648086198521" release="">
+  <Project projectName="ProgramAndStatement">
+    <Jar>C:\Users\mrocc\Documents\workspace\ProgramAndStatement\bin\Statement2$StatementLabel.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\ProgramAndStatement\bin\Statement2.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\ProgramAndStatement\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ProgramAndStatement\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ProgramAndStatement\test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="9" last="9" removedByChange="true">
+    <Class classname="Statement2">
+      <SourceLine classname="Statement2" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    </Class>
+    <Method classname="Statement2" name="disassembleIf" signature="(Lcomponents/statement/Statement;)Lcomponents/statement/StatementKernel$Condition;" isStatic="false">
+      <SourceLine classname="Statement2" start="238" end="248" startBytecode="0" endBytecode="63" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    </Method>
+    <LocalVariable name="label" register="4" pc="120" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Statement2" start="245" end="245" startBytecode="118" endBytecode="118" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    <SourceLine classname="Statement2" start="245" end="245" startBytecode="118" endBytecode="118" sourcefile="Statement2.java" sourcepath="Statement2.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="label"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 23 Mar 2022 21:43:18 -0400" total_classes="2" referenced_classes="31" total_bugs="0" total_size="217" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="0.80" clock_seconds="0.28" peak_mbytes="669.53" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="2" total_size="217">
+      <ClassStats class="Statement2" sourceFile="Statement2.java" interface="false" size="173" bugs="0"/>
+      <ClassStats class="Statement2$StatementLabel" sourceFile="Statement2.java" interface="false" size="44" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="63" invocations="388" avgMicrosecondsPerInvocation="163" maxMicrosecondsPerInvocation="2645" standardDeviationMicrosecondsPerInvocation="298"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="54" invocations="2" avgMicrosecondsPerInvocation="27159" maxMicrosecondsPerInvocation="48732" standardDeviationMicrosecondsPerInvocation="21573"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="22" invocations="393" avgMicrosecondsPerInvocation="57" maxMicrosecondsPerInvocation="301" standardDeviationMicrosecondsPerInvocation="31"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="19" invocations="31" avgMicrosecondsPerInvocation="623" maxMicrosecondsPerInvocation="13056" standardDeviationMicrosecondsPerInvocation="2306"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1648085330433" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1648085330435" release="" codeSize="74" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1648085365030" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1648085388336" release="" codeSize="75" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1648085473189" release="" codeSize="79" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1648085485855" release="" codeSize="79" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1648085535492" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1648085607839" release="" codeSize="156" numClasses="2"/>
+    <AppVersion sequence="8" timestamp="1648085610958" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1648085646258" release="" codeSize="156" numClasses="2"/>
+    <AppVersion sequence="10" timestamp="1648085651291" release="" codeSize="161" numClasses="2"/>
+    <AppVersion sequence="11" timestamp="1648085673071" release="" codeSize="166" numClasses="2"/>
+    <AppVersion sequence="12" timestamp="1648085724538" release="" codeSize="172" numClasses="2"/>
+    <AppVersion sequence="13" timestamp="1648085745193" release="" codeSize="176" numClasses="2"/>
+    <AppVersion sequence="14" timestamp="1648085762155" release="" codeSize="180" numClasses="2"/>
+    <AppVersion sequence="15" timestamp="1648086098380" release="" codeSize="180" numClasses="2"/>
+    <AppVersion sequence="16" timestamp="1648086119347" release="" codeSize="189" numClasses="2"/>
+    <AppVersion sequence="17" timestamp="1648086142842" release="" codeSize="196" numClasses="2"/>
+    <AppVersion sequence="18" timestamp="1648086179188" release="" codeSize="207" numClasses="2"/>
+    <AppVersion sequence="19" timestamp="1648086189705" release="" codeSize="211" numClasses="2"/>
+  </History>
+</BugCollection>

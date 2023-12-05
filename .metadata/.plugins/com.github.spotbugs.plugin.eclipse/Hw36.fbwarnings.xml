@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="58" timestamp="1649960033337" analysisTimestamp="1649960033068" release="">
+  <Project projectName="Hw36">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw36\bin\Hw36pt2.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw36\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw36\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw36\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="12" last="12" removedByChange="true">
+    <Class classname="Hw36">
+      <SourceLine classname="Hw36" sourcefile="Hw36.java" sourcepath="Hw36.java"/>
+    </Class>
+    <Method classname="Hw36" name="giveRaise" signature="(Lcomponents/map/Map;CI)V" isStatic="true">
+      <SourceLine classname="Hw36" start="37" end="39" startBytecode="0" endBytecode="8" sourcefile="Hw36.java" sourcepath="Hw36.java"/>
+    </Method>
+    <LocalVariable name="pair" register="3" pc="7" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hw36" start="37" end="37" startBytecode="6" endBytecode="6" sourcefile="Hw36.java" sourcepath="Hw36.java"/>
+    <SourceLine classname="Hw36" start="37" end="37" startBytecode="6" endBytecode="6" sourcefile="Hw36.java" sourcepath="Hw36.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="pair"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="39">
+    <Class classname="Hw36Java">
+      <SourceLine classname="Hw36Java" sourcefile="Hw36Java.java" sourcepath="Hw36Java.java"/>
+    </Class>
+    <Method classname="Hw36Java" name="giveRaise" signature="(Ljava/util/Map;CI)V" isStatic="true">
+      <SourceLine classname="Hw36Java" start="44" end="51" startBytecode="0" endBytecode="255" sourcefile="Hw36Java.java" sourcepath="Hw36Java.java"/>
+    </Method>
+    <SourceLine classname="Hw36Java" start="48" end="48" startBytecode="40" endBytecode="40" sourcefile="Hw36Java.java" sourcepath="Hw36Java.java"/>
+    <SourceLine classname="Hw36Java" start="48" end="48" startBytecode="40" endBytecode="40" sourcefile="Hw36Java.java" sourcepath="Hw36Java.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="47" last="48" removedByChange="true">
+    <Class classname="Hw36pt2">
+      <SourceLine classname="Hw36pt2" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+    </Class>
+    <Method classname="Hw36pt2" name="giveRaise" signature="(Ljava/util/Map;CI)V" isStatic="true">
+      <SourceLine classname="Hw36pt2" start="45" end="55" startBytecode="0" endBytecode="38" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+    </Method>
+    <LocalVariable name="entries" register="5" pc="19" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hw36pt2" start="47" end="47" startBytecode="17" endBytecode="17" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+    <SourceLine classname="Hw36pt2" start="47" end="47" startBytecode="17" endBytecode="17" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="entries"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="GC_UNRELATED_TYPES" priority="2" rank="3" abbrev="GC" category="CORRECTNESS" first="55" last="55" removedByChange="true">
+    <Class classname="Hw36pt2">
+      <SourceLine classname="Hw36pt2" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+    </Class>
+    <Method classname="Hw36pt2" name="giveRaise" signature="(Ljava/util/Map;CI)V" isStatic="true">
+      <SourceLine classname="Hw36pt2" start="45" end="54" startBytecode="0" endBytecode="35" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+    </Method>
+    <Type descriptor="Ljava/util/Map$Entry;" role="TYPE_FOUND" typeParameters="&lt;java.lang.String,java.lang.Integer&gt;">
+      <SourceLine classname="java.util.Map$Entry" start="406" end="558" sourcefile="Map.java" sourcepath="java/util/Map.java"/>
+    </Type>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_EXPECTED">
+      <SourceLine classname="java.lang.String" start="134" end="3785" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <Method classname="java.util.Map" name="get" signature="(Ljava/lang/Object;)Ljava/lang/Object;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Map" sourcefile="Map.java" sourcepath="java/util/Map.java"/>
+    </Method>
+    <LocalVariable name="map" register="0" pc="46" role="LOCAL_VARIABLE_INVOKED_ON"/>
+    <LocalVariable name="name" register="6" pc="46" role="LOCAL_VARIABLE_ARGUMENT"/>
+    <Method classname="java.util.Map$Entry" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_EQUALS_USED">
+      <SourceLine classname="java.util.Map$Entry" sourcefile="Map.java" sourcepath="java/util/Map.java"/>
+    </Method>
+    <SourceLine classname="Hw36pt2" start="51" end="51" startBytecode="48" endBytecode="48" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+    <SourceLine classname="Hw36pt2" start="51" end="51" startBytecode="48" endBytecode="48" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+    <Property name="edu.umd.cs.findbugs.props.GeneralWarningProperty.NOISY_BUG" value="true"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="40" last="48" removedByChange="true">
+    <Class classname="Hw36pt2">
+      <SourceLine classname="Hw36pt2" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+    </Class>
+    <Method classname="Hw36pt2" name="giveRaise" signature="(Ljava/util/Map;CI)V" isStatic="true">
+      <SourceLine classname="Hw36pt2" start="45" end="55" startBytecode="0" endBytecode="322" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+    </Method>
+    <SourceLine classname="Hw36pt2" start="52" end="52" startBytecode="53" endBytecode="53" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+    <SourceLine classname="Hw36pt2" start="52" end="52" startBytecode="53" endBytecode="53" sourcefile="Hw36pt2.java" sourcepath="Hw36pt2.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 14 Apr 2022 14:13:53 -0400" total_classes="1" referenced_classes="17" total_bugs="1" total_size="14" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="0.39" clock_seconds="0.27" peak_mbytes="1054.80" alloc_mbytes="2048.00" gc_seconds="0.00" priority_2="1">
+    <PackageStats package="" total_bugs="1" total_types="2" total_size="14" priority_2="1">
+      <ClassStats class="Hw36pt2" sourceFile="Hw36pt2.java" interface="false" size="14" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="92" invocations="2" avgMicrosecondsPerInvocation="46205" maxMicrosecondsPerInvocation="86393" standardDeviationMicrosecondsPerInvocation="40188"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="82" invocations="363" avgMicrosecondsPerInvocation="226" maxMicrosecondsPerInvocation="3520" standardDeviationMicrosecondsPerInvocation="430"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="20" invocations="364" avgMicrosecondsPerInvocation="56" maxMicrosecondsPerInvocation="232" standardDeviationMicrosecondsPerInvocation="21"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1649858584714" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1649858584715" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="2" timestamp="1649858611747" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1649858642867" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1649895978101" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1649895997522" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1649896038141" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1649896045767" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1649896368284" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1649896436030" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1649896459349" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1649896648589" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1649896656601" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1649896755742" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1649896796870" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1649896806169" release="" codeSize="11" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1649896845946" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1649896875647" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1649896905112" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1649896987265" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1649897011520" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1649897142360" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1649897156087" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1649897164887" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1649897866930" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1649897920277" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1649897922318" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1649897966116" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1649897996671" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1649898002822" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1649898006871" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1649899256534" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1649899269151" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="33" timestamp="1649899285712" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="34" timestamp="1649899297009" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="35" timestamp="1649899322731" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="36" timestamp="1649899344610" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="37" timestamp="1649899365623" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="38" timestamp="1649899497272" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="39" timestamp="1649899514548" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="40" timestamp="1649899526381" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="41" timestamp="1649958383710" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="42" timestamp="1649958746322" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="43" timestamp="1649959294253" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="44" timestamp="1649959449488" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="45" timestamp="1649959455353" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="46" timestamp="1649959480635" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="47" timestamp="1649959534398" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="48" timestamp="1649959560554" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="49" timestamp="1649959567199" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="50" timestamp="1649959581940" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="51" timestamp="1649959602525" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="52" timestamp="1649959614495" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="53" timestamp="1649959646898" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="54" timestamp="1649959654928" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="55" timestamp="1649959708052" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="56" timestamp="1649959749978" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="57" timestamp="1649959931847" release="" codeSize="14" numClasses="1"/>
+  </History>
+</BugCollection>

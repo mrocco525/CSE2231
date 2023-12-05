@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="2" timestamp="1648143330477" analysisTimestamp="1648143329780" release="">
+  <Project projectName="Tokenizer">
+    <Jar>C:\Users\mrocc\Documents\workspace\Tokenizer\bin\Tokenizer.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Tokenizer\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Tokenizer\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Tokenizer\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 24 Mar 2022 13:35:29 -0400" total_classes="1" referenced_classes="23" total_bugs="0" total_size="79" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="3.03" clock_seconds="0.70" peak_mbytes="913.39" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="79">
+      <ClassStats class="Tokenizer" sourceFile="Tokenizer.java" interface="false" size="79" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="244" invocations="375" avgMicrosecondsPerInvocation="652" maxMicrosecondsPerInvocation="9837" standardDeviationMicrosecondsPerInvocation="1309"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="117" invocations="2" avgMicrosecondsPerInvocation="58952" maxMicrosecondsPerInvocation="104487" standardDeviationMicrosecondsPerInvocation="45535"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="44" invocations="376" avgMicrosecondsPerInvocation="118" maxMicrosecondsPerInvocation="492" standardDeviationMicrosecondsPerInvocation="70"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="35" invocations="23" avgMicrosecondsPerInvocation="1530" maxMicrosecondsPerInvocation="10116" standardDeviationMicrosecondsPerInvocation="2411"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="26" invocations="68" avgMicrosecondsPerInvocation="383" maxMicrosecondsPerInvocation="1227" standardDeviationMicrosecondsPerInvocation="267"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="18" invocations="23" avgMicrosecondsPerInvocation="820" maxMicrosecondsPerInvocation="9108" standardDeviationMicrosecondsPerInvocation="1816"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="18" invocations="340" avgMicrosecondsPerInvocation="55" maxMicrosecondsPerInvocation="821" standardDeviationMicrosecondsPerInvocation="95"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="12" invocations="9" avgMicrosecondsPerInvocation="1381" maxMicrosecondsPerInvocation="3671" standardDeviationMicrosecondsPerInvocation="1100"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="12" invocations="9" avgMicrosecondsPerInvocation="1369" maxMicrosecondsPerInvocation="3141" standardDeviationMicrosecondsPerInvocation="981"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1648143297414" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1648143297415" release="" codeSize="69" numClasses="1"/>
+  </History>
+</BugCollection>

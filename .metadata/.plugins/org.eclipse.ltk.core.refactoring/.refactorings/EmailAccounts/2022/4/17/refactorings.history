@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Hw38/src&apos;&#x0D;&#x0A;- Original project: &apos;EmailAccounts&apos;&#x0D;&#x0A;- Destination element: &apos;Hw38/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     EmailAccount.java&#x0D;&#x0A;     EmailAccount1.java" description="Copy compilation units" destination="=Hw38/src" element1="/src&lt;{EmailAccount.java" element2="/src&lt;{EmailAccount1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1650316811252" units="2" version="1.0"/>
+</session>

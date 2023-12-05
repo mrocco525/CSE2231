@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="7" timestamp="1643940824742" analysisTimestamp="1643940824442" release="">
+  <Project projectName="Hw11">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw11\bin\PhoneNumber.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw11\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw11\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw11\src</SrcDir>
+  </Project>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1" last="5" removedByChange="true">
+    <Class classname="PhoneNumber">
+      <SourceLine classname="PhoneNumber" sourcefile="PhoneNumber.java" sourcepath="PhoneNumber.java"/>
+    </Class>
+    <Field classname="PhoneNumber" name="rep" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="PhoneNumber" sourcefile="PhoneNumber.java" sourcepath="PhoneNumber.java"/>
+    </Field>
+    <SourceLine classname="PhoneNumber" start="17" end="17" startBytecode="6" endBytecode="6" sourcefile="PhoneNumber.java" sourcepath="PhoneNumber.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 3 Feb 2022 21:13:44 -0500" total_classes="1" referenced_classes="14" total_bugs="0" total_size="10" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="1.38" clock_seconds="0.30" peak_mbytes="1168.26" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="10">
+      <ClassStats class="PhoneNumber" sourceFile="PhoneNumber.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="109" invocations="349" avgMicrosecondsPerInvocation="313" maxMicrosecondsPerInvocation="24916" standardDeviationMicrosecondsPerInvocation="1401"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="76" invocations="2" avgMicrosecondsPerInvocation="38022" maxMicrosecondsPerInvocation="68225" standardDeviationMicrosecondsPerInvocation="30203"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="23" invocations="350" avgMicrosecondsPerInvocation="68" maxMicrosecondsPerInvocation="310" standardDeviationMicrosecondsPerInvocation="46"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="16" invocations="14" avgMicrosecondsPerInvocation="1158" maxMicrosecondsPerInvocation="4241" standardDeviationMicrosecondsPerInvocation="1470"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1643939729825" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1643939729825" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1643939830175" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1643940058266" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1643940094706" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1643940101995" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1643940110571" release="" codeSize="10" numClasses="1"/>
+  </History>
+</BugCollection>

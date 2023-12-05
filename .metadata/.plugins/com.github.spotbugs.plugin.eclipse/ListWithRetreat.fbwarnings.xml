@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="7" timestamp="1646929510163" analysisTimestamp="1646929505830" release="">
+  <Project projectName="ListWithRetreat">
+    <Jar>C:\Users\mrocc\Documents\workspace\ListWithRetreat\bin\ListTest.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\ListWithRetreat\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ListWithRetreat\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ListWithRetreat\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2" last="3" removedByChange="true">
+    <Class classname="ListTest">
+      <SourceLine classname="ListTest" sourcefile="ListTest.java" sourcepath="ListTest.java"/>
+    </Class>
+    <Method classname="ListTest" name="testRetreat" signature="()V" isStatic="false">
+      <SourceLine classname="ListTest" start="757" end="762" startBytecode="0" endBytecode="44" sourcefile="ListTest.java" sourcepath="ListTest.java"/>
+    </Method>
+    <LocalVariable name="list1" register="1" pc="30" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ListTest" start="757" end="757" startBytecode="29" endBytecode="29" sourcefile="ListTest.java" sourcepath="ListTest.java"/>
+    <SourceLine classname="ListTest" start="757" end="757" startBytecode="29" endBytecode="29" sourcefile="ListTest.java" sourcepath="ListTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="list1"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2" last="3" removedByChange="true">
+    <Class classname="ListTest">
+      <SourceLine classname="ListTest" sourcefile="ListTest.java" sourcepath="ListTest.java"/>
+    </Class>
+    <Method classname="ListTest" name="testRetreat" signature="()V" isStatic="false">
+      <SourceLine classname="ListTest" start="757" end="762" startBytecode="0" endBytecode="44" sourcefile="ListTest.java" sourcepath="ListTest.java"/>
+    </Method>
+    <LocalVariable name="list2" register="2" pc="60" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ListTest" start="759" end="759" startBytecode="59" endBytecode="59" sourcefile="ListTest.java" sourcepath="ListTest.java"/>
+    <SourceLine classname="ListTest" start="759" end="759" startBytecode="59" endBytecode="59" sourcefile="ListTest.java" sourcepath="ListTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="list2"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 10 Mar 2022 11:25:01 -0500" total_classes="1" referenced_classes="18" total_bugs="0" total_size="317" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="13.89" clock_seconds="4.35" peak_mbytes="609.37" alloc_mbytes="2048.00" gc_seconds="0.04">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="317">
+      <ClassStats class="ListTest" sourceFile="ListTest.java" interface="false" size="317" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="2869" invocations="2" avgMicrosecondsPerInvocation="1434905" maxMicrosecondsPerInvocation="2727131" standardDeviationMicrosecondsPerInvocation="1292226"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="299" invocations="364" avgMicrosecondsPerInvocation="823" maxMicrosecondsPerInvocation="19007" standardDeviationMicrosecondsPerInvocation="1784"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="112" invocations="365" avgMicrosecondsPerInvocation="307" maxMicrosecondsPerInvocation="1621" standardDeviationMicrosecondsPerInvocation="251"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1646872821868" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1646872821872" release="" codeSize="291" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1646872847749" release="" codeSize="295" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1646872912012" release="" codeSize="295" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1646873007917" release="" codeSize="317" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1646873052079" release="" codeSize="317" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1646873065621" release="" codeSize="317" numClasses="1"/>
+  </History>
+</BugCollection>

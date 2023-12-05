@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="RepositorySelectionPage.lastRepository" value="svn+ssh://stdlinux.coeit.osu.edu/share/CSE/project/c2231ai15/repos"/>
+	<item key="DirectorySelectionPage.lastParent_svn+ssh://stdlinux.coeit.osu.edu/share/CSE/project/c2231ai15/repos" value=""/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Revision" value="39"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Date" value="97"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Author" value="76"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Comment" value="192"/>
+	<item key="CommitDialog.location.x" value="0"/>
+	<item key="CommitDialog.location.y" value="0"/>
+	<item key="CommitDialog.size.x" value="1366"/>
+	<item key="CommitDialog.size.y" value="720"/>
+	<item key="CommitDialog.weights.0" value="500"/>
+	<item key="CommitDialog.weights.1" value="500"/>
+	<item key="MarkResolvedDialog.location.x" value="410"/>
+	<item key="MarkResolvedDialog.location.y" value="104"/>
+	<item key="MarkResolvedDialog.size.x" value="546"/>
+	<item key="MarkResolvedDialog.size.y" value="385"/>
+	<item key="DifferencesDialog.location.x" value="323"/>
+	<item key="DifferencesDialog.location.y" value="99"/>
+	<item key="DifferencesDialog.size.x" value="721"/>
+	<item key="DifferencesDialog.size.y" value="392"/>
+	<item key="SwitchDialogWithConflictHandling2.location.x" value="381"/>
+	<item key="SwitchDialogWithConflictHandling2.location.y" value="0"/>
+	<item key="SwitchDialogWithConflictHandling2.size.x" value="604"/>
+	<item key="SwitchDialogWithConflictHandling2.size.y" value="720"/>
+	<item key="UrlCombo.MapOnQueue.0" value="svn+ssh://stdlinux.coeit.osu.edu/share/CSE/project/c2231ai15/repos/MapOnQueue"/>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="svn+ssh://stdlinux.coeit.osu.edu/share/CSE/project/c2231ai15/repos"/>
+		</list>
+	</section>
+	<section name="CommitWizard">
+		<item key="VWeight1" value="500"/>
+		<item key="VWeight2" value="500"/>
+		<item key="ShowCompare" value="false"/>
+	</section>
+</section>

@@ -1,0 +1,329 @@
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import components.naturalnumber.NaturalNumber;
+import components.naturalnumber.NaturalNumber1L;
+
+/**
+ * Customized JUnit test fixture for {@code NaturalNumber3}.
+ */
+public class NaturalNumber3Test extends NaturalNumberTest {
+
+    @Override
+    protected final NaturalNumber constructorTest() {
+
+        NaturalNumber newNumber = new NaturalNumber3();
+
+        // This line added just to make the component compilable.
+        return newNumber;
+    }
+
+    @Override
+    protected final NaturalNumber constructorTest(int i) {
+
+        NaturalNumber newNumber = new NaturalNumber3(i);
+        //NaturalNumber newNumberExpected = new NaturalNumber(i);
+
+        // This line added just to make the component compilable.
+        return newNumber;
+    }
+
+    @Override
+    protected final NaturalNumber constructorTest(String s) {
+
+        NaturalNumber newNumber = new NaturalNumber3(Integer.parseInt(s));
+
+        // This line added just to make the component compilable.
+        return newNumber;
+    }
+
+    @Override
+    protected final NaturalNumber constructorTest(NaturalNumber n) {
+
+        NaturalNumber newNumber = new NaturalNumber3(n);
+
+        // This line added just to make the component compilable.
+        return newNumber;
+    }
+
+    @Override
+    protected final NaturalNumber constructorRef() {
+
+        NaturalNumber newNumber = new NaturalNumber1L();
+
+        // This line added just to make the component compilable.
+        return newNumber;
+    }
+
+    @Override
+    protected final NaturalNumber constructorRef(int i) {
+
+        NaturalNumber newNumber = new NaturalNumber1L(i);
+
+        // This line added just to make the component compilable.
+        return newNumber;
+    }
+
+    @Override
+    protected final NaturalNumber constructorRef(String s) {
+
+        NaturalNumber newNumber = new NaturalNumber1L(s);
+
+        // This line added just to make the component compilable.
+        return newNumber;
+    }
+
+    @Override
+    protected final NaturalNumber constructorRef(NaturalNumber n) {
+
+        NaturalNumber newNumber = new NaturalNumber1L(n);
+
+        // This line added just to make the component compilable.
+        return newNumber;
+    }
+
+    /*
+     * Tests multiplyBy10 with integers
+     */
+    @Test
+    public void testMultiplyBy10Int() {
+        int one = 1;
+        int thirteen = 13;
+        NaturalNumber natTest = this.constructorTest(one);
+        NaturalNumber natExpected = this.constructorRef(thirteen);
+        natTest.multiplyBy10(3);
+        assertEquals(natExpected, natTest);
+    }
+
+    /*
+     * Tests multiplyBy10 with strings.
+     */
+    @Test
+    public void testMultiplyBy10String() {
+        NaturalNumber natTest = this.constructorTest("1");
+        NaturalNumber natExpected = this.constructorRef("13");
+        natTest.multiplyBy10(3);
+        assertEquals(natExpected, natTest);
+    }
+
+    /*
+     * Tests multiplyBy10 with natural numbers.
+     */
+    @Test
+    public void testMultiplyBy10Natural() {
+        NaturalNumber one = new NaturalNumber1L(1);
+        NaturalNumber thirteen = new NaturalNumber1L(13);
+        NaturalNumber natTest = this.constructorTest(one);
+        NaturalNumber natExpected = this.constructorRef(thirteen);
+        natTest.multiplyBy10(3);
+        assertEquals(natExpected, natTest);
+    }
+
+    /*
+     * Tests multiplyBy10 using zero with integers.
+     */
+    @Test
+    public void testMultiplyBy10IntZero() {
+        int one = 1;
+        int ten = 10;
+        NaturalNumber natTest = this.constructorTest(one);
+        NaturalNumber natExpected = this.constructorRef(ten);
+        natTest.multiplyBy10(0);
+        assertEquals(natExpected, natTest);
+    }
+
+    /*
+     * Tests multiplyBy10 using zero with strings.
+     */
+    @Test
+    public void testMultiplyBy10StringZero() {
+        NaturalNumber natTest = this.constructorTest("1");
+        NaturalNumber natExpected = this.constructorRef("10");
+        natTest.multiplyBy10(0);
+        assertEquals(natExpected, natTest);
+    }
+
+    /*
+     * Tests multiplyBy10 using zero with natural numbers.
+     */
+    @Test
+    public void testMultiplyBy10NaturalZero() {
+        NaturalNumber one = new NaturalNumber1L(1);
+        NaturalNumber ten = new NaturalNumber1L(10);
+        NaturalNumber natTest = this.constructorTest(one);
+        NaturalNumber natExpected = this.constructorRef(ten);
+        natTest.multiplyBy10(0);
+        assertEquals(natExpected, natTest);
+    }
+
+    /*
+     * Tests divideBy10 using non-zeros with integers.
+     */
+    @Test
+    public void testDivideBy10IntNonZero() {
+        int one = 1;
+        int thirteen = 13;
+        NaturalNumber natTest = this.constructorTest(thirteen);
+        NaturalNumber natExpected = this.constructorRef(one);
+        int returnTest = natTest.divideBy10();
+        int returnExpected = 3;
+        assertEquals(natExpected, natTest);
+        assertEquals(returnExpected, returnTest);
+    }
+
+    /*
+     * Tests divideBy10 using non-zeros with strings.
+     */
+    @Test
+    public void testDivideBy10StringNonZero() {
+        NaturalNumber natTest = this.constructorTest("13");
+        NaturalNumber natExpected = this.constructorRef("1");
+        int returnTest = natTest.divideBy10();
+        int returnExpected = 3;
+        assertEquals(natExpected, natTest);
+        assertEquals(returnTest, returnExpected);
+    }
+
+    /*
+     * Tests divideBy10 using non-zeros with natural numbers.
+     */
+    @Test
+    public void testDivideBy10NaturalNonZero() {
+        NaturalNumber one = new NaturalNumber1L(1);
+        NaturalNumber thirteen = new NaturalNumber1L(13);
+        NaturalNumber natTest = this.constructorTest(thirteen);
+        NaturalNumber natExpected = this.constructorRef(one);
+        int returnTest = natTest.divideBy10();
+        int returnExpected = 3;
+        natTest.divideBy10();
+        assertEquals(natExpected, natTest);
+        assertEquals(returnExpected, returnTest);
+    }
+
+    /*
+     * Tests divideBy10 using zero with integers.
+     */
+    @Test
+    public void testDivideBy10IntZero() {
+        int one = 1;
+        int ten = 10;
+        NaturalNumber natTest = this.constructorTest(ten);
+        NaturalNumber natExpected = this.constructorRef(one);
+        int returnTest = natTest.divideBy10();
+        int returnExpected = 0;
+        assertEquals(natExpected, natTest);
+        assertEquals(returnExpected, returnTest);
+    }
+
+    /*
+     * Tests divideBy10 using zero with strings.
+     */
+    @Test
+    public void testDivideBy10StringZero() {
+        NaturalNumber natTest = this.constructorTest("10");
+        NaturalNumber natExpected = this.constructorRef("1");
+        int returnTest = natTest.divideBy10();
+        int returnExpected = 0;
+        assertEquals(natExpected, natTest);
+        assertEquals(returnTest, returnExpected);
+    }
+
+    /*
+     * Tests divideBy10 using zero with natural numbers.
+     */
+    @Test
+    public void testDivideBy10NaturalZero() {
+        NaturalNumber one = new NaturalNumber1L(1);
+        NaturalNumber ten = new NaturalNumber1L(10);
+        NaturalNumber natTest = this.constructorTest(ten);
+        NaturalNumber natExpected = this.constructorRef(one);
+        int returnTest = natTest.divideBy10();
+        int returnExpected = 0;
+        natTest.divideBy10();
+        assertEquals(natExpected, natTest);
+        assertEquals(returnExpected, returnTest);
+    }
+
+    /*
+     * Tests isZero expecting true with integers.
+     */
+    @Test
+    public void testIsZeroIntTrue() {
+        int zero = 0;
+        NaturalNumber natTest = this.constructorTest(zero);
+        NaturalNumber natExpected = this.constructorRef(zero);
+        boolean returnTest = natTest.isZero();
+        boolean returnExpected = true;
+        assertEquals(natExpected, natTest);
+        assertEquals(returnExpected, returnTest);
+    }
+
+    /*
+     * Tests isZero expecting true with strings.
+     */
+    @Test
+    public void testIsZeroStringTrue() {
+        NaturalNumber natTest = this.constructorTest("0");
+        NaturalNumber natExpected = this.constructorRef("0");
+        boolean returnTest = natTest.isZero();
+        boolean returnExpected = true;
+        assertEquals(natExpected, natTest);
+        assertEquals(returnExpected, returnTest);
+    }
+
+    /*
+     * Tests isZero expecting true with natural numbers.
+     */
+    @Test
+    public void testIsZeroNaturalTrue() {
+        NaturalNumber zero = new NaturalNumber1L(0);
+        NaturalNumber natTest = this.constructorTest(zero);
+        NaturalNumber natExpected = this.constructorRef(zero);
+        boolean returnTest = natTest.isZero();
+        boolean returnExpected = true;
+        assertEquals(natExpected, natTest);
+        assertEquals(returnExpected, returnTest);
+    }
+
+    /*
+     * Tests isZero expecting false with integers.
+     */
+    @Test
+    public void testIsZeroIntFalse() {
+        int one = 1;
+        NaturalNumber natTest = this.constructorTest(one);
+        NaturalNumber natExpected = this.constructorRef(one);
+        boolean returnTest = natTest.isZero();
+        boolean returnExpected = false;
+        assertEquals(natExpected, natTest);
+        assertEquals(returnExpected, returnTest);
+    }
+
+    /*
+     * Tests isZero expecting false with strings.
+     */
+    @Test
+    public void testIsZeroStringFalse() {
+        NaturalNumber natTest = this.constructorTest("1");
+        NaturalNumber natExpected = this.constructorRef("1");
+        boolean returnTest = natTest.isZero();
+        boolean returnExpected = false;
+        assertEquals(natExpected, natTest);
+        assertEquals(returnExpected, returnTest);
+    }
+
+    /*
+     * Tests isZero expecting false with natural numbers.
+     */
+    @Test
+    public void testIsZeroNaturalFalse() {
+        NaturalNumber one = new NaturalNumber1L(1);
+        NaturalNumber natTest = this.constructorTest(one);
+        NaturalNumber natExpected = this.constructorRef(one);
+        boolean returnTest = natTest.isZero();
+        boolean returnExpected = false;
+        assertEquals(natExpected, natTest);
+        assertEquals(returnExpected, returnTest);
+    }
+}

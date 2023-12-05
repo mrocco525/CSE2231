@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="25" timestamp="1644263468302" analysisTimestamp="1644263468061" release="">
+  <Project projectName="Hw12">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw12\bin\Hw12_2.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw12\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw12\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw12\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="8" last="8" removedByChange="true">
+    <Class classname="Hw12">
+      <SourceLine classname="Hw12" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Class>
+    <Method classname="Hw12" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true">
+      <SourceLine classname="Hw12" start="27" end="28" startBytecode="0" endBytecode="6" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Method>
+    <LocalVariable name="leftRight" register="1" pc="9" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Hw12" start="27" end="27" startBytecode="8" endBytecode="8" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    <SourceLine classname="Hw12" start="27" end="27" startBytecode="8" endBytecode="8" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="leftRight"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="10">
+    <Class classname="Hw12">
+      <SourceLine classname="Hw12" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Class>
+    <Method classname="Hw12" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true">
+      <SourceLine classname="Hw12" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Method>
+    <SourceLine classname="Hw12" start="32" end="32" startBytecode="22" endBytecode="22" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="18">
+    <Class classname="Hw12">
+      <SourceLine classname="Hw12" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Class>
+    <Method classname="Hw12" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true">
+      <SourceLine classname="Hw12" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Method>
+    <SourceLine classname="Hw12" start="33" end="33" startBytecode="31" endBytecode="31" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_PARAM_DEREF_NONVIRTUAL" priority="1" rank="6" abbrev="NP" category="CORRECTNESS" first="18">
+    <Class classname="Hw12">
+      <SourceLine classname="Hw12" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Class>
+    <Method classname="Hw12" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true">
+      <SourceLine classname="Hw12" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Method>
+    <Method classname="Hw12" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="Hw12" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Method>
+    <SourceLine classname="Hw12" start="32" end="32" startBytecode="22" endBytecode="22" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    <LocalVariable name="a" register="1" pc="20" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Int value="1" role="INT_NULL_ARG"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ACTUAL_PARAMETER_GUARANTEED_NULL" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ALL_DANGEROUS_TARGETS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ARG_DEFINITELY_NULL" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.MONOMORPHIC_CALL_SITE" value="true"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_PARAM_DEREF_NONVIRTUAL" priority="1" rank="6" abbrev="NP" category="CORRECTNESS" first="18">
+    <Class classname="Hw12">
+      <SourceLine classname="Hw12" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Class>
+    <Method classname="Hw12" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true">
+      <SourceLine classname="Hw12" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Method>
+    <Method classname="Hw12" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="Hw12" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    </Method>
+    <SourceLine classname="Hw12" start="33" end="33" startBytecode="31" endBytecode="31" sourcefile="Hw12.java" sourcepath="Hw12.java"/>
+    <LocalVariable name="b" register="2" pc="29" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Int value="1" role="INT_NULL_ARG"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ACTUAL_PARAMETER_GUARANTEED_NULL" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ALL_DANGEROUS_TARGETS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ARG_DEFINITELY_NULL" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.MONOMORPHIC_CALL_SITE" value="true"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="20" last="21" removedByChange="true">
+    <Class classname="Hw12_2">
+      <SourceLine classname="Hw12_2" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    </Class>
+    <Method classname="Hw12_2" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true">
+      <SourceLine classname="Hw12_2" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    </Method>
+    <SourceLine classname="Hw12_2" start="32" end="32" startBytecode="22" endBytecode="22" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="20" last="21" removedByChange="true">
+    <Class classname="Hw12_2">
+      <SourceLine classname="Hw12_2" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    </Class>
+    <Method classname="Hw12_2" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true">
+      <SourceLine classname="Hw12_2" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    </Method>
+    <SourceLine classname="Hw12_2" start="33" end="33" startBytecode="31" endBytecode="31" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_PARAM_DEREF_NONVIRTUAL" priority="1" rank="6" abbrev="NP" category="CORRECTNESS" first="20" last="21" removedByChange="true">
+    <Class classname="Hw12_2">
+      <SourceLine classname="Hw12_2" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    </Class>
+    <Method classname="Hw12_2" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true">
+      <SourceLine classname="Hw12_2" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    </Method>
+    <Method classname="Hw12_2" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="Hw12_2" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    </Method>
+    <SourceLine classname="Hw12_2" start="32" end="32" startBytecode="22" endBytecode="22" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    <LocalVariable name="a" register="1" pc="20" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Int value="1" role="INT_NULL_ARG"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ACTUAL_PARAMETER_GUARANTEED_NULL" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ALL_DANGEROUS_TARGETS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ARG_DEFINITELY_NULL" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.MONOMORPHIC_CALL_SITE" value="true"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_PARAM_DEREF_NONVIRTUAL" priority="1" rank="6" abbrev="NP" category="CORRECTNESS" first="20" last="21" removedByChange="true">
+    <Class classname="Hw12_2">
+      <SourceLine classname="Hw12_2" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    </Class>
+    <Method classname="Hw12_2" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true">
+      <SourceLine classname="Hw12_2" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    </Method>
+    <Method classname="Hw12_2" name="size" signature="(Lcomponents/binarytree/BinaryTree;)I" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="Hw12_2" start="27" end="35" startBytecode="0" endBytecode="265" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    </Method>
+    <SourceLine classname="Hw12_2" start="33" end="33" startBytecode="31" endBytecode="31" sourcefile="Hw12_2.java" sourcepath="Hw12_2.java"/>
+    <LocalVariable name="b" register="2" pc="29" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Int value="1" role="INT_NULL_ARG"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ACTUAL_PARAMETER_GUARANTEED_NULL" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ALL_DANGEROUS_TARGETS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ARG_DEFINITELY_NULL" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.MONOMORPHIC_CALL_SITE" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 7 Feb 2022 14:51:08 -0500" total_classes="1" referenced_classes="13" total_bugs="4" total_size="15" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="1.05" clock_seconds="0.24" peak_mbytes="620.09" alloc_mbytes="2048.00" gc_seconds="0.01" priority_1="4">
+    <PackageStats package="" total_bugs="4" total_types="2" total_size="15" priority_1="4">
+      <ClassStats class="Hw12_2" sourceFile="Hw12_2.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="87" invocations="2" avgMicrosecondsPerInvocation="43874" maxMicrosecondsPerInvocation="82061" standardDeviationMicrosecondsPerInvocation="38187"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="82" invocations="320" avgMicrosecondsPerInvocation="257" maxMicrosecondsPerInvocation="14544" standardDeviationMicrosecondsPerInvocation="894"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="19" invocations="321" avgMicrosecondsPerInvocation="59" maxMicrosecondsPerInvocation="345" standardDeviationMicrosecondsPerInvocation="32"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1644261897222" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1644261897224" release="" codeSize="4" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1644261904752" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1644261917725" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1644261927834" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1644261934549" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1644261943498" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1644261965735" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1644262109446" release="" codeSize="7" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1644262153344" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1644262428907" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1644262486104" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1644262519910" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1644262528148" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1644262596921" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1644262619323" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1644262682166" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1644262691006" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1644263224812" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1644263267857" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1644263323324" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1644263343338" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1644263404496" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1644263430733" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1644263440418" release="" codeSize="14" numClasses="1"/>
+  </History>
+</BugCollection>

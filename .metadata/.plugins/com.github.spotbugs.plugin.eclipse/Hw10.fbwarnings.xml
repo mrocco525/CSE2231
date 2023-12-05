@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="6" timestamp="1643937684852" analysisTimestamp="1643937684676" release="">
+  <Project projectName="Hw10">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw10\bin\ModForHashing.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw10\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw10\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw10\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="ModForHashing">
+      <SourceLine classname="ModForHashing" sourcefile="ModForHashing.java" sourcepath="ModForHashing.java"/>
+    </Class>
+    <Method classname="ModForHashing" name="mod" signature="(II)I" isStatic="true">
+      <SourceLine classname="ModForHashing" start="30" end="35" startBytecode="0" endBytecode="11" sourcefile="ModForHashing.java" sourcepath="ModForHashing.java"/>
+    </Method>
+    <LocalVariable name="a" register="0" pc="10" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ModForHashing" start="31" end="31" startBytecode="9" endBytecode="9" sourcefile="ModForHashing.java" sourcepath="ModForHashing.java"/>
+    <SourceLine classname="ModForHashing" start="31" end="31" startBytecode="9" endBytecode="9" sourcefile="ModForHashing.java" sourcepath="ModForHashing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="a"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 3 Feb 2022 20:21:24 -0500" total_classes="1" referenced_classes="12" total_bugs="0" total_size="10" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="0.42" clock_seconds="0.18" peak_mbytes="1144.75" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="10">
+      <ClassStats class="ModForHashing" sourceFile="ModForHashing.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="60" invocations="317" avgMicrosecondsPerInvocation="189" maxMicrosecondsPerInvocation="3556" standardDeviationMicrosecondsPerInvocation="375"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="58" invocations="2" avgMicrosecondsPerInvocation="29201" maxMicrosecondsPerInvocation="52892" standardDeviationMicrosecondsPerInvocation="23691"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="16" invocations="318" avgMicrosecondsPerInvocation="52" maxMicrosecondsPerInvocation="285" standardDeviationMicrosecondsPerInvocation="29"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1643842787018" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1643842787020" release="" codeSize="7" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1643842853363" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1643842882479" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1643842891897" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1643842896497" release="" codeSize="9" numClasses="1"/>
+  </History>
+</BugCollection>

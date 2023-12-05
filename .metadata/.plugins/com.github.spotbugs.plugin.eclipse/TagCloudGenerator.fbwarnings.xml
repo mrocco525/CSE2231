@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="2" timestamp="1649972915389" analysisTimestamp="1649972913353" release="">
+  <Project projectName="TagCloudGenerator">
+    <Jar>C:\Users\mrocc\Documents\workspace\TagCloudGenerator\bin\TagCloudEx$IntegerLT.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\TagCloudGenerator\bin\TagCloudEx$StringLT.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\TagCloudGenerator\bin\TagCloudEx.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\TagCloudGenerator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\TagCloudGenerator\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\TagCloudGenerator\test</SrcDir>
+  </Project>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="TagCloud$IntegerLT">
+      <SourceLine classname="TagCloud$IntegerLT" start="1" end="177" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="TagCloud$StringLT">
+      <SourceLine classname="TagCloud$StringLT" start="1" end="189" sourcefile="TagCloud.java" sourcepath="TagCloud.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="2">
+    <Class classname="TagCloudEx$IntegerLT">
+      <SourceLine classname="TagCloudEx$IntegerLT" start="1" end="177" sourcefile="TagCloudEx.java" sourcepath="TagCloudEx.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="2">
+    <Class classname="TagCloudEx$StringLT">
+      <SourceLine classname="TagCloudEx$StringLT" start="1" end="189" sourcefile="TagCloudEx.java" sourcepath="TagCloudEx.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 14 Apr 2022 17:48:33 -0400" total_classes="3" referenced_classes="46" total_bugs="4" total_size="176" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="9.19" clock_seconds="2.06" peak_mbytes="613.50" alloc_mbytes="2048.00" gc_seconds="0.05" priority_2="4">
+    <PackageStats package="" total_bugs="4" total_types="5" total_size="176" priority_2="4">
+      <ClassStats class="TagCloudEx" sourceFile="TagCloudEx.java" interface="false" size="160" bugs="0"/>
+      <ClassStats class="TagCloudEx$IntegerLT" sourceFile="TagCloudEx.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="TagCloudEx$StringLT" sourceFile="TagCloudEx.java" interface="false" size="8" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="619" invocations="2" avgMicrosecondsPerInvocation="309662" maxMicrosecondsPerInvocation="479701" standardDeviationMicrosecondsPerInvocation="170039"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="326" invocations="509" avgMicrosecondsPerInvocation="641" maxMicrosecondsPerInvocation="14131" standardDeviationMicrosecondsPerInvocation="1310"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="178" invocations="511" avgMicrosecondsPerInvocation="349" maxMicrosecondsPerInvocation="19980" standardDeviationMicrosecondsPerInvocation="1209"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="94" invocations="46" avgMicrosecondsPerInvocation="2059" maxMicrosecondsPerInvocation="18201" standardDeviationMicrosecondsPerInvocation="4108"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="59" invocations="46" avgMicrosecondsPerInvocation="1287" maxMicrosecondsPerInvocation="12391" standardDeviationMicrosecondsPerInvocation="2569"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="50" invocations="123" avgMicrosecondsPerInvocation="412" maxMicrosecondsPerInvocation="3756" standardDeviationMicrosecondsPerInvocation="579"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="43" invocations="23" avgMicrosecondsPerInvocation="1883" maxMicrosecondsPerInvocation="9708" standardDeviationMicrosecondsPerInvocation="2433"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="41" invocations="23" avgMicrosecondsPerInvocation="1794" maxMicrosecondsPerInvocation="6616" standardDeviationMicrosecondsPerInvocation="1798"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="34" invocations="20" avgMicrosecondsPerInvocation="1703" maxMicrosecondsPerInvocation="8972" standardDeviationMicrosecondsPerInvocation="2229"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="33" invocations="84" avgMicrosecondsPerInvocation="403" maxMicrosecondsPerInvocation="13576" standardDeviationMicrosecondsPerInvocation="1526"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="33" invocations="46" avgMicrosecondsPerInvocation="723" maxMicrosecondsPerInvocation="11113" standardDeviationMicrosecondsPerInvocation="1745"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1649901190484" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1649901190487" release="" codeSize="176" numClasses="3"/>
+  </History>
+</BugCollection>

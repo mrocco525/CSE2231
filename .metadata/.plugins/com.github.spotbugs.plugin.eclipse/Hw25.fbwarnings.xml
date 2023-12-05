@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="3" timestamp="1648002351127" analysisTimestamp="1648002350715" release="">
+  <Project projectName="Hw25">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw25\bin\RenameInstruction.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw25\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw25\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw25\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 22 Mar 2022 22:25:50 -0400" total_classes="1" referenced_classes="33" total_bugs="0" total_size="5" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="1.64" clock_seconds="0.41" peak_mbytes="663.00" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="5">
+      <ClassStats class="RenameInstruction" sourceFile="RenameInstruction.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="186" invocations="382" avgMicrosecondsPerInvocation="487" maxMicrosecondsPerInvocation="8191" standardDeviationMicrosecondsPerInvocation="1004"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="79" invocations="2" avgMicrosecondsPerInvocation="39878" maxMicrosecondsPerInvocation="69820" standardDeviationMicrosecondsPerInvocation="29942"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="33" invocations="389" avgMicrosecondsPerInvocation="86" maxMicrosecondsPerInvocation="428" standardDeviationMicrosecondsPerInvocation="46"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="19" invocations="33" avgMicrosecondsPerInvocation="597" maxMicrosecondsPerInvocation="5511" standardDeviationMicrosecondsPerInvocation="1221"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1648002302087" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1648002302089" release="" codeSize="5" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1648002327208" release="" codeSize="5" numClasses="1"/>
+  </History>
+</BugCollection>

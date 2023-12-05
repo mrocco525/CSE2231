@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\mrocc\Documents\workspace"/>
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\mrocc\Downloads\FinalReportApplication.zip"/>
+			<item value="C:\Users\mrocc\Desktop\CSE 3241\Database Project\nonProfitGroupProjectCHECKPOINT4_2.zip"/>
+			<item value="C:\Users\mrocc\Desktop\CSE 3241\Labs\Java-JDBC-Sample-Application.zip"/>
+			<item value="C:\Users\mrocc\Downloads\EmailAccounts.zip"/>
+			<item value="C:\Users\mrocc\Desktop\CSE 2231\Program Outlines\JavaIOExplorations.zip"/>
+			<item value="C:\Users\mrocc\Downloads\JavaIOExplorations.zip"/>
+			<item value="C:\Users\mrocc\Downloads\JCFExplorations.zip"/>
+			<item value="C:\Users\mrocc\Downloads\WaitingLineFamilyDesign.zip"/>
+			<item value="C:\Users\mrocc\Downloads\ProgramCodeGenerator.zip"/>
+			<item value="C:\Users\mrocc\Downloads\BugsWorldVMInterpreter.zip"/>
+			<item value="C:\Users\mrocc\Downloads\ExpressionEvaluator.zip"/>
+			<item value="C:\Users\mrocc\Downloads\Tokenizer.zip"/>
+			<item value="C:\Users\mrocc\Downloads\StatementPrettyPrint.zip"/>
+			<item value="C:\Users\mrocc\Downloads\ProgramPrettyPrint.zip"/>
+			<item value="C:\Users\mrocc\Downloads\ListWithRetreat.zip"/>
+			<item value="C:\Users\mrocc\Downloads\StatementCountPrimitiveCalls.zip"/>
+			<item value="C:\Users\mrocc\Downloads\ListWithTwoSmartNodes.zip"/>
+			<item value="C:\Users\mrocc\Downloads\ArraySiftDown.zip"/>
+			<item value="C:\Users\mrocc\Downloads\QueueQuicksort.zip"/>
+			<item value="C:\Users\mrocc\Downloads\BinarySearchTreeMethods.zip"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="375"/>
+		<item key="DIALOG_Y_ORIGIN" value="181"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

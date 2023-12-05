@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Hw26&apos; to &apos;Hw28&apos;&#x0D;&#x0A;- Original project: &apos;Hw28&apos;&#x0D;&#x0A;- Original element: &apos;Hw26&apos;&#x0D;&#x0A;- Renamed element: &apos;Hw28&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Hw26&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Hw26.java[Hw26" matchStrategy="1" name="Hw28" qualified="false" references="true" similarDeclarations="false" stamp="1648571304061" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="7" timestamp="1646161216499" analysisTimestamp="1646161216116" release="">
+  <Project projectName="ListWithTwoSmartNodes">
+    <Jar>C:\Users\mrocc\Documents\workspace\ListWithTwoSmartNodes\bin\List2a$List2Iterator.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\ListWithTwoSmartNodes\bin\List2a$Node.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\ListWithTwoSmartNodes\bin\List2a.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\ListWithTwoSmartNodes\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ListWithTwoSmartNodes\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ListWithTwoSmartNodes\test</SrcDir>
+  </Project>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="2" last="3" removedByChange="true">
+    <Class classname="List2a$Node">
+      <SourceLine classname="List2a$Node" sourcefile="List2a.java" sourcepath="List2a.java"/>
+    </Class>
+    <Field classname="List2a$Node" name="data" signature="Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="List2a$Node" sourcefile="List2a.java" sourcepath="List2a.java"/>
+    </Field>
+    <SourceLine classname="List2a$Node" start="48" end="48" startBytecode="1" endBytecode="1" sourcefile="List2a.java" sourcepath="List2a.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="2" last="3" removedByChange="true">
+    <Class classname="List2a$Node">
+      <SourceLine classname="List2a$Node" sourcefile="List2a.java" sourcepath="List2a.java"/>
+    </Class>
+    <Field classname="List2a$Node" name="next" signature="LList2a$Node;" isStatic="false">
+      <SourceLine classname="List2a$Node" sourcefile="List2a.java" sourcepath="List2a.java"/>
+    </Field>
+    <SourceLine classname="List2a$Node" start="53" end="53" startBytecode="1" endBytecode="1" sourcefile="List2a.java" sourcepath="List2a.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 1 Mar 2022 14:00:16 -0500" total_classes="3" referenced_classes="29" total_bugs="0" total_size="124" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="1.08" clock_seconds="0.39" peak_mbytes="792.47" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="3" total_size="124">
+      <ClassStats class="List2a" sourceFile="List2a.java" interface="false" size="88" bugs="0"/>
+      <ClassStats class="List2a$List2Iterator" sourceFile="List2a.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="List2a$Node" sourceFile="List2a.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="104" invocations="401" avgMicrosecondsPerInvocation="261" maxMicrosecondsPerInvocation="3890" standardDeviationMicrosecondsPerInvocation="522"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="93" invocations="2" avgMicrosecondsPerInvocation="46780" maxMicrosecondsPerInvocation="84787" standardDeviationMicrosecondsPerInvocation="38007"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="31" invocations="404" avgMicrosecondsPerInvocation="77" maxMicrosecondsPerInvocation="343" standardDeviationMicrosecondsPerInvocation="38"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="13" invocations="367" avgMicrosecondsPerInvocation="37" maxMicrosecondsPerInvocation="851" standardDeviationMicrosecondsPerInvocation="79"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="11" invocations="29" avgMicrosecondsPerInvocation="399" maxMicrosecondsPerInvocation="3749" standardDeviationMicrosecondsPerInvocation="801"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1646159736463" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1646159736463" release="" codeSize="123" numClasses="3"/>
+    <AppVersion sequence="2" timestamp="1646159852018" release="" codeSize="87" numClasses="3"/>
+    <AppVersion sequence="3" timestamp="1646159855067" release="" codeSize="86" numClasses="3"/>
+    <AppVersion sequence="4" timestamp="1646159870101" release="" codeSize="124" numClasses="3"/>
+    <AppVersion sequence="5" timestamp="1646159933232" release="" codeSize="124" numClasses="3"/>
+    <AppVersion sequence="6" timestamp="1646160690781" release="" codeSize="124" numClasses="3"/>
+  </History>
+</BugCollection>

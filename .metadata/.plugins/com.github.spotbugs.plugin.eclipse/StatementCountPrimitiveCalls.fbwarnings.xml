@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="1" timestamp="1646765239119" analysisTimestamp="1646765236490" release="">
+  <Project projectName="StatementCountPrimitiveCalls">
+    <Jar>C:\Users\mrocc\Documents\workspace\StatementCountPrimitiveCalls\bin\CountPrimitiveCalls.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\StatementCountPrimitiveCalls\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\StatementCountPrimitiveCalls\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\StatementCountPrimitiveCalls\test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 8 Mar 2022 13:47:16 -0500" total_classes="1" referenced_classes="18" total_bugs="0" total_size="27" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="10.48" clock_seconds="2.67" peak_mbytes="623.70" alloc_mbytes="2048.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="27">
+      <ClassStats class="CountPrimitiveCalls" sourceFile="CountPrimitiveCalls.java" interface="false" size="27" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1323" invocations="2" avgMicrosecondsPerInvocation="661550" maxMicrosecondsPerInvocation="1117335" standardDeviationMicrosecondsPerInvocation="455784"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="381" invocations="357" avgMicrosecondsPerInvocation="1068" maxMicrosecondsPerInvocation="22091" standardDeviationMicrosecondsPerInvocation="2158"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="138" invocations="358" avgMicrosecondsPerInvocation="387" maxMicrosecondsPerInvocation="1400" standardDeviationMicrosecondsPerInvocation="266"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="75" invocations="18" avgMicrosecondsPerInvocation="4172" maxMicrosecondsPerInvocation="25746" standardDeviationMicrosecondsPerInvocation="6463"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="48" invocations="58" avgMicrosecondsPerInvocation="837" maxMicrosecondsPerInvocation="4854" standardDeviationMicrosecondsPerInvocation="882"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1646765239116" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

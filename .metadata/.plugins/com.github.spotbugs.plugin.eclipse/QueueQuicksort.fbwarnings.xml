@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="23" timestamp="1645555812473" analysisTimestamp="1645555808919" release="">
+  <Project projectName="QueueQuicksort">
+    <Jar>C:\Users\mrocc\Documents\workspace\QueueQuicksort\bin\Queue1LSort4.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\QueueQuicksort\bin\QueueSortMain$StringLT.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\QueueQuicksort\bin\QueueSortMain.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\QueueQuicksort\bin\SortingMachine4.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\QueueQuicksort\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\QueueQuicksort\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\QueueQuicksort\src</SrcDir>
+  </Project>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="23">
+    <Class classname="QueueSortMain$StringLT">
+      <SourceLine classname="QueueSortMain$StringLT" start="1" end="23" sourcefile="QueueSortMain.java" sourcepath="QueueSortMain.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="13" last="21" removedByChange="true">
+    <Class classname="SortingMachine4">
+      <SourceLine classname="SortingMachine4" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Class>
+    <Method classname="SortingMachine4" name="add" signature="(Ljava/lang/Object;)V" isStatic="false">
+      <SourceLine classname="SortingMachine4" start="221" end="224" startBytecode="0" endBytecode="150" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Method>
+    <SourceLine classname="SortingMachine4" start="223" end="223" startBytecode="45" endBytecode="45" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="14" last="21" removedByChange="true">
+    <Class classname="SortingMachine4">
+      <SourceLine classname="SortingMachine4" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Class>
+    <Method classname="SortingMachine4" name="changeToExtractionMode" signature="()V" isStatic="false">
+      <SourceLine classname="SortingMachine4" start="228" end="230" startBytecode="0" endBytecode="104" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Method>
+    <SourceLine classname="SortingMachine4" start="229" end="229" startBytecode="24" endBytecode="24" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="7" last="7" removedByChange="true">
+    <Class classname="SortingMachine4">
+      <SourceLine classname="SortingMachine4" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Class>
+    <Method classname="SortingMachine4" name="sort" signature="(Lcomponents/queue/Queue;Ljava/util/Comparator;)V" isStatic="true">
+      <SourceLine classname="SortingMachine4" start="122" end="147" startBytecode="0" endBytecode="279" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Method>
+    <SourceLine classname="SortingMachine4" start="138" end="138" startBytecode="59" endBytecode="59" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_RECURSIVE_LOOP" priority="1" rank="9" abbrev="IL" category="CORRECTNESS" first="7" last="7" removedByChange="true">
+    <Class classname="SortingMachine4">
+      <SourceLine classname="SortingMachine4" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Class>
+    <Method classname="SortingMachine4" name="sort" signature="(Lcomponents/queue/Queue;Ljava/util/Comparator;)V" isStatic="true">
+      <SourceLine classname="SortingMachine4" start="122" end="147" startBytecode="0" endBytecode="279" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Method>
+    <SourceLine classname="SortingMachine4" start="139" end="139" startBytecode="65" endBytecode="65" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="5" last="5" removedByChange="true">
+    <Class classname="SortingMachine4">
+      <SourceLine classname="SortingMachine4" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Class>
+    <Field classname="SortingMachine4" name="entries" signature="Lcomponents/queue/Queue;" isStatic="false">
+      <SourceLine classname="SortingMachine4" start="59" end="59" startBytecode="0" endBytecode="0" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="5" last="5" removedByChange="true">
+    <Class classname="SortingMachine4">
+      <SourceLine classname="SortingMachine4" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Class>
+    <Field classname="SortingMachine4" name="insertionMode" signature="Z" isStatic="false">
+      <SourceLine classname="SortingMachine4" start="49" end="49" startBytecode="0" endBytecode="0" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="5" last="5" removedByChange="true">
+    <Class classname="SortingMachine4">
+      <SourceLine classname="SortingMachine4" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Class>
+    <Field classname="SortingMachine4" name="machineOrder" signature="Ljava/util/Comparator;" isStatic="false">
+      <SourceLine classname="SortingMachine4" start="54" end="54" startBytecode="0" endBytecode="0" sourcefile="SortingMachine4.java" sourcepath="SortingMachine4.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="22">
+    <Class classname="SortingMachineTest$StringLT">
+      <SourceLine classname="SortingMachineTest$StringLT" start="1" end="110" sourcefile="SortingMachineTest.java" sourcepath="SortingMachineTest.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 22 Feb 2022 13:50:08 -0500" total_classes="4" referenced_classes="58" total_bugs="2" total_size="160" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="17.62" clock_seconds="3.59" peak_mbytes="569.23" alloc_mbytes="2048.00" gc_seconds="0.07" priority_2="2">
+    <PackageStats package="" total_bugs="2" total_types="5" total_size="160" priority_2="2">
+      <ClassStats class="Queue1LSort4" sourceFile="Queue1LSort4.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="QueueSortMain" sourceFile="QueueSortMain.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="QueueSortMain$StringLT" sourceFile="QueueSortMain.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="SortingMachine4" sourceFile="SortingMachine4.java" interface="false" size="87" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1164" invocations="2" avgMicrosecondsPerInvocation="582052" maxMicrosecondsPerInvocation="926259" standardDeviationMicrosecondsPerInvocation="344207"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="635" invocations="547" avgMicrosecondsPerInvocation="1162" maxMicrosecondsPerInvocation="33012" standardDeviationMicrosecondsPerInvocation="2601"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="253" invocations="551" avgMicrosecondsPerInvocation="460" maxMicrosecondsPerInvocation="4503" standardDeviationMicrosecondsPerInvocation="539"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="163" invocations="58" avgMicrosecondsPerInvocation="2812" maxMicrosecondsPerInvocation="32409" standardDeviationMicrosecondsPerInvocation="5448"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="116" invocations="58" avgMicrosecondsPerInvocation="2007" maxMicrosecondsPerInvocation="19232" standardDeviationMicrosecondsPerInvocation="3656"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="100" invocations="149" avgMicrosecondsPerInvocation="676" maxMicrosecondsPerInvocation="10504" standardDeviationMicrosecondsPerInvocation="1340"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="73" invocations="36" avgMicrosecondsPerInvocation="2035" maxMicrosecondsPerInvocation="26350" standardDeviationMicrosecondsPerInvocation="4594"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="67" invocations="97" avgMicrosecondsPerInvocation="692" maxMicrosecondsPerInvocation="28501" standardDeviationMicrosecondsPerInvocation="2977"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="60" invocations="36" avgMicrosecondsPerInvocation="1671" maxMicrosecondsPerInvocation="8860" standardDeviationMicrosecondsPerInvocation="2001"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1645116892560" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1645116892560" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1645116913114" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1645116946540" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1645116967945" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1645117681691" release="" codeSize="32" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1645117714026" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1645118475596" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1645118516977" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1645118557500" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1645118587126" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1645118594504" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1645118617201" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1645118701302" release="" codeSize="84" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1645118720730" release="" codeSize="85" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1645118745026" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1645118752481" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1645118763312" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1645118773615" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1645118801283" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1645118830111" release="" codeSize="83" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1645118868063" release="" codeSize="85" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1645125490423" release="" codeSize="257" numClasses="3"/>
+  </History>
+</BugCollection>

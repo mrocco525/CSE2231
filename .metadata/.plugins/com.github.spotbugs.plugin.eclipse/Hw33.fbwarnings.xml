@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="8" timestamp="1649279593072" analysisTimestamp="1649279592690" release="">
+  <Project projectName="Hw33">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw33\bin\WaitingLineKernel.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw33\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw33\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw33\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 6 Apr 2022 17:13:12 -0400" total_classes="1" referenced_classes="18" total_bugs="0" total_size="4" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="1.64" clock_seconds="0.38" peak_mbytes="539.87" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="4">
+      <ClassStats class="WaitingLineKernel" sourceFile="WaitingLineKernel.java" interface="true" size="4" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="111" invocations="350" avgMicrosecondsPerInvocation="319" maxMicrosecondsPerInvocation="6011" standardDeviationMicrosecondsPerInvocation="643"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="107" invocations="2" avgMicrosecondsPerInvocation="53889" maxMicrosecondsPerInvocation="96992" standardDeviationMicrosecondsPerInvocation="43103"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="36" invocations="353" avgMicrosecondsPerInvocation="104" maxMicrosecondsPerInvocation="426" standardDeviationMicrosecondsPerInvocation="57"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="17" invocations="18" avgMicrosecondsPerInvocation="986" maxMicrosecondsPerInvocation="6491" standardDeviationMicrosecondsPerInvocation="1673"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="16" invocations="317" avgMicrosecondsPerInvocation="52" maxMicrosecondsPerInvocation="1327" standardDeviationMicrosecondsPerInvocation="109"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1649279470159" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1649279470162" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1649279487891" release="" codeSize="1" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1649279509613" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1649279520421" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1649279568430" release="" codeSize="8" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1649279573416" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1649279587926" release="" codeSize="6" numClasses="1"/>
+  </History>
+</BugCollection>

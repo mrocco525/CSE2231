@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="6" timestamp="1645556891139" analysisTimestamp="1645556890591" release="">
+  <Project projectName="ArraySiftDown">
+    <Jar>C:\Users\mrocc\Documents\workspace\ArraySiftDown\bin\ArraySiftDownMain.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\ArraySiftDown\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ArraySiftDown\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ArraySiftDown\test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 22 Feb 2022 14:08:10 -0500" total_classes="1" referenced_classes="24" total_bugs="0" total_size="90" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="2.22" clock_seconds="0.55" peak_mbytes="617.83" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="90">
+      <ClassStats class="ArraySiftDownMain" sourceFile="ArraySiftDownMain.java" interface="false" size="90" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="150" invocations="2" avgMicrosecondsPerInvocation="75320" maxMicrosecondsPerInvocation="138263" standardDeviationMicrosecondsPerInvocation="62943"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="137" invocations="404" avgMicrosecondsPerInvocation="339" maxMicrosecondsPerInvocation="12967" standardDeviationMicrosecondsPerInvocation="873"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="43" invocations="405" avgMicrosecondsPerInvocation="107" maxMicrosecondsPerInvocation="425" standardDeviationMicrosecondsPerInvocation="54"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="23" invocations="24" avgMicrosecondsPerInvocation="998" maxMicrosecondsPerInvocation="5638" standardDeviationMicrosecondsPerInvocation="1598"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="20" invocations="369" avgMicrosecondsPerInvocation="56" maxMicrosecondsPerInvocation="982" standardDeviationMicrosecondsPerInvocation="110"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="19" invocations="24" avgMicrosecondsPerInvocation="816" maxMicrosecondsPerInvocation="6288" standardDeviationMicrosecondsPerInvocation="1575"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="16" invocations="130" avgMicrosecondsPerInvocation="124" maxMicrosecondsPerInvocation="712" standardDeviationMicrosecondsPerInvocation="124"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1645556033362" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1645556033362" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1645556176333" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1645556373135" release="" codeSize="73" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1645556795347" release="" codeSize="84" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1645556851427" release="" codeSize="88" numClasses="1"/>
+  </History>
+</BugCollection>

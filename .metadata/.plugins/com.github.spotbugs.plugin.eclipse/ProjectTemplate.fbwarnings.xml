@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.0" sequence="1" timestamp="1642123760315" analysisTimestamp="1642123759385" release="">
+  <Project projectName="ProjectTemplate">
+    <Jar>C:\Users\mrocc\Documents\workspace\ProjectTemplate\bin</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\ProjectTemplate\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ProjectTemplate\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\ProjectTemplate\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 13 Jan 2022 20:29:19 -0500" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="16.0.1" vm_version="16.0.1+9-24" cpu_seconds="5.19" clock_seconds="0.94" peak_mbytes="389.51" alloc_mbytes="2048.00" gc_seconds="0.07">
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="605" invocations="2" avgMicrosecondsPerInvocation="302538" maxMicrosecondsPerInvocation="471034" standardDeviationMicrosecondsPerInvocation="168496"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="198" invocations="153" avgMicrosecondsPerInvocation="1294" maxMicrosecondsPerInvocation="25614" standardDeviationMicrosecondsPerInvocation="3167"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1642123760313" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="3" timestamp="1642701544866" analysisTimestamp="1642701542520" release="">
+  <Project projectName="NextWordOrSeparator">
+    <Jar>C:\Users\mrocc\Documents\workspace\NextWordOrSeparator\bin\NextWordOrSeparator.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\NextWordOrSeparator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\NextWordOrSeparator\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\NextWordOrSeparator\test</SrcDir>
+  </Project>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="1">
+    <Class classname="NextWordOrSeparator">
+      <SourceLine classname="NextWordOrSeparator" sourcefile="NextWordOrSeparator.java" sourcepath="NextWordOrSeparator.java"/>
+    </Class>
+    <Method classname="NextWordOrSeparator" name="nextWordOrSeparator" signature="(Ljava/lang/String;ILcomponents/set/Set;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="NextWordOrSeparator" start="82" end="118" startBytecode="0" endBytecode="592" sourcefile="NextWordOrSeparator.java" sourcepath="NextWordOrSeparator.java"/>
+    </Method>
+    <SourceLine classname="NextWordOrSeparator" start="96" end="96" startBytecode="128" endBytecode="128" sourcefile="NextWordOrSeparator.java" sourcepath="NextWordOrSeparator.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 20 Jan 2022 12:59:01 -0500" total_classes="1" referenced_classes="21" total_bugs="1" total_size="75" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="10.92" clock_seconds="2.37" peak_mbytes="976.94" alloc_mbytes="2048.00" gc_seconds="0.09" priority_2="1">
+    <PackageStats package="" total_bugs="1" total_types="1" total_size="75" priority_2="1">
+      <ClassStats class="NextWordOrSeparator" sourceFile="NextWordOrSeparator.java" interface="false" size="75" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1129" invocations="2" avgMicrosecondsPerInvocation="564840" maxMicrosecondsPerInvocation="948834" standardDeviationMicrosecondsPerInvocation="383993"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="367" invocations="369" avgMicrosecondsPerInvocation="995" maxMicrosecondsPerInvocation="26541" standardDeviationMicrosecondsPerInvocation="2276"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="126" invocations="370" avgMicrosecondsPerInvocation="343" maxMicrosecondsPerInvocation="1926" standardDeviationMicrosecondsPerInvocation="235"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="60" invocations="21" avgMicrosecondsPerInvocation="2884" maxMicrosecondsPerInvocation="19808" standardDeviationMicrosecondsPerInvocation="4678"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="44" invocations="68" avgMicrosecondsPerInvocation="655" maxMicrosecondsPerInvocation="8415" standardDeviationMicrosecondsPerInvocation="1128"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1642627542842" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1642627542843" release="" codeSize="63" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1642627547420" release="" codeSize="65" numClasses="1"/>
+  </History>
+</BugCollection>

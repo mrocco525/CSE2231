@@ -1,0 +1,386 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * Pulls the top n words by occurrences from the desired input file and places
+ * them into a cloud.
+ *
+ * @author Caden Sweeney, Mason Rocco
+ *
+ */
+public final class TagCloudJava {
+
+    /**
+     * Smallest number in the cloud.
+     */
+    private static int smallest = 0;
+
+    /**
+     * Largest number in the cloud.
+     */
+    private static int largest = 0;
+
+    /**
+     * Definition of whitespace characters.
+     */
+    private static final String SEPARATORS = " ,-.!?[]';:/()\t\n\r<>\"{}_~`!@#$%^&*|";
+
+    /**
+     * Private constructor so this utility class cannot be instantiated.
+     */
+    private TagCloudJava() {
+    }
+
+    /**
+     * Compare {@code String}s in lexicographic order.
+     */
+    private static class StringLT implements Comparator<String> {
+        @Override
+        public int compare(String o1, String o2) {
+            return o1.compareToIgnoreCase(o2);
+        }
+    }
+
+    /**
+     * Compare {@code Integer}s least to greatest.
+     */
+    private static class IntegerLT implements Comparator<Integer> {
+        @Override
+        public int compare(Integer o1, Integer o2) {
+            return o2.compareTo(o1);
+        }
+    }
+
+    /**
+     * Returns the first "word" (maximal length string of characters not in
+     * {@code separators}) or "separator string" (maximal length string of
+     * characters in {@code separators}) in the given {@code text} starting at
+     * the given {@code position}.
+     *
+     * @param text
+     *            the {@code String} from which to get the word or separator
+     *            string
+     * @param position
+     *            the starting index
+     * @return the first word or separator string found in {@code text} starting
+     *         at index {@code position}
+     * @requires 0 <= position < |text|
+     * @ensures <pre>
+     * nextWordOrSeparator =
+     *   text[position, position + |nextWordOrSeparator|)  and
+     * if entries(text[position, position + 1)) intersection separators = {}
+     * then
+     *   entries(nextWordOrSeparator) intersection separators = {}  and
+     *   (position + |nextWordOrSeparator| = |text|  or
+     *    entries(text[position, position + |nextWordOrSeparator| + 1))
+     *      intersection separators /= {})
+     * else
+     *   entries(nextWordOrSeparator) is subset of separators  and
+     *   (position + |nextWordOrSeparator| = |text|  or
+     *    entries(text[position, position + |nextWordOrSeparator| + 1))
+     *      is not subset of separators)
+     * </pre>
+     */
+    private static String nextWordOrSeparator(String text, int position) {
+        assert text != null : "Violation of: text is not null";
+        assert 0 <= position : "Violation of: 0 <= position";
+        assert position < text.length() : "Violation of: position < |text|";
+
+        String toReturn = "";
+        int num = position;
+        String letter = text.charAt(num) + "";
+        while (!SEPARATORS.contains(letter) && num < text.length()) {
+//Checks that the letter is not a separator and the the position number is less
+//than the length.
+            toReturn = toReturn + letter; //Adds the letter to the string
+            num++; //Advances the position number
+            if (num <= text.length() - 1) { //Checks the position number
+                letter = text.charAt(num) + "";
+            }
+        }
+        if (toReturn.length() == 0
+                && SEPARATORS.contains(text.charAt(num) + "")) {
+            toReturn = text.charAt(num) + "";
+//Turns the character into a string
+        }
+        toReturn = toReturn.toLowerCase();
+        return toReturn; //Returns the next word or separator
+    }
+
+    /**
+     * Prints everything into the destination {@code outFile} using {@code out}
+     * up until the cloud values are needed.
+     *
+     * @param output
+     *            SimpleWriter that writes to the destination file
+     * @param outputFile
+     *            {@code String} of the destination file
+     * @param inputFile
+     *            {@code String} of the input file
+     * @param n
+     *            Number of words desired in the cloud
+     */
+    public static void outputHeader(PrintWriter output, String outputFile,
+            String inputFile, int n) {
+        output.println("<html>");
+        output.println("<head>");
+        output.println(
+                "<title>Top " + n + " words in " + inputFile + "</title>");
+        output.println(
+                "<link href=\"http://web.cse.ohio-state.edu/software/2231/web-sw2/assignments/projects/tag-cloud-generator/data/tagcloud.css\" rel=\"stylesheet\" type=\"text/css\">");
+        output.println(
+                "<link href=\"tagcloud.css\" rel=\"stylesheet\" type=\"text/css\">");
+        output.println("</head>");
+        output.println("<body>");
+        output.println("<h2>Top " + n + " words in " + inputFile + "</h2>");
+        output.println("<hr>");
+        output.println("<div class=\"cdiv\">");
+        output.println("<p class=\"cbox\">");
+    }
+
+    /**
+     * Takes lines from {@code in} and pulls out words, then prints to the
+     * destination file using {@code out}.
+     *
+     * @param input
+     *            SimpleReader that reads lines from the file
+     * @param output
+     *            SimpleWriter that writes to the destination file
+     * @param n
+     *            Number of words to be added into the cloud
+     */
+    public static void pullOutWords(BufferedReader input, PrintWriter output,
+            int n) {
+        Map<String, Integer> mapOfWords = new HashMap<>();
+        String word = "";
+        try {
+            word = input.readLine(); //Pulls a line from the file
+        } catch (IOException e) {
+            System.err.println("Error reading line");
+        }
+        while (word != null) { //Loops while the reader is not at the end
+            int position = 0;
+            while (position < word.length()) {
+                String wordToBeAdded = nextWordOrSeparator(word, position);
+                if (!SEPARATORS.contains(wordToBeAdded.charAt(0) + "")) {
+                    addOrIncrement(mapOfWords, wordToBeAdded);
+//Sends a word to be added into the queue and map
+                }
+                position += wordToBeAdded.length();
+            }
+            try {
+                word = input.readLine(); //Pulls a line from the file
+            } catch (IOException e) {
+                System.err.println("Error reading line");
+            }
+        }
+
+        Comparator<Integer> sortNumbers = new IntegerLT();
+        List<Integer> listOfNumbers = new ArrayList<Integer>();
+        listOfNumbers.addAll(mapOfWords.values()); //adds all map values to list
+        listOfNumbers.sort(sortNumbers); //sorts by number of occurrences
+        List<String> listOfNWords = new ArrayList<String>();
+<<<<<<< .mine
+        for (int i = 0; i < n; i++) {
+||||||| .r176
+=======
+        int i = 0;
+        while (i < n && i <= listOfNumbers.size()) {
+>>>>>>> .r177
+            for (Map.Entry<String, Integer> x : mapOfWords.entrySet()) {
+                if (x.getValue().equals(listOfNumbers.get(0))
+                        && (listOfNWords.size() + 1) <= n
+                        && !listOfNWords.contains(x.getKey())) {
+                    //checks if the values are equal, if adding another
+                    //will go past the limit
+                    //and if value is already present
+                    listOfNWords.add(x.getKey());
+                }
+            }
+            listOfNumbers.remove(0);
+        }
+        Comparator<String> sortWords = new StringLT();
+        listOfNWords.sort(sortWords);
+        //sorts the top N words in alphabetical order
+        printToFile(output, listOfNWords, mapOfWords);
+        //Sends the map and printwriter to print the text into the html file
+    }
+
+    /**
+     * Either adds {@code word} or increments the value associated with
+     * {@code word} within the {@code map} depending on if it is already in.
+     * Also adds {@code word} to the {@code q} if the {@code word} is already in
+     * the {@code map}.
+     *
+     * @param map
+     *            Map containing every individual word and how many occurrences
+     *            of that word
+     * @param word
+     *            Word to either be added to the queue and map or increment the
+     *            value in the map
+     */
+    public static void addOrIncrement(Map<String, Integer> map, String word) {
+        if (map.containsKey(word)) {
+            int num = map.get(word); //Finds the value with the word in the map
+            num++; //Increases the value from the map
+            map.replace(word, num);
+//Replaces the value from the map with the increased version
+            if (num > largest) {
+                largest = num;
+            }
+        } else {
+            map.put(word, 1); //Adds the word into the map
+            smallest = 1;
+        }
+    }
+
+    /**
+     * Sets the font size based on how many occurrences a word has.
+     *
+     * @param n
+     *            The number of occurrences of the word.
+     * @return scaled font size for the value.
+     */
+    public static int getFontSize(int n) {
+        int fontSize = 48 - 11;
+        fontSize = fontSize * (n - smallest);
+        fontSize = fontSize / (largest - smallest);
+        return fontSize + 11;
+    }
+
+    /**
+     * Prints the cloud in alphabetical order from {@code si} to the destination
+     * file using {@code out}.
+     *
+     * @param li
+     *            {@code List} of top N words in alphabetical order
+     * @param output
+     *            SimpleWriter that writes to the destination file
+     * @param m
+     *            {@code Map} of every string and number of occurrences
+     */
+    public static void printToFile(PrintWriter output, List<String> li,
+            Map<String, Integer> m) {
+        while (li.size() > 0) {
+            String key = li.remove(0); //grabs the key from the list
+            int value = m.get(key); //finds the corresponding value in the map
+            output.println("<span style=\"cursor:default\" class=\"f"
+                    + getFontSize(value) + "\" title=\"count: " + value + "\">"
+                    + key + "</span>");
+        }
+    }
+
+    /**
+     * Prints the footer of the destination file.
+     *
+     * @param output
+     *            SimpleWriter that writes to the destination file
+     */
+    public static void outputFooter(PrintWriter output) {
+        output.println("</p>"); //closes out the html file
+        output.println("</div>");
+        output.println("</body>");
+        output.println("</html>");
+    }
+
+    /**
+     * Checks whether the given {@code String} represents a valid integer value
+     * in the range Integer.MIN_VALUE..Integer.MAX_VALUE.
+     *
+     * @param s
+     *            the {@code String} to be checked
+     * @return true if the given {@code String} represents a valid integer,
+     *         false otherwise
+     * @ensures canParseInt = [the given String represents a valid integer]
+     */
+    public static boolean canParseInt(String s) {
+        assert s != null : "Violation of: s is not null";
+        try { //tries to parse the given input
+            Integer.parseInt(s);
+            return true;
+        } catch (NumberFormatException e) {
+            System.err.println("Error invalid number");
+            return false;
+        }
+    }
+
+    /**
+     * Main method.
+     *
+     * @param args
+     *            the command line arguments
+     */
+    public static void main(String[] args) throws IOException {
+        BufferedReader input = null;
+        PrintWriter output = null;
+        BufferedReader in = new BufferedReader(
+                new InputStreamReader(System.in));
+
+        System.out.print("Enter an input file: ");
+        String inputFile = "";
+        try {
+            inputFile = in.readLine();
+        } catch (IOException e1) {
+            System.err.println("Error reading input");
+        }
+        System.out.print("Enter an output file: ");
+        String outputFile = "";
+        try {
+            outputFile = in.readLine();
+        } catch (IOException e1) {
+            System.err.println("Error reading input");
+        }
+        System.out.print("Enter the desired number of words: ");
+        int number = -1;
+        String numberAsString;
+        try {
+            numberAsString = in.readLine();
+            boolean isNumber = canParseInt(numberAsString);
+            if (isNumber) {
+                number = Integer.parseInt(numberAsString);
+            }
+        } catch (IOException e1) {
+            System.err.println("Error reading input");
+        }
+        try {
+            output = new PrintWriter(
+                    new BufferedWriter(new FileWriter(outputFile)));
+        } catch (IOException e) {
+            System.err.println("Error opening file writer");
+        }
+        try {
+            input = new BufferedReader(new FileReader(inputFile));
+        } catch (IOException e) {
+            System.err.println("Error opening file reader");
+        }
+        outputHeader(output, outputFile, inputFile, number);
+//Prints everything up to the table into the output html file
+        pullOutWords(input, output, number);
+        outputFooter(output);
+//Prints everything after the table into the output html file
+        /*
+         * Close input and output streams
+         */
+        try {
+            in.close();
+        } catch (IOException e) {
+            System.err.println("Error closing input reader");
+        }
+        try {
+            input.close();
+        } catch (IOException e) {
+            System.err.println("Error closing file reader");
+        }
+        output.close();
+    }
+}

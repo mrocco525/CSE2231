@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="5" timestamp="1650581754497" analysisTimestamp="1650581753705" release="">
+  <Project projectName="TagCloudJCFComponents">
+    <Jar>C:\Users\mrocc\Documents\workspace\TagCloudJCFComponents\bin\TagCloudJava$IntegerLT.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\TagCloudJCFComponents\bin\TagCloudJava$StringLT.class</Jar>
+    <Jar>C:\Users\mrocc\Documents\workspace\TagCloudJCFComponents\bin\TagCloudJava.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\TagCloudJCFComponents\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\TagCloudJCFComponents\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\TagCloudJCFComponents\src</SrcDir>
+  </Project>
+  <BugInstance type="DMI_ENTRY_SETS_MAY_REUSE_ENTRY_OBJECTS" priority="2" rank="14" abbrev="DMI" category="BAD_PRACTICE" first="1" last="1" removedByChange="true">
+    <Class classname="TagCloudJava">
+      <SourceLine classname="TagCloudJava" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Class>
+    <Method classname="TagCloudJava" name="pullOutWords" signature="(Ljava/io/BufferedReader;Ljava/io/PrintWriter;I)V" isStatic="true">
+      <SourceLine classname="TagCloudJava" start="176" end="216" startBytecode="0" endBytecode="740" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Method>
+    <Method classname="java.util.Map" name="entrySet" signature="()Ljava/util/Set;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Map" sourcefile="Map.java" sourcepath="java/util/Map.java"/>
+    </Method>
+    <Method classname="java.util.ArrayList" name="addAll" signature="(Ljava/util/Collection;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.ArrayList" start="670" end="681" startBytecode="0" endBytecode="253" sourcefile="ArrayList.java" sourcepath="java/util/ArrayList.java"/>
+    </Method>
+    <LocalVariable name="setOfWords" register="6" pc="157" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="TagCloudJava" start="204" end="204" startBytecode="157" endBytecode="157" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="TagCloudJava">
+      <SourceLine classname="TagCloudJava" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Class>
+    <Method classname="TagCloudJava" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudJava" start="320" end="381" startBytecode="0" endBytecode="794" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="60" end="61" startBytecode="0" endBytecode="68" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="TagCloudJava" start="358" end="358" startBytecode="187" endBytecode="187" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    <SourceLine classname="TagCloudJava" start="358" end="358" startBytecode="187" endBytecode="187" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="TagCloudJava">
+      <SourceLine classname="TagCloudJava" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Class>
+    <Method classname="TagCloudJava" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudJava" start="320" end="381" startBytecode="0" endBytecode="794" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="66" end="67" startBytecode="0" endBytecode="68" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="TagCloudJava" start="353" end="353" startBytecode="153" endBytecode="153" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    <SourceLine classname="TagCloudJava" start="353" end="353" startBytecode="153" endBytecode="153" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="TagCloudJava">
+      <SourceLine classname="TagCloudJava" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Class>
+    <Method classname="TagCloudJava" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudJava" start="320" end="381" startBytecode="0" endBytecode="794" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="75" startBytecode="0" endBytecode="85" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="TagCloudJava" start="323" end="323" startBytecode="15" endBytecode="15" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    <SourceLine classname="TagCloudJava" start="323" end="323" startBytecode="15" endBytecode="15" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_PARAM_DEREF" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="TagCloudJava">
+      <SourceLine classname="TagCloudJava" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Class>
+    <Method classname="TagCloudJava" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudJava" start="320" end="381" startBytecode="0" endBytecode="794" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Method>
+    <Method classname="TagCloudJava" name="outputHeader" signature="(Ljava/io/PrintWriter;Ljava/lang/String;Ljava/lang/String;I)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="TagCloudJava" start="135" end="149" startBytecode="0" endBytecode="262" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Method>
+    <Int value="1" role="INT_MAYBE_NULL_ARG"/>
+    <LocalVariable name="output" register="2" pc="163" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="TagCloudJava" start="362" end="362" startBytecode="215" endBytecode="215" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java" role="SOURCE_LINE_INVOKED"/>
+    <SourceLine classname="TagCloudJava" start="321" end="321" startBytecode="2" endBytecode="2" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="TagCloudJava" start="354" end="354" startBytecode="166" endBytecode="166" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <SourceLine classname="TagCloudJava" start="355" end="355" startBytecode="174" endBytecode="174" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_PARAM_DEREF" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="TagCloudJava">
+      <SourceLine classname="TagCloudJava" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Class>
+    <Method classname="TagCloudJava" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="TagCloudJava" start="320" end="381" startBytecode="0" endBytecode="794" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Method>
+    <Method classname="TagCloudJava" name="pullOutWords" signature="(Ljava/io/BufferedReader;Ljava/io/PrintWriter;I)V" isStatic="true" role="METHOD_CALLED">
+      <SourceLine classname="TagCloudJava" start="164" end="213" startBytecode="0" endBytecode="909" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Method>
+    <Int value="1" role="INT_MAYBE_NULL_ARG"/>
+    <LocalVariable name="input" register="1" pc="194" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="TagCloudJava" start="364" end="364" startBytecode="222" endBytecode="222" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java" role="SOURCE_LINE_INVOKED"/>
+    <SourceLine classname="TagCloudJava" start="320" end="320" startBytecode="0" endBytecode="0" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="TagCloudJava" start="359" end="359" startBytecode="197" endBytecode="197" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <SourceLine classname="TagCloudJava" start="360" end="360" startBytecode="205" endBytecode="205" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="TagCloudJava$IntegerLT">
+      <SourceLine classname="TagCloudJava$IntegerLT" start="1" end="60" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_COMPARATOR_SHOULD_BE_SERIALIZABLE" priority="2" rank="19" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="TagCloudJava$StringLT">
+      <SourceLine classname="TagCloudJava$StringLT" start="1" end="50" sourcefile="TagCloudJava.java" sourcepath="TagCloudJava.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 21 Apr 2022 18:55:53 -0400" total_classes="3" referenced_classes="56" total_bugs="7" total_size="174" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="3.70" clock_seconds="0.80" peak_mbytes="593.50" alloc_mbytes="2048.00" gc_seconds="0.04" priority_2="4" priority_1="3">
+    <PackageStats package="" total_bugs="7" total_types="3" total_size="174" priority_2="4" priority_1="3">
+      <ClassStats class="TagCloudJava" sourceFile="TagCloudJava.java" interface="false" size="158" bugs="5" priority_2="2" priority_1="3"/>
+      <ClassStats class="TagCloudJava$IntegerLT" sourceFile="TagCloudJava.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="TagCloudJava$StringLT" sourceFile="TagCloudJava.java" interface="false" size="8" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="182" invocations="546" avgMicrosecondsPerInvocation="334" maxMicrosecondsPerInvocation="24733" standardDeviationMicrosecondsPerInvocation="1179"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="120" invocations="2" avgMicrosecondsPerInvocation="60495" maxMicrosecondsPerInvocation="105957" standardDeviationMicrosecondsPerInvocation="45462"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="51" invocations="547" avgMicrosecondsPerInvocation="93" maxMicrosecondsPerInvocation="351" standardDeviationMicrosecondsPerInvocation="46"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="37" invocations="56" avgMicrosecondsPerInvocation="668" maxMicrosecondsPerInvocation="4756" standardDeviationMicrosecondsPerInvocation="1089"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="33" invocations="56" avgMicrosecondsPerInvocation="595" maxMicrosecondsPerInvocation="8056" standardDeviationMicrosecondsPerInvocation="1209"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="27" invocations="19" avgMicrosecondsPerInvocation="1438" maxMicrosecondsPerInvocation="23250" standardDeviationMicrosecondsPerInvocation="5158"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="25" invocations="171" avgMicrosecondsPerInvocation="147" maxMicrosecondsPerInvocation="1208" standardDeviationMicrosecondsPerInvocation="149"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="23" invocations="508" avgMicrosecondsPerInvocation="45" maxMicrosecondsPerInvocation="1023" standardDeviationMicrosecondsPerInvocation="90"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="16" invocations="22" avgMicrosecondsPerInvocation="736" maxMicrosecondsPerInvocation="3992" standardDeviationMicrosecondsPerInvocation="1004"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="15" invocations="22" avgMicrosecondsPerInvocation="693" maxMicrosecondsPerInvocation="3547" standardDeviationMicrosecondsPerInvocation="1014"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="15" invocations="19" avgMicrosecondsPerInvocation="802" maxMicrosecondsPerInvocation="4903" standardDeviationMicrosecondsPerInvocation="1307"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="15" invocations="19" avgMicrosecondsPerInvocation="790" maxMicrosecondsPerInvocation="4564" standardDeviationMicrosecondsPerInvocation="1181"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="12" invocations="79" avgMicrosecondsPerInvocation="159" maxMicrosecondsPerInvocation="1166" standardDeviationMicrosecondsPerInvocation="221"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="11" invocations="56" avgMicrosecondsPerInvocation="204" maxMicrosecondsPerInvocation="1055" standardDeviationMicrosecondsPerInvocation="266"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1650559697480" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1650559697487" release="" codeSize="174" numClasses="3"/>
+    <AppVersion sequence="2" timestamp="1650580324965" release="" codeSize="174" numClasses="3"/>
+    <AppVersion sequence="3" timestamp="1650581663732" release="" codeSize="172" numClasses="3"/>
+    <AppVersion sequence="4" timestamp="1650581717547" release="" codeSize="140" numClasses="3"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="components.stack.Stack"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="components.binarytree.BinaryTree1"/>
+    <fullyQualifiedTypeName name="components.queue.Queue1L"/>
+    <fullyQualifiedTypeName name="components.binarytree.BinaryTree"/>
+    <fullyQualifiedTypeName name="components.tree.Tree"/>
+    <fullyQualifiedTypeName name="components.tree.Tree1"/>
+    <fullyQualifiedTypeName name="components.statement.StatementKernel"/>
+    <fullyQualifiedTypeName name="components.statement.Statement1"/>
+    <fullyQualifiedTypeName name="components.statement.StatementKernel.Condition"/>
+    <fullyQualifiedTypeName name="components.program.Program"/>
+    <fullyQualifiedTypeName name="components.statement.Statement"/>
+    <fullyQualifiedTypeName name="components.queue.Queue"/>
+    <fullyQualifiedTypeName name="components.sequence.Sequence"/>
+    <fullyQualifiedTypeName name="components.program.Program.Instruction"/>
+    <fullyQualifiedTypeName name="components.map.Map1L"/>
+    <fullyQualifiedTypeName name="components.map.Map"/>
+    <fullyQualifiedTypeName name="components.map.Map.Pair"/>
+    <fullyQualifiedTypeName name="components.map.MapKernel"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+</qualifiedTypeNameHistroy>

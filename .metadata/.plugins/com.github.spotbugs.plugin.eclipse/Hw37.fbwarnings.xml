@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="3" timestamp="1650316422304" analysisTimestamp="1650316421689" release="">
+  <Project projectName="Hw37">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw37\bin\Hw37.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw37\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw37\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw37\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="2">
+    <Class classname="Hw37">
+      <SourceLine classname="Hw37" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+    </Class>
+    <Method classname="Hw37" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hw37" start="31" end="99" startBytecode="0" endBytecode="885" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="60" end="61" startBytecode="0" endBytecode="68" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="Hw37" start="38" end="38" startBytecode="45" endBytecode="45" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+    <SourceLine classname="Hw37" start="38" end="38" startBytecode="45" endBytecode="45" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="2">
+    <Class classname="Hw37">
+      <SourceLine classname="Hw37" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+    </Class>
+    <Method classname="Hw37" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hw37" start="31" end="99" startBytecode="0" endBytecode="885" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="66" end="67" startBytecode="0" endBytecode="68" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="Hw37" start="54" end="54" startBytecode="134" endBytecode="134" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+    <SourceLine classname="Hw37" start="54" end="54" startBytecode="134" endBytecode="134" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="2">
+    <Class classname="Hw37">
+      <SourceLine classname="Hw37" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+    </Class>
+    <Method classname="Hw37" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hw37" start="31" end="99" startBytecode="0" endBytecode="885" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="75" startBytecode="0" endBytecode="85" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="Hw37" start="32" end="32" startBytecode="11" endBytecode="11" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+    <SourceLine classname="Hw37" start="32" end="32" startBytecode="11" endBytecode="11" sourcefile="Hw37.java" sourcepath="Hw37.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 18 Apr 2022 17:13:41 -0400" total_classes="1" referenced_classes="25" total_bugs="3" total_size="57" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="2.62" clock_seconds="0.62" peak_mbytes="962.13" alloc_mbytes="2048.00" gc_seconds="0.03" priority_1="3">
+    <PackageStats package="" total_bugs="3" total_types="1" total_size="57" priority_1="3">
+      <ClassStats class="Hw37" sourceFile="Hw37.java" interface="false" size="57" bugs="3" priority_1="3"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="178" invocations="391" avgMicrosecondsPerInvocation="457" maxMicrosecondsPerInvocation="28086" standardDeviationMicrosecondsPerInvocation="1567"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="137" invocations="2" avgMicrosecondsPerInvocation="68563" maxMicrosecondsPerInvocation="125267" standardDeviationMicrosecondsPerInvocation="56704"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="42" invocations="392" avgMicrosecondsPerInvocation="108" maxMicrosecondsPerInvocation="485" standardDeviationMicrosecondsPerInvocation="54"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="28" invocations="25" avgMicrosecondsPerInvocation="1155" maxMicrosecondsPerInvocation="6143" standardDeviationMicrosecondsPerInvocation="1615"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="23" invocations="356" avgMicrosecondsPerInvocation="65" maxMicrosecondsPerInvocation="941" standardDeviationMicrosecondsPerInvocation="115"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="22" invocations="25" avgMicrosecondsPerInvocation="883" maxMicrosecondsPerInvocation="5614" standardDeviationMicrosecondsPerInvocation="1128"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="20" invocations="76" avgMicrosecondsPerInvocation="264" maxMicrosecondsPerInvocation="1047" standardDeviationMicrosecondsPerInvocation="192"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="17" invocations="18" avgMicrosecondsPerInvocation="950" maxMicrosecondsPerInvocation="1361" standardDeviationMicrosecondsPerInvocation="230"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1650316393876" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1650316393876" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1650316416738" release="" codeSize="57" numClasses="1"/>
+  </History>
+</BugCollection>

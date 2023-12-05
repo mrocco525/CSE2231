@@ -1,0 +1,22 @@
+move
+IF next-is-not-enemy THEN
+  turnleft
+    look-for-something
+    infect
+    infect
+    skip
+  turnright
+  IF random THEN
+    move
+    turnback
+    move
+    infect
+    move
+  ELSE
+    go-for-it
+    turnleft
+    turnright
+  END IF
+  skip
+  skip-again
+END IF

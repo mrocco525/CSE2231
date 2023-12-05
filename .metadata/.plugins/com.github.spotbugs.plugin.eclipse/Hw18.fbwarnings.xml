@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="25" timestamp="1645677604946" analysisTimestamp="1645677604692" release="">
+  <Project projectName="Hw18">
+    <Jar>C:\Users\mrocc\Documents\workspace\Hw18\bin\StackTest.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\Hw18\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw18\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\Hw18\src</SrcDir>
+  </Project>
+  <BugInstance type="UC_USELESS_OBJECT" priority="2" rank="17" abbrev="UC" category="STYLE" first="7" last="9" removedByChange="true">
+    <Class classname="Stack2">
+      <SourceLine classname="Stack2" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+    </Class>
+    <Method classname="Stack2" name="push" signature="(Ljava/lang/Object;)V" isStatic="false">
+      <SourceLine classname="Stack2" start="88" end="95" startBytecode="0" endBytecode="217" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+    </Method>
+    <String value="q"/>
+    <Type descriptor="LStack2$Node;">
+      <SourceLine classname="Stack2$Node" start="33" end="43" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+    </Type>
+    <SourceLine classname="Stack2" start="90" end="90" startBytecode="31" endBytecode="31" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="7" last="8" removedByChange="true">
+    <Class classname="Stack2$Node">
+      <SourceLine classname="Stack2$Node" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+    </Class>
+    <Field classname="Stack2$Node" name="data" signature="Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="Stack2$Node" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+    </Field>
+    <SourceLine classname="Stack2$Node" start="38" end="38" startBytecode="2" endBytecode="2" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="3" last="8" removedByChange="true">
+    <Class classname="Stack2$Node">
+      <SourceLine classname="Stack2$Node" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+    </Class>
+    <Field classname="Stack2$Node" name="next" signature="LStack2$Node;" isStatic="false">
+      <SourceLine classname="Stack2$Node" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+    </Field>
+    <SourceLine classname="Stack2$Node" start="43" end="43" startBytecode="2" endBytecode="2" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="2" last="6" removedByChange="true">
+    <Class classname="Stack2$Node">
+      <SourceLine classname="Stack2$Node" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+    </Class>
+    <Field classname="Stack2$Node" name="data" signature="Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="Stack2$Node" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+    </Field>
+    <SourceLine classname="Stack2$Node" start="33" end="33" startBytecode="0" endBytecode="0" sourcefile="Node.java" sourcepath="Node.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="2" last="2" removedByChange="true">
+    <Class classname="Stack2$Node">
+      <SourceLine classname="Stack2$Node" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+    </Class>
+    <Field classname="Stack2$Node" name="next" signature="LStack2$Node;" isStatic="false">
+      <SourceLine classname="Stack2$Node" sourcefile="Stack2.java" sourcepath="Stack2.java"/>
+    </Field>
+    <SourceLine classname="Stack2$Node" start="33" end="33" startBytecode="0" endBytecode="0" sourcefile="Node.java" sourcepath="Node.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="24" last="24" removedByChange="true">
+    <Class classname="StackTest">
+      <SourceLine classname="StackTest" sourcefile="StackTest.java" sourcepath="StackTest.java"/>
+    </Class>
+    <Method classname="StackTest" name="testConstructor" signature="()V" isStatic="false">
+      <SourceLine classname="StackTest" start="120" end="124" startBytecode="0" endBytecode="27" sourcefile="StackTest.java" sourcepath="StackTest.java"/>
+    </Method>
+    <LocalVariable name="sExpected" register="2" pc="33" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="StackTest" start="121" end="121" startBytecode="32" endBytecode="32" sourcefile="StackTest.java" sourcepath="StackTest.java"/>
+    <SourceLine classname="StackTest" start="121" end="121" startBytecode="32" endBytecode="32" sourcefile="StackTest.java" sourcepath="StackTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="sExpected"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 23 Feb 2022 23:40:04 -0500" total_classes="1" referenced_classes="16" total_bugs="0" total_size="59" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="0.47" clock_seconds="0.26" peak_mbytes="667.17" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="59">
+      <ClassStats class="StackTest" sourceFile="StackTest.java" interface="false" size="59" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="77" invocations="361" avgMicrosecondsPerInvocation="214" maxMicrosecondsPerInvocation="3654" standardDeviationMicrosecondsPerInvocation="407"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="69" invocations="2" avgMicrosecondsPerInvocation="34664" maxMicrosecondsPerInvocation="63257" standardDeviationMicrosecondsPerInvocation="28592"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="21" invocations="362" avgMicrosecondsPerInvocation="58" maxMicrosecondsPerInvocation="722" standardDeviationMicrosecondsPerInvocation="45"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1645676260242" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1645676260245" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1645676268359" release="" codeSize="28" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1645676365225" release="" codeSize="34" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1645676439160" release="" codeSize="34" numClasses="2"/>
+    <AppVersion sequence="5" timestamp="1645676473694" release="" codeSize="33" numClasses="2"/>
+    <AppVersion sequence="6" timestamp="1645676567358" release="" codeSize="33" numClasses="2"/>
+    <AppVersion sequence="7" timestamp="1645676617326" release="" codeSize="42" numClasses="2"/>
+    <AppVersion sequence="8" timestamp="1645676638703" release="" codeSize="42" numClasses="2"/>
+    <AppVersion sequence="9" timestamp="1645676648193" release="" codeSize="50" numClasses="2"/>
+    <AppVersion sequence="10" timestamp="1645676674339" release="" codeSize="48" numClasses="2"/>
+    <AppVersion sequence="11" timestamp="1645676722481" release="" codeSize="45" numClasses="2"/>
+    <AppVersion sequence="12" timestamp="1645676739095" release="" codeSize="48" numClasses="2"/>
+    <AppVersion sequence="13" timestamp="1645676773548" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1645676777826" release="" codeSize="17" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1645677059135" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1645677069721" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1645677223772" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1645677249575" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1645677266552" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1645677323955" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1645677449704" release="" codeSize="52" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1645677472872" release="" codeSize="54" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1645677499682" release="" codeSize="58" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1645677590759" release="" codeSize="59" numClasses="1"/>
+  </History>
+</BugCollection>

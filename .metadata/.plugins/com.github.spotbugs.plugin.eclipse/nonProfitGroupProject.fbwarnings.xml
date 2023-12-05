@@ -1,0 +1,1993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="13" timestamp="1681499642705" analysisTimestamp="1681499641813" release="">
+  <Project projectName="nonProfitGroupProject">
+    <Jar>C:\Users\mrocc\Documents\workspace\nonProfitGroupProject\bin\DatabaseForNonProfitLendor.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\nonProfitGroupProject\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\sqlite-jdbc-3.32.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\nonProfitGroupProject\test</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\nonProfitGroupProject\src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="792" end="806" startBytecode="0" endBytecode="141" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="75" startBytecode="0" endBytecode="85" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="793" end="793" startBytecode="11" endBytecode="11" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="793" end="793" startBytecode="11" endBytecode="11" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="editWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="439" end="672" startBytecode="0" endBytecode="3546" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="addy" register="12" pc="762" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="559" end="559" startBytecode="764" endBytecode="764" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="559" end="559" startBytecode="764" endBytecode="764" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="editWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="439" end="672" startBytecode="0" endBytecode="3546" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="city" register="11" pc="591" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="532" end="532" startBytecode="593" endBytecode="593" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="532" end="532" startBytecode="593" endBytecode="593" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="editWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="439" end="672" startBytecode="0" endBytecode="3546" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="mName" register="13" pc="934" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="588" end="588" startBytecode="936" endBytecode="936" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="588" end="588" startBytecode="936" endBytecode="936" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="editWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="439" end="672" startBytecode="0" endBytecode="3546" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="5" pc="102" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="459" end="459" startBytecode="104" endBytecode="104" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="459" end="459" startBytecode="104" endBytecode="104" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="editWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="439" end="672" startBytecode="0" endBytecode="3546" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="pNum" register="9" pc="240" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="469" end="469" startBytecode="242" endBytecode="242" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="469" end="469" startBytecode="242" endBytecode="242" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="enterWarehouseDatabase" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="374" end="426" startBytecode="0" endBytecode="598" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="4" pc="107" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="388" end="388" startBytecode="109" endBytecode="109" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="388" end="388" startBytecode="109" endBytecode="109" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="newWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="231" end="361" startBytecode="0" endBytecode="2162" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="address" register="16" pc="239" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="285" end="285" startBytecode="241" endBytecode="241" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="285" end="285" startBytecode="241" endBytecode="241" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="newWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="231" end="361" startBytecode="0" endBytecode="2162" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="city" register="14" pc="188" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="273" end="273" startBytecode="190" endBytecode="190" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="273" end="273" startBytecode="190" endBytecode="190" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="newWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="231" end="361" startBytecode="0" endBytecode="2162" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="managerName" register="18" pc="290" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="297" end="297" startBytecode="292" endBytecode="292" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="297" end="297" startBytecode="292" endBytecode="292" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="newWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="231" end="361" startBytecode="0" endBytecode="2162" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="phoneNum" register="9" pc="78" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="248" end="248" startBytecode="80" endBytecode="80" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="248" end="248" startBytecode="80" endBytecode="80" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="warehousePrompt" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="56" end="186" startBytecode="0" endBytecode="2038" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="warehouseChoice" register="3" pc="86" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="73" end="73" startBytecode="87" endBytecode="87" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="73" end="73" startBytecode="87" endBytecode="87" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="initializeDB" signature="(Ljava/lang/String;)Ljava/sql/Connection;" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="738" end="756" startBytecode="0" endBytecode="285" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="conn" register="2" pc="25" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.sql.DriverManager" name="getConnection" signature="(Ljava/lang/String;)Ljava/sql/Connection;" isStatic="true" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.sql.DriverManager" start="250" end="251" startBytecode="0" endBytecode="72" sourcefile="DriverManager.java" sourcepath="java/sql/DriverManager.java"/>
+    </Method>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="742" end="742" startBytecode="26" endBytecode="26" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="742" end="742" startBytecode="26" endBytecode="26" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="editWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="439" end="672" startBytecode="0" endBytecode="3546" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="8" pc="1326" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="657" end="657" startBytecode="1328" endBytecode="1328" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="657" end="657" startBytecode="1328" endBytecode="1328" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="newWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="231" end="361" startBytecode="0" endBytecode="2162" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="5" pc="655" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="347" end="347" startBytecode="657" endBytecode="657" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="347" end="347" startBytecode="657" endBytecode="657" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Method classname="DatabaseForNonProfitLendor" name="newWarehouse" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="231" end="361" startBytecode="0" endBytecode="323" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Method>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="321" end="321" startBytecode="468" endBytecode="468" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    <SourceLine classname="DatabaseForNonProfitLendor" start="321" end="321" startBytecode="468" endBytecode="468" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="5" last="9" removedByChange="true">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Field classname="DatabaseForNonProfitLendor" name="Project" signature="LDatabase;" isStatic="false">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="4" last="9" removedByChange="true">
+    <Class classname="DatabaseForNonProfitLendor">
+      <SourceLine classname="DatabaseForNonProfitLendor" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Class>
+    <Field classname="DatabaseForNonProfitLendor" name="mDATABASE" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="DatabaseForNonProfitLendor" start="23" end="23" startBytecode="0" endBytecode="0" sourcefile="DatabaseForNonProfitLendor.java" sourcepath="DatabaseForNonProfitLendor.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="EQ_COMPARETO_USE_OBJECT_EQUALS" priority="2" rank="16" abbrev="Eq" category="BAD_PRACTICE" first="1">
+    <Class classname="Equipment">
+      <SourceLine classname="Equipment" sourcefile="Equipment.java" sourcepath="Equipment.java"/>
+    </Class>
+    <Method classname="Equipment" name="compareTo" signature="(LEquipment;)I" isStatic="false">
+      <SourceLine classname="Equipment" start="133" end="138" startBytecode="0" endBytecode="105" sourcefile="Equipment.java" sourcepath="Equipment.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToDroneData" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;Ljava/lang/String;III)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2566" end="2638" startBytecode="0" endBytecode="1266" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="serialNum" register="9" pc="38" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2579" end="2579" startBytecode="40" endBytecode="40" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2579" end="2579" startBytecode="40" endBytecode="40" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToDroneModel" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIII)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2656" end="2796" startBytecode="0" endBytecode="2104" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="date" register="12" pc="104" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2679" end="2679" startBytecode="105" endBytecode="105" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2679" end="2679" startBytecode="105" endBytecode="105" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToDroneModel" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIII)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2656" end="2796" startBytecode="0" endBytecode="2104" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="modNum" register="13" pc="48" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2670" end="2670" startBytecode="50" endBytecode="50" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2670" end="2670" startBytecode="50" endBytecode="50" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToDroneModel" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIII)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2656" end="2796" startBytecode="0" endBytecode="2104" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="name" register="20" pc="509" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2749" end="2749" startBytecode="511" endBytecode="511" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2749" end="2749" startBytecode="511" endBytecode="511" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToEquipData" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;II)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2338" end="2398" startBytecode="0" endBytecode="1178" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="serialNum" register="9" pc="33" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2349" end="2349" startBytecode="35" endBytecode="35" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2349" end="2349" startBytecode="35" endBytecode="35" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToEquipModel" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIII)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2415" end="2550" startBytecode="0" endBytecode="2090" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="date" register="15" pc="211" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2457" end="2457" startBytecode="212" endBytecode="212" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2457" end="2457" startBytecode="212" endBytecode="212" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToEquipModel" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIII)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2415" end="2550" startBytecode="0" endBytecode="2090" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="description" register="17" pc="402" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2482" end="2482" startBytecode="404" endBytecode="404" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2482" end="2482" startBytecode="404" endBytecode="404" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToEquipModel" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIII)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2415" end="2550" startBytecode="0" endBytecode="2090" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="modNum" register="8" pc="29" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2423" end="2423" startBytecode="31" endBytecode="31" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2423" end="2423" startBytecode="31" endBytecode="31" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToEquipModel" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIII)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2415" end="2550" startBytecode="0" endBytecode="2090" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="size" register="9" pc="87" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2432" end="2432" startBytecode="89" endBytecode="89" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2432" end="2432" startBytecode="89" endBytecode="89" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editDroneData" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;Ljava/sql/ResultSet;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="730" end="798" startBytecode="0" endBytecode="1095" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="7" pc="84" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="747" end="747" startBytecode="86" endBytecode="86" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="747" end="747" startBytecode="86" endBytecode="86" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editDroneModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="855" end="1077" startBytecode="0" endBytecode="3196" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="date" register="13" pc="385" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="911" end="911" startBytecode="386" endBytecode="386" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="911" end="911" startBytecode="386" endBytecode="386" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editDroneModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="855" end="1077" startBytecode="0" endBytecode="3196" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="distA" register="21" pc="748" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="972" end="972" startBytecode="775" endBytecode="775" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="972" end="972" startBytecode="775" endBytecode="775" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editDroneModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="855" end="1077" startBytecode="0" endBytecode="3196" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="manID" register="27" pc="1000" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1025" end="1025" startBytecode="1027" endBytecode="1027" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1025" end="1025" startBytecode="1027" endBytecode="1027" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editDroneModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="855" end="1077" startBytecode="0" endBytecode="3196" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="maxSpeed" register="18" pc="664" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="954" end="954" startBytecode="691" endBytecode="691" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="954" end="954" startBytecode="691" endBytecode="691" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editDroneModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="855" end="1077" startBytecode="0" endBytecode="3196" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="6" pc="117" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="876" end="876" startBytecode="119" endBytecode="119" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="876" end="876" startBytecode="119" endBytecode="119" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editDroneModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="855" end="1077" startBytecode="0" endBytecode="3196" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="modNew" register="8" pc="295" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="890" end="890" startBytecode="297" endBytecode="297" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="890" end="890" startBytecode="297" endBytecode="297" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editDroneModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="855" end="1077" startBytecode="0" endBytecode="3196" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="name" register="28" pc="1073" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1046" end="1046" startBytecode="1075" endBytecode="1075" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1046" end="1046" startBytecode="1075" endBytecode="1075" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editDroneModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="855" end="1077" startBytecode="0" endBytecode="3196" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="w" register="23" pc="832" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="990" end="990" startBytecode="859" endBytecode="859" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="990" end="990" startBytecode="859" endBytecode="859" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editDroneModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="855" end="1077" startBytecode="0" endBytecode="3196" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="y" register="25" pc="916" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1008" end="1008" startBytecode="943" endBytecode="943" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1008" end="1008" startBytecode="943" endBytecode="943" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editEquipmentData" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1402" end="1464" startBytecode="0" endBytecode="1001" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="6" pc="105" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1424" end="1424" startBytecode="107" endBytecode="107" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1424" end="1424" startBytecode="107" endBytecode="107" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editEquipmentModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1519" end="1736" startBytecode="0" endBytecode="3078" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="costPD" register="27" pc="1032" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1700" end="1700" startBytecode="1059" endBytecode="1059" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1700" end="1700" startBytecode="1059" endBytecode="1059" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editEquipmentModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1519" end="1736" startBytecode="0" endBytecode="3078" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="date" register="18" pc="581" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1623" end="1623" startBytecode="582" endBytecode="582" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1623" end="1623" startBytecode="582" endBytecode="582" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editEquipmentModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1519" end="1736" startBytecode="0" endBytecode="3078" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="description" register="22" pc="866" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1669" end="1669" startBytecode="868" endBytecode="868" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1669" end="1669" startBytecode="868" endBytecode="868" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editEquipmentModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1519" end="1736" startBytecode="0" endBytecode="3078" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="manID" register="11" pc="412" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1580" end="1580" startBytecode="439" endBytecode="439" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1580" end="1580" startBytecode="439" endBytecode="439" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editEquipmentModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1519" end="1736" startBytecode="0" endBytecode="3078" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="6" pc="117" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1540" end="1540" startBytecode="119" endBytecode="119" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1540" end="1540" startBytecode="119" endBytecode="119" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editEquipmentModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1519" end="1736" startBytecode="0" endBytecode="3078" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="modNew" register="8" pc="252" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1551" end="1551" startBytecode="254" endBytecode="254" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1551" end="1551" startBytecode="254" endBytecode="254" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editEquipmentModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1519" end="1736" startBytecode="0" endBytecode="3078" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="size" register="9" pc="330" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1568" end="1568" startBytecode="332" endBytecode="332" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1568" end="1568" startBytecode="332" endBytecode="332" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editEquipmentModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1519" end="1736" startBytecode="0" endBytecode="3078" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="w" register="13" pc="496" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1598" end="1598" startBytecode="523" endBytecode="523" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1598" end="1598" startBytecode="523" endBytecode="523" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editEquipmentModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1519" end="1736" startBytecode="0" endBytecode="3078" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="y" register="24" pc="948" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1682" end="1682" startBytecode="975" endBytecode="975" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1682" end="1682" startBytecode="975" endBytecode="975" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editInventory" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1960" end="2012" startBytecode="0" endBytecode="1024" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="loc" register="5" pc="55" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1970" end="1970" startBytecode="58" endBytecode="58" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1970" end="1970" startBytecode="58" endBytecode="58" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="inventoryMenu" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="55" end="266" startBytecode="0" endBytecode="2864" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="4" pc="111" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="75" end="75" startBytecode="113" endBytecode="113" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="75" end="75" startBytecode="113" endBytecode="113" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateDSerialNumber" signature="(Ljava/sql/Connection;Ljava/io/BufferedReader;Ljava/lang/String;I)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1349" end="1390" startBytecode="0" endBytecode="750" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="serialNum" register="5" pc="49" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1358" end="1358" startBytecode="51" endBytecode="51" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1358" end="1358" startBytecode="51" endBytecode="51" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateDStatus" signature="(Ljava/sql/Connection;Ljava/io/BufferedReader;ILjava/sql/ResultSet;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1296" end="1337" startBytecode="0" endBytecode="783" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="status" register="5" pc="57" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1305" end="1305" startBytecode="60" endBytecode="60" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1305" end="1305" startBytecode="60" endBytecode="60" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateESerialNumber" signature="(Ljava/sql/Connection;Ljava/io/BufferedReader;Ljava/lang/String;I)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1899" end="1947" startBytecode="0" endBytecode="935" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="serialNum" register="6" pc="29" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1908" end="1908" startBytecode="31" endBytecode="31" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1908" end="1908" startBytecode="31" endBytecode="31" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToAddTo" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIIILjava/lang/String;I)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2275" end="2322" startBytecode="0" endBytecode="1005" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="9" pc="229" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2307" end="2307" startBytecode="231" endBytecode="231" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="2307" end="2307" startBytecode="231" endBytecode="231" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToDroneData" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;Ljava/lang/String;III)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2566" end="2638" startBytecode="0" endBytecode="1266" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="7" pc="392" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2623" end="2623" startBytecode="394" endBytecode="394" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="2623" end="2623" startBytecode="394" endBytecode="394" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToDroneModel" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIII)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2656" end="2796" startBytecode="0" endBytecode="2104" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="7" pc="773" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2781" end="2781" startBytecode="775" endBytecode="775" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="2781" end="2781" startBytecode="775" endBytecode="775" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToEquipData" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;II)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2338" end="2398" startBytecode="0" endBytecode="1178" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="7" pc="327" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2383" end="2383" startBytecode="329" endBytecode="329" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="2383" end="2383" startBytecode="329" endBytecode="329" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToEquipModel" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIII)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2415" end="2550" startBytecode="0" endBytecode="2090" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="7" pc="774" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2535" end="2535" startBytecode="776" endBytecode="776" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="2535" end="2535" startBytecode="776" endBytecode="776" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addToInventory" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIIILjava/lang/String;I)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2215" end="2259" startBytecode="0" endBytecode="976" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="9" pc="219" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2244" end="2244" startBytecode="221" endBytecode="221" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="2244" end="2244" startBytecode="221" endBytecode="221" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateDrModelCategoryDouble" signature="(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;D)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1089" end="1127" startBytecode="0" endBytecode="824" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="6" pc="171" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1112" end="1112" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="1112" end="1112" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateDrModelCategoryInt" signature="(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;I)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1139" end="1177" startBytecode="0" endBytecode="824" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="5" pc="171" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1162" end="1162" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="1162" end="1162" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateDrModelCategoryString" signature="(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1189" end="1227" startBytecode="0" endBytecode="832" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="5" pc="171" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1212" end="1212" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="1212" end="1212" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateESerialNumber" signature="(Ljava/sql/Connection;Ljava/io/BufferedReader;Ljava/lang/String;I)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1899" end="1947" startBytecode="0" endBytecode="935" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="5" pc="230" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1932" end="1932" startBytecode="232" endBytecode="232" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="1932" end="1932" startBytecode="232" endBytecode="232" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateEqModelCategoryDouble" signature="(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;D)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1748" end="1786" startBytecode="0" endBytecode="824" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="6" pc="171" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1771" end="1771" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="1771" end="1771" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateEqModelCategoryInt" signature="(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;I)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1798" end="1836" startBytecode="0" endBytecode="824" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="5" pc="171" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1821" end="1821" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="1821" end="1821" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateEqModelCategoryString" signature="(Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1848" end="1886" startBytecode="0" endBytecode="832" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="5" pc="171" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="1871" end="1871" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="1871" end="1871" startBytecode="173" endBytecode="173" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateOrder" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;II)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2086" end="2123" startBytecode="0" endBytecode="870" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <LocalVariable name="rs" register="5" pc="193" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Inventory" start="2109" end="2109" startBytecode="195" endBytecode="195" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Inventory" start="2109" end="2109" startBytecode="195" endBytecode="195" sourcefile="Inventory.java" sourcepath="Inventory.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToDroneData" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;Ljava/lang/String;III)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2566" end="2638" startBytecode="0" endBytecode="188" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <SourceLine classname="Inventory" start="2601" end="2601" startBytecode="220" endBytecode="220" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2601" end="2601" startBytecode="220" endBytecode="220" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToDroneModel" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIII)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2656" end="2796" startBytecode="0" endBytecode="344" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <SourceLine classname="Inventory" start="2763" end="2763" startBytecode="642" endBytecode="642" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2763" end="2763" startBytecode="642" endBytecode="642" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToEquipData" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;II)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2338" end="2398" startBytecode="0" endBytecode="161" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <SourceLine classname="Inventory" start="2364" end="2364" startBytecode="162" endBytecode="162" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2364" end="2364" startBytecode="162" endBytecode="162" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="addOrderToEquipModel" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;IIII)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2415" end="2550" startBytecode="0" endBytecode="343" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <SourceLine classname="Inventory" start="2518" end="2518" startBytecode="644" endBytecode="644" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2518" end="2518" startBytecode="644" endBytecode="644" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="deleteDroneModel" signature="(Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="646" end="675" startBytecode="0" endBytecode="70" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <SourceLine classname="Inventory" start="653" end="653" startBytecode="34" endBytecode="34" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="653" end="653" startBytecode="34" endBytecode="34" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="deleteEquipModel" signature="(Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="428" end="457" startBytecode="0" endBytecode="70" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <SourceLine classname="Inventory" start="435" end="435" startBytecode="34" endBytecode="34" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="435" end="435" startBytecode="34" endBytecode="34" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="editEquipmentModelMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Inventory" start="1519" end="1736" startBytecode="0" endBytecode="443" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <SourceLine classname="Inventory" start="1650" end="1650" startBytecode="784" endBytecode="784" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="1650" end="1650" startBytecode="784" endBytecode="784" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="2" rank="12" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Inventory">
+      <SourceLine classname="Inventory" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Class>
+    <Method classname="Inventory" name="updateOrder" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;II)V" isStatic="true">
+      <SourceLine classname="Inventory" start="2086" end="2123" startBytecode="0" endBytecode="110" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    </Method>
+    <SourceLine classname="Inventory" start="2095" end="2095" startBytecode="73" endBytecode="73" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+    <SourceLine classname="Inventory" start="2095" end="2095" startBytecode="73" endBytecode="73" sourcefile="Inventory.java" sourcepath="Inventory.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="editMan" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="264" end="421" startBytecode="0" endBytecode="2557" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <LocalVariable name="city" register="9" pc="204" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Manufacturer" start="290" end="290" startBytecode="206" endBytecode="206" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    <SourceLine classname="Manufacturer" start="290" end="290" startBytecode="206" endBytecode="206" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="editMan" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="264" end="421" startBytecode="0" endBytecode="2557" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="5" pc="83" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Manufacturer" start="281" end="281" startBytecode="85" endBytecode="85" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    <SourceLine classname="Manufacturer" start="281" end="281" startBytecode="85" endBytecode="85" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="editMan" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="264" end="421" startBytecode="0" endBytecode="2557" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <LocalVariable name="name" register="10" pc="375" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Manufacturer" start="316" end="316" startBytecode="377" endBytecode="377" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    <SourceLine classname="Manufacturer" start="316" end="316" startBytecode="377" endBytecode="377" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="editMan" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="264" end="421" startBytecode="0" endBytecode="2557" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <LocalVariable name="phoneNum" register="11" pc="546" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Manufacturer" start="342" end="342" startBytecode="548" endBytecode="548" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    <SourceLine classname="Manufacturer" start="342" end="342" startBytecode="548" endBytecode="548" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="editMan" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="264" end="421" startBytecode="0" endBytecode="2557" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <LocalVariable name="type" register="12" pc="721" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Manufacturer" start="371" end="371" startBytecode="723" endBytecode="723" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    <SourceLine classname="Manufacturer" start="371" end="371" startBytecode="723" endBytecode="723" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="manMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="40" end="147" startBytecode="0" endBytecode="1665" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="3" pc="78" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Manufacturer" start="54" end="54" startBytecode="79" endBytecode="79" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    <SourceLine classname="Manufacturer" start="54" end="54" startBytecode="79" endBytecode="79" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="newMan" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="152" end="260" startBytecode="0" endBytecode="1857" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <LocalVariable name="city" register="9" pc="78" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Manufacturer" start="169" end="169" startBytecode="80" endBytecode="80" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    <SourceLine classname="Manufacturer" start="169" end="169" startBytecode="80" endBytecode="80" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="newMan" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="152" end="260" startBytecode="0" endBytecode="1857" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <LocalVariable name="phoneNum" register="11" pc="129" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Manufacturer" start="181" end="181" startBytecode="131" endBytecode="131" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    <SourceLine classname="Manufacturer" start="181" end="181" startBytecode="131" endBytecode="131" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="newMan" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="152" end="260" startBytecode="0" endBytecode="1857" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <LocalVariable name="type" register="16" pc="235" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Manufacturer" start="206" end="206" startBytecode="237" endBytecode="237" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    <SourceLine classname="Manufacturer" start="206" end="206" startBytecode="237" endBytecode="237" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="editMan" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="264" end="421" startBytecode="0" endBytecode="2557" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="8" pc="926" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Manufacturer" start="405" end="405" startBytecode="928" endBytecode="928" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Manufacturer" start="405" end="405" startBytecode="928" endBytecode="928" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="newMan" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="152" end="260" startBytecode="0" endBytecode="1857" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="5" pc="526" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Manufacturer" start="245" end="245" startBytecode="528" endBytecode="528" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Manufacturer" start="245" end="245" startBytecode="528" endBytecode="528" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Manufacturer">
+      <SourceLine classname="Manufacturer" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Class>
+    <Method classname="Manufacturer" name="newMan" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Manufacturer" start="152" end="260" startBytecode="0" endBytecode="272" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    </Method>
+    <SourceLine classname="Manufacturer" start="218" end="218" startBytecode="341" endBytecode="341" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+    <SourceLine classname="Manufacturer" start="218" end="218" startBytecode="341" endBytecode="341" sourcefile="Manufacturer.java" sourcepath="Manufacturer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="editMember" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="484" end="803" startBytecode="0" endBytecode="4908" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="addy" register="11" pc="628" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="571" end="571" startBytecode="630" endBytecode="630" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="571" end="571" startBytecode="630" endBytecode="630" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="editMember" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="484" end="803" startBytecode="0" endBytecode="4908" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="email" register="15" pc="1328" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="689" end="689" startBytecode="1330" endBytecode="1330" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="689" end="689" startBytecode="1330" endBytecode="1330" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="editMember" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="484" end="803" startBytecode="0" endBytecode="4908" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="fName" register="9" pc="288" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="514" end="514" startBytecode="290" endBytecode="290" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="514" end="514" startBytecode="290" endBytecode="290" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="editMember" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="484" end="803" startBytecode="0" endBytecode="4908" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="lName" register="10" pc="458" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="543" end="543" startBytecode="460" endBytecode="460" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="543" end="543" startBytecode="460" endBytecode="460" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="editMember" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="484" end="803" startBytecode="0" endBytecode="4908" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="5" pc="111" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="504" end="504" startBytecode="113" endBytecode="113" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="504" end="504" startBytecode="113" endBytecode="113" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="editMember" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="484" end="803" startBytecode="0" endBytecode="4908" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="phoneNum" register="12" pc="799" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="599" end="599" startBytecode="801" endBytecode="801" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="599" end="599" startBytecode="801" endBytecode="801" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="memberMenu" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="54" end="188" startBytecode="0" endBytecode="2113" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="4" pc="87" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="70" end="70" startBytecode="89" endBytecode="89" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="70" end="70" startBytecode="89" endBytecode="89" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="newMemberSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="341" end="472" startBytecode="0" endBytecode="2205" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="address" register="14" pc="192" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="379" end="379" startBytecode="194" endBytecode="194" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="379" end="379" startBytecode="194" endBytecode="194" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="newMemberSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="341" end="472" startBytecode="0" endBytecode="2205" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="email" register="19" pc="314" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="404" end="404" startBytecode="316" endBytecode="316" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="404" end="404" startBytecode="316" endBytecode="316" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="newMemberSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="341" end="472" startBytecode="0" endBytecode="2205" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="fName" register="10" pc="84" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="357" end="357" startBytecode="86" endBytecode="86" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="357" end="357" startBytecode="86" endBytecode="86" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="newMemberSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="341" end="472" startBytecode="0" endBytecode="2205" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="lName" register="12" pc="138" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="368" end="368" startBytecode="140" endBytecode="140" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="368" end="368" startBytecode="140" endBytecode="140" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="newMemberSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="341" end="472" startBytecode="0" endBytecode="2205" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="phoneNum" register="15" pc="246" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="391" end="391" startBytecode="248" endBytecode="248" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="391" end="391" startBytecode="248" endBytecode="248" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="editMember" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="484" end="803" startBytecode="0" endBytecode="4908" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="8" pc="1893" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="787" end="787" startBytecode="1895" endBytecode="1895" sourcefile="Member.java" sourcepath="Member.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Member" start="787" end="787" startBytecode="1895" endBytecode="1895" sourcefile="Member.java" sourcepath="Member.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="newMemberSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="341" end="472" startBytecode="0" endBytecode="2205" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="6" pc="713" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Member" start="457" end="457" startBytecode="715" endBytecode="715" sourcefile="Member.java" sourcepath="Member.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Member" start="457" end="457" startBytecode="715" endBytecode="715" sourcefile="Member.java" sourcepath="Member.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Member">
+      <SourceLine classname="Member" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Class>
+    <Method classname="Member" name="newMemberSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Member" start="341" end="472" startBytecode="0" endBytecode="335" sourcefile="Member.java" sourcepath="Member.java"/>
+    </Method>
+    <SourceLine classname="Member" start="432" end="432" startBytecode="522" endBytecode="522" sourcefile="Member.java" sourcepath="Member.java"/>
+    <SourceLine classname="Member" start="432" end="432" startBytecode="522" endBytecode="522" sourcefile="Member.java" sourcepath="Member.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="OrderedItems">
+      <SourceLine classname="OrderedItems" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Class>
+    <Method classname="OrderedItems" name="editOrder" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="OrderedItems" start="532" end="908" startBytecode="0" endBytecode="5785" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Method>
+    <LocalVariable name="arrival" register="15" pc="1338" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="OrderedItems" start="739" end="739" startBytecode="1339" endBytecode="1339" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    <SourceLine classname="OrderedItems" start="739" end="739" startBytecode="1339" endBytecode="1339" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="OrderedItems">
+      <SourceLine classname="OrderedItems" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Class>
+    <Method classname="OrderedItems" name="editOrder" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="OrderedItems" start="532" end="908" startBytecode="0" endBytecode="5785" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Method>
+    <LocalVariable name="date" register="14" pc="1024" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="OrderedItems" start="693" end="693" startBytecode="1025" endBytecode="1025" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    <SourceLine classname="OrderedItems" start="693" end="693" startBytecode="1025" endBytecode="1025" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="OrderedItems">
+      <SourceLine classname="OrderedItems" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Class>
+    <Method classname="OrderedItems" name="editOrder" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="OrderedItems" start="532" end="908" startBytecode="0" endBytecode="5785" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Method>
+    <LocalVariable name="description" register="9" pc="304" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="OrderedItems" start="565" end="565" startBytecode="306" endBytecode="306" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    <SourceLine classname="OrderedItems" start="565" end="565" startBytecode="306" endBytecode="306" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="OrderedItems">
+      <SourceLine classname="OrderedItems" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Class>
+    <Method classname="OrderedItems" name="editOrder" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="OrderedItems" start="532" end="908" startBytecode="0" endBytecode="5785" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="7" pc="129" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="OrderedItems" start="555" end="555" startBytecode="131" endBytecode="131" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    <SourceLine classname="OrderedItems" start="555" end="555" startBytecode="131" endBytecode="131" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="OrderedItems">
+      <SourceLine classname="OrderedItems" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Class>
+    <Method classname="OrderedItems" name="newOrderedItem" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="OrderedItems" start="305" end="452" startBytecode="0" endBytecode="2579" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Method>
+    <LocalVariable name="date" register="23" pc="338" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="OrderedItems" start="377" end="377" startBytecode="339" endBytecode="339" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    <SourceLine classname="OrderedItems" start="377" end="377" startBytecode="339" endBytecode="339" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="OrderedItems">
+      <SourceLine classname="OrderedItems" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Class>
+    <Method classname="OrderedItems" name="newOrderedItem" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="OrderedItems" start="305" end="452" startBytecode="0" endBytecode="2579" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Method>
+    <LocalVariable name="description" register="10" pc="84" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="OrderedItems" start="322" end="322" startBytecode="86" endBytecode="86" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    <SourceLine classname="OrderedItems" start="322" end="322" startBytecode="86" endBytecode="86" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="OrderedItems">
+      <SourceLine classname="OrderedItems" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Class>
+    <Method classname="OrderedItems" name="newOrderedItem" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="OrderedItems" start="305" end="452" startBytecode="0" endBytecode="2579" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Method>
+    <LocalVariable name="elementType" register="12" pc="140" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="OrderedItems" start="335" end="335" startBytecode="143" endBytecode="143" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    <SourceLine classname="OrderedItems" start="335" end="335" startBytecode="143" endBytecode="143" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="OrderedItems">
+      <SourceLine classname="OrderedItems" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Class>
+    <Method classname="OrderedItems" name="orderedItemMenu" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="OrderedItems" start="54" end="204" startBytecode="0" endBytecode="2242" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="4" pc="87" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="OrderedItems" start="70" end="70" startBytecode="89" endBytecode="89" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    <SourceLine classname="OrderedItems" start="70" end="70" startBytecode="89" endBytecode="89" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="OrderedItems">
+      <SourceLine classname="OrderedItems" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Class>
+    <Method classname="OrderedItems" name="editOrder" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="OrderedItems" start="532" end="908" startBytecode="0" endBytecode="5785" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="5" pc="2246" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="OrderedItems" start="894" end="894" startBytecode="2248" endBytecode="2248" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="OrderedItems" start="894" end="894" startBytecode="2248" endBytecode="2248" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="OrderedItems">
+      <SourceLine classname="OrderedItems" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Class>
+    <Method classname="OrderedItems" name="newOrderedItem" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="OrderedItems" start="305" end="452" startBytecode="0" endBytecode="2579" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="6" pc="853" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="OrderedItems" start="437" end="437" startBytecode="855" endBytecode="855" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="OrderedItems" start="437" end="437" startBytecode="855" endBytecode="855" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="OrderedItems">
+      <SourceLine classname="OrderedItems" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Class>
+    <Method classname="OrderedItems" name="newOrderedItem" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="OrderedItems" start="305" end="452" startBytecode="0" endBytecode="399" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    </Method>
+    <SourceLine classname="OrderedItems" start="410" end="410" startBytecode="662" endBytecode="662" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+    <SourceLine classname="OrderedItems" start="410" end="410" startBytecode="662" endBytecode="662" sourcefile="OrderedItems.java" sourcepath="OrderedItems.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="addRentalForUser" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="486" end="658" startBytecode="0" endBytecode="2781" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <LocalVariable name="ans" register="12" pc="203" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Rent" start="529" end="529" startBytecode="204" endBytecode="204" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="529" end="529" startBytecode="204" endBytecode="204" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="addRentalForUser" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="486" end="658" startBytecode="0" endBytecode="2781" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <LocalVariable name="days" register="15" pc="444" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Rent" start="568" end="568" startBytecode="446" endBytecode="446" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="568" end="568" startBytecode="446" endBytecode="446" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="addRentalForUser" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="486" end="658" startBytecode="0" endBytecode="2781" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <LocalVariable name="droneSerialNumber" register="11" pc="153" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Rent" start="521" end="521" startBytecode="155" endBytecode="155" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="521" end="521" startBytecode="155" endBytecode="155" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="addRentalForUser" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="486" end="658" startBytecode="0" endBytecode="2781" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <LocalVariable name="serialNumber" register="9" pc="100" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Rent" start="511" end="511" startBytecode="102" endBytecode="102" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="511" end="511" startBytecode="102" endBytecode="102" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="deleteRental" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="160" end="227" startBytecode="0" endBytecode="1041" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <LocalVariable name="serialNumber" register="8" pc="156" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Rent" start="194" end="194" startBytecode="158" endBytecode="158" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="194" end="194" startBytecode="158" endBytecode="158" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="rentMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="40" end="94" startBytecode="0" endBytecode="571" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="3" pc="96" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Rent" start="56" end="56" startBytecode="97" endBytecode="97" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="56" end="56" startBytecode="97" endBytecode="97" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="returnRentalForUser" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="982" end="1132" startBytecode="0" endBytecode="2902" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <LocalVariable name="droneSerialNumber" register="14" pc="242" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Rent" start="1031" end="1031" startBytecode="244" endBytecode="244" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="1031" end="1031" startBytecode="244" endBytecode="244" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="returnRentalForUser" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="982" end="1132" startBytecode="0" endBytecode="2902" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <LocalVariable name="serialNumber" register="13" pc="189" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Rent" start="1021" end="1021" startBytecode="191" endBytecode="191" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="1021" end="1021" startBytecode="191" endBytecode="191" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="searchRentalsBySerialNumber" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="422" end="477" startBytecode="0" endBytecode="1104" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <LocalVariable name="serialNum" register="2" pc="34" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Rent" start="425" end="425" startBytecode="35" endBytecode="35" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="425" end="425" startBytecode="35" endBytecode="35" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="updateRentalForUser" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="667" end="743" startBytecode="0" endBytecode="845" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="8" pc="251" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Rent" start="717" end="717" startBytecode="253" endBytecode="253" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="717" end="717" startBytecode="253" endBytecode="253" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="updateRentalForUser" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="667" end="743" startBytecode="0" endBytecode="845" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <LocalVariable name="serialNumber" register="4" pc="82" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Rent" start="686" end="686" startBytecode="84" endBytecode="84" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="686" end="686" startBytecode="84" endBytecode="84" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="addRentalForUser" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="486" end="658" startBytecode="0" endBytecode="461" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <SourceLine classname="Rent" start="622" end="622" startBytecode="825" endBytecode="825" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="622" end="622" startBytecode="825" endBytecode="825" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="deleteRental" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="160" end="227" startBytecode="0" endBytecode="162" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <SourceLine classname="Rent" start="205" end="205" startBytecode="238" endBytecode="238" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="205" end="205" startBytecode="238" endBytecode="238" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="returnRentalForUser" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="982" end="1132" startBytecode="0" endBytecode="423" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <SourceLine classname="Rent" start="1043" end="1043" startBytecode="334" endBytecode="334" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="1043" end="1043" startBytecode="334" endBytecode="334" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="searchRentalsByStartDate" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Rent" start="352" end="413" startBytecode="0" endBytecode="171" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <SourceLine classname="Rent" start="371" end="371" startBytecode="115" endBytecode="115" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="371" end="371" startBytecode="115" endBytecode="115" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="updateReturnDate" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Rent" start="809" end="914" startBytecode="0" endBytecode="305" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <SourceLine classname="Rent" start="820" end="820" startBytecode="94" endBytecode="94" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="820" end="820" startBytecode="94" endBytecode="94" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="updateSerialNumber" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;Ljava/lang/String;)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="Rent" start="927" end="972" startBytecode="0" endBytecode="117" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <SourceLine classname="Rent" start="948" end="948" startBytecode="113" endBytecode="113" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="948" end="948" startBytecode="113" endBytecode="113" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Rent">
+      <SourceLine classname="Rent" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Class>
+    <Method classname="Rent" name="updateUserID" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;Ljava/lang/String;)I" isStatic="true">
+      <SourceLine classname="Rent" start="756" end="795" startBytecode="0" endBytecode="101" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    </Method>
+    <SourceLine classname="Rent" start="775" end="775" startBytecode="111" endBytecode="111" sourcefile="Rent.java" sourcepath="Rent.java"/>
+    <SourceLine classname="Rent" start="775" end="775" startBytecode="111" endBytecode="111" sourcefile="Rent.java" sourcepath="Rent.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="editRepair" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;Ljava/lang/String;ILjava/lang/String;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="391" end="639" startBytecode="0" endBytecode="4094" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <LocalVariable name="ex" register="15" pc="974" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Repair" start="540" end="540" startBytecode="975" endBytecode="975" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    <SourceLine classname="Repair" start="540" end="540" startBytecode="975" endBytecode="975" sourcefile="Repair.java" sourcepath="Repair.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="editRepair" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;Ljava/lang/String;ILjava/lang/String;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="391" end="639" startBytecode="0" endBytecode="4094" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="7" pc="104" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Repair" start="411" end="411" startBytecode="106" endBytecode="106" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    <SourceLine classname="Repair" start="411" end="411" startBytecode="106" endBytecode="106" sourcefile="Repair.java" sourcepath="Repair.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="editRepair" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;Ljava/lang/String;ILjava/lang/String;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="391" end="639" startBytecode="0" endBytecode="4094" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <LocalVariable name="newCName" register="12" pc="240" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Repair" start="421" end="421" startBytecode="242" endBytecode="242" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    <SourceLine classname="Repair" start="421" end="421" startBytecode="242" endBytecode="242" sourcefile="Repair.java" sourcepath="Repair.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="editRepair" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;Ljava/lang/String;ILjava/lang/String;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="391" end="639" startBytecode="0" endBytecode="4094" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <LocalVariable name="ret" register="16" pc="1179" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Repair" start="572" end="572" startBytecode="1180" endBytecode="1180" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    <SourceLine classname="Repair" start="572" end="572" startBytecode="1180" endBytecode="1180" sourcefile="Repair.java" sourcepath="Repair.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="editRepair" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;Ljava/lang/String;ILjava/lang/String;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="391" end="639" startBytecode="0" endBytecode="4094" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <LocalVariable name="start" register="14" pc="770" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Repair" start="508" end="508" startBytecode="771" endBytecode="771" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    <SourceLine classname="Repair" start="508" end="508" startBytecode="771" endBytecode="771" sourcefile="Repair.java" sourcepath="Repair.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="newRepair" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="179" end="386" startBytecode="0" endBytecode="3591" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <LocalVariable name="cName" register="11" pc="81" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Repair" start="199" end="199" startBytecode="83" endBytecode="83" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    <SourceLine classname="Repair" start="199" end="199" startBytecode="83" endBytecode="83" sourcefile="Repair.java" sourcepath="Repair.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="newRepair" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="179" end="386" startBytecode="0" endBytecode="3591" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <LocalVariable name="date" register="20" pc="583" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Repair" start="291" end="291" startBytecode="584" endBytecode="584" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    <SourceLine classname="Repair" start="291" end="291" startBytecode="584" endBytecode="584" sourcefile="Repair.java" sourcepath="Repair.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="repairMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="47" end="174" startBytecode="0" endBytecode="1971" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="3" pc="78" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Repair" start="61" end="61" startBytecode="79" endBytecode="79" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    <SourceLine classname="Repair" start="61" end="61" startBytecode="79" endBytecode="79" sourcefile="Repair.java" sourcepath="Repair.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="deleteRepair" signature="(Ljava/lang/String;ILjava/lang/String;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="643" end="675" startBytecode="0" endBytecode="703" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="Repair" start="648" end="648" startBytecode="14" endBytecode="14" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="Repair" start="649" end="649" startBytecode="21" endBytecode="21" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="650" end="650" startBytecode="30" endBytecode="30" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="651" end="651" startBytecode="39" endBytecode="39" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="652" end="652" startBytecode="48" endBytecode="48" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="653" end="653" startBytecode="57" endBytecode="57" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="654" end="654" startBytecode="62" endBytecode="62" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="655" end="655" startBytecode="79" endBytecode="79" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="654" end="654" startBytecode="98" endBytecode="98" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="656" end="656" startBytecode="101" endBytecode="101" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="658" end="658" startBytecode="106" endBytecode="106" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="658" end="658" startBytecode="109" endBytecode="109" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="Repair" start="659" end="659" startBytecode="116" endBytecode="116" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="660" end="660" startBytecode="125" endBytecode="125" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="661" end="661" startBytecode="133" endBytecode="133" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="668" end="668" startBytecode="213" endBytecode="213" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Repair" start="675" end="675" startBytecode="235" endBytecode="235" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="editRepair" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;Ljava/lang/String;ILjava/lang/String;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="391" end="639" startBytecode="0" endBytecode="4094" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="10" pc="1470" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Repair" start="616" end="616" startBytecode="1472" endBytecode="1472" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Repair" start="616" end="616" startBytecode="1472" endBytecode="1472" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="newRepair" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="179" end="386" startBytecode="0" endBytecode="3591" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="5" pc="1112" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Repair" start="343" end="343" startBytecode="1114" endBytecode="1114" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Repair" start="343" end="343" startBytecode="1114" endBytecode="1114" sourcefile="Repair.java" sourcepath="Repair.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="Repair">
+      <SourceLine classname="Repair" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Class>
+    <Method classname="Repair" name="newRepair" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Repair" start="179" end="386" startBytecode="0" endBytecode="575" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    </Method>
+    <SourceLine classname="Repair" start="317" end="317" startBytecode="837" endBytecode="837" sourcefile="Repair.java" sourcepath="Repair.java"/>
+    <SourceLine classname="Repair" start="317" end="317" startBytecode="837" endBytecode="837" sourcefile="Repair.java" sourcepath="Repair.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="deleteReviewSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="231" end="300" startBytecode="0" endBytecode="1169" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="serialNum" register="8" pc="241" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="270" end="270" startBytecode="243" endBytecode="243" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    <SourceLine classname="Reviews_Ratings" start="270" end="270" startBytecode="243" endBytecode="243" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="editReviewSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="516" end="612" startBytecode="0" endBytecode="1503" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="review" register="11" pc="424" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="585" end="585" startBytecode="426" endBytecode="426" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    <SourceLine classname="Reviews_Ratings" start="585" end="585" startBytecode="426" endBytecode="426" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="editReviewSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="516" end="612" startBytecode="0" endBytecode="1503" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="serialNum" register="8" pc="237" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="554" end="554" startBytecode="239" endBytecode="239" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    <SourceLine classname="Reviews_Ratings" start="554" end="554" startBytecode="239" endBytecode="239" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="generateNewReview" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="393" end="430" startBytecode="0" endBytecode="595" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="review" register="12" pc="204" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="422" end="422" startBytecode="206" endBytecode="206" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    <SourceLine classname="Reviews_Ratings" start="422" end="422" startBytecode="206" endBytecode="206" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="newReviewSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;I)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="312" end="379" startBytecode="0" endBytecode="1146" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="serialNum" register="9" pc="240" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="350" end="350" startBytecode="242" endBytecode="242" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    <SourceLine classname="Reviews_Ratings" start="350" end="350" startBytecode="242" endBytecode="242" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="reviewsEquip" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;I)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="831" end="941" startBytecode="0" endBytecode="1634" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="4" pc="57" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="842" end="842" startBytecode="59" endBytecode="59" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    <SourceLine classname="Reviews_Ratings" start="842" end="842" startBytecode="59" endBytecode="59" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="reviewsEquip" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;I)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="831" end="941" startBytecode="0" endBytecode="1634" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="serialNum" register="10" pc="351" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="887" end="887" startBytecode="353" endBytecode="353" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    <SourceLine classname="Reviews_Ratings" start="887" end="887" startBytecode="353" endBytecode="353" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="reviewsMenu" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;I)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="43" end="80" startBytecode="0" endBytecode="440" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="5" pc="66" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="53" end="53" startBytecode="68" endBytecode="68" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    <SourceLine classname="Reviews_Ratings" start="53" end="53" startBytecode="68" endBytecode="68" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="searchReviewSetup" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="92" end="159" startBytecode="0" endBytecode="1131" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="serialNum" register="8" pc="241" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="131" end="131" startBytecode="243" endBytecode="243" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    <SourceLine classname="Reviews_Ratings" start="131" end="131" startBytecode="243" endBytecode="243" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="deleteReview" signature="(Ljava/sql/Connection;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="678" end="733" startBytecode="0" endBytecode="942" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="2" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="Reviews_Ratings" start="691" end="691" startBytecode="29" endBytecode="29" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="Reviews_Ratings" start="692" end="692" startBytecode="36" endBytecode="36" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="693" end="693" startBytecode="45" endBytecode="45" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="694" end="694" startBytecode="54" endBytecode="54" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="696" end="696" startBytecode="63" endBytecode="63" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="700" end="700" startBytecode="75" endBytecode="75" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="700" end="700" startBytecode="78" endBytecode="78" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="Reviews_Ratings" start="701" end="701" startBytecode="85" endBytecode="85" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="715" end="715" startBytecode="162" endBytecode="162" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="716" end="716" startBytecode="164" endBytecode="164" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="719" end="719" startBytecode="175" endBytecode="175" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="720" end="720" startBytecode="180" endBytecode="180" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="728" end="728" startBytecode="214" endBytecode="214" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="729" end="729" startBytecode="216" endBytecode="216" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="733" end="733" startBytecode="339" endBytecode="339" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 2}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="editReview" signature="(Ljava/sql/Connection;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="750" end="819" startBytecode="0" endBytecode="1262" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="2" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="Reviews_Ratings" start="771" end="771" startBytecode="82" endBytecode="82" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="Reviews_Ratings" start="772" end="772" startBytecode="89" endBytecode="89" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="773" end="773" startBytecode="102" endBytecode="102" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="774" end="774" startBytecode="115" endBytecode="115" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="775" end="775" startBytecode="125" endBytecode="125" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="776" end="776" startBytecode="135" endBytecode="135" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="777" end="777" startBytecode="144" endBytecode="144" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="778" end="778" startBytecode="154" endBytecode="154" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="780" end="780" startBytecode="163" endBytecode="163" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="784" end="784" startBytecode="175" endBytecode="175" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="784" end="784" startBytecode="178" endBytecode="178" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="Reviews_Ratings" start="785" end="785" startBytecode="185" endBytecode="185" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="801" end="801" startBytecode="288" endBytecode="288" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="802" end="802" startBytecode="290" endBytecode="290" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="805" end="805" startBytecode="301" endBytecode="301" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="806" end="806" startBytecode="306" endBytecode="306" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="814" end="814" startBytecode="340" endBytecode="340" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="815" end="815" startBytecode="342" endBytecode="342" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="819" end="819" startBytecode="465" endBytecode="465" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 2}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="insertRevTransaction" signature="(Ljava/sql/Connection;ILjava/lang/String;Ljava/sql/Date;Ljava/sql/Time;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="446" end="504" startBytecode="0" endBytecode="1048" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="2" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="Reviews_Ratings" start="457" end="457" startBytecode="29" endBytecode="29" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="Reviews_Ratings" start="458" end="458" startBytecode="36" endBytecode="36" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="459" end="459" startBytecode="48" endBytecode="48" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="460" end="460" startBytecode="61" endBytecode="61" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="461" end="461" startBytecode="71" endBytecode="71" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="462" end="462" startBytecode="81" endBytecode="81" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="463" end="463" startBytecode="90" endBytecode="90" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="464" end="464" startBytecode="100" endBytecode="100" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="466" end="466" startBytecode="109" endBytecode="109" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="470" end="470" startBytecode="121" endBytecode="121" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="470" end="470" startBytecode="124" endBytecode="124" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="Reviews_Ratings" start="471" end="471" startBytecode="131" endBytecode="131" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="486" end="486" startBytecode="214" endBytecode="214" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="487" end="487" startBytecode="216" endBytecode="216" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="490" end="490" startBytecode="227" endBytecode="227" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="491" end="491" startBytecode="232" endBytecode="232" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="499" end="499" startBytecode="266" endBytecode="266" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="500" end="500" startBytecode="268" endBytecode="268" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="Reviews_Ratings" start="504" end="504" startBytecode="391" endBytecode="391" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 2}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="deleteReview" signature="(Ljava/sql/Connection;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="678" end="733" startBytecode="0" endBytecode="942" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="rs" register="7" pc="232" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="719" end="719" startBytecode="234" endBytecode="234" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Reviews_Ratings" start="719" end="719" startBytecode="234" endBytecode="234" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="editReview" signature="(Ljava/sql/Connection;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="750" end="819" startBytecode="0" endBytecode="1262" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="rs" register="15" pc="358" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="805" end="805" startBytecode="360" endBytecode="360" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Reviews_Ratings" start="805" end="805" startBytecode="360" endBytecode="360" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="Reviews_Ratings">
+      <SourceLine classname="Reviews_Ratings" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Class>
+    <Method classname="Reviews_Ratings" name="insertRevTransaction" signature="(Ljava/sql/Connection;ILjava/lang/String;Ljava/sql/Date;Ljava/sql/Time;ILjava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Reviews_Ratings" start="446" end="504" startBytecode="0" endBytecode="1048" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java"/>
+    </Method>
+    <LocalVariable name="rs" register="9" pc="284" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Reviews_Ratings" start="490" end="490" startBytecode="286" endBytecode="286" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="Reviews_Ratings" start="490" end="490" startBytecode="286" endBytecode="286" sourcefile="Reviews_Ratings.java" sourcepath="Reviews_Ratings.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="ServiceRepairer">
+      <SourceLine classname="ServiceRepairer" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Class>
+    <Method classname="ServiceRepairer" name="editService" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;Ljava/lang/String;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="ServiceRepairer" start="261" end="426" startBytecode="0" endBytecode="2668" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="5" pc="83" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="ServiceRepairer" start="278" end="278" startBytecode="85" endBytecode="85" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    <SourceLine classname="ServiceRepairer" start="278" end="278" startBytecode="85" endBytecode="85" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="ServiceRepairer">
+      <SourceLine classname="ServiceRepairer" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Class>
+    <Method classname="ServiceRepairer" name="editService" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;Ljava/lang/String;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="ServiceRepairer" start="261" end="426" startBytecode="0" endBytecode="2668" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Method>
+    <LocalVariable name="phoneNum" register="9" pc="204" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="ServiceRepairer" start="288" end="288" startBytecode="206" endBytecode="206" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    <SourceLine classname="ServiceRepairer" start="288" end="288" startBytecode="206" endBytecode="206" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="ServiceRepairer">
+      <SourceLine classname="ServiceRepairer" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Class>
+    <Method classname="ServiceRepairer" name="editService" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;Ljava/lang/String;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="ServiceRepairer" start="261" end="426" startBytecode="0" endBytecode="2668" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Method>
+    <LocalVariable name="type" register="12" pc="723" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="ServiceRepairer" start="374" end="374" startBytecode="725" endBytecode="725" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    <SourceLine classname="ServiceRepairer" start="374" end="374" startBytecode="725" endBytecode="725" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="ServiceRepairer">
+      <SourceLine classname="ServiceRepairer" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Class>
+    <Method classname="ServiceRepairer" name="newService" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="ServiceRepairer" start="170" end="257" startBytecode="0" endBytecode="1380" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Method>
+    <LocalVariable name="cName" register="5" pc="29" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="ServiceRepairer" start="178" end="178" startBytecode="31" endBytecode="31" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    <SourceLine classname="ServiceRepairer" start="178" end="178" startBytecode="31" endBytecode="31" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="ServiceRepairer">
+      <SourceLine classname="ServiceRepairer" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Class>
+    <Method classname="ServiceRepairer" name="newService" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="ServiceRepairer" start="170" end="257" startBytecode="0" endBytecode="1380" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Method>
+    <LocalVariable name="phoneNum" register="7" pc="80" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="ServiceRepairer" start="190" end="190" startBytecode="82" endBytecode="82" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    <SourceLine classname="ServiceRepairer" start="190" end="190" startBytecode="82" endBytecode="82" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="ServiceRepairer">
+      <SourceLine classname="ServiceRepairer" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Class>
+    <Method classname="ServiceRepairer" name="newService" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="ServiceRepairer" start="170" end="257" startBytecode="0" endBytecode="1380" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Method>
+    <LocalVariable name="type" register="14" pc="196" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="ServiceRepairer" start="217" end="217" startBytecode="198" endBytecode="198" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    <SourceLine classname="ServiceRepairer" start="217" end="217" startBytecode="198" endBytecode="198" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="ServiceRepairer">
+      <SourceLine classname="ServiceRepairer" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Class>
+    <Method classname="ServiceRepairer" name="serviceMenu" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="ServiceRepairer" start="53" end="165" startBytecode="0" endBytecode="1721" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="4" pc="79" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="ServiceRepairer" start="67" end="67" startBytecode="81" endBytecode="81" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    <SourceLine classname="ServiceRepairer" start="67" end="67" startBytecode="81" endBytecode="81" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="ServiceRepairer">
+      <SourceLine classname="ServiceRepairer" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Class>
+    <Method classname="ServiceRepairer" name="editService" signature="(Ljava/io/BufferedReader;Ljava/sql/ResultSet;Ljava/lang/String;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="ServiceRepairer" start="261" end="426" startBytecode="0" endBytecode="2668" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="8" pc="940" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="ServiceRepairer" start="410" end="410" startBytecode="942" endBytecode="942" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="ServiceRepairer" start="410" end="410" startBytecode="942" endBytecode="942" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="ServiceRepairer">
+      <SourceLine classname="ServiceRepairer" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Class>
+    <Method classname="ServiceRepairer" name="newService" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="ServiceRepairer" start="170" end="257" startBytecode="0" endBytecode="1380" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Method>
+    <LocalVariable name="rs2" register="4" pc="404" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="ServiceRepairer" start="242" end="242" startBytecode="406" endBytecode="406" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="ServiceRepairer" start="242" end="242" startBytecode="406" endBytecode="406" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="1">
+    <Class classname="ServiceRepairer">
+      <SourceLine classname="ServiceRepairer" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Class>
+    <Method classname="ServiceRepairer" name="newService" signature="(Ljava/io/BufferedReader;ILjava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="ServiceRepairer" start="170" end="257" startBytecode="0" endBytecode="205" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    </Method>
+    <SourceLine classname="ServiceRepairer" start="229" end="229" startBytecode="301" endBytecode="301" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+    <SourceLine classname="ServiceRepairer" start="229" end="229" startBytecode="301" endBytecode="301" sourcefile="ServiceRepairer.java" sourcepath="ServiceRepairer.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="UsefulReports">
+      <SourceLine classname="UsefulReports" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+    </Class>
+    <Method classname="UsefulReports" name="usefulReportMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="UsefulReports" start="53" end="231" startBytecode="0" endBytecode="2704" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+    </Method>
+    <LocalVariable name="menuChoice" register="5" pc="116" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="UsefulReports" start="111" end="111" startBytecode="118" endBytecode="118" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+    <SourceLine classname="UsefulReports" start="111" end="111" startBytecode="118" endBytecode="118" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="UsefulReports">
+      <SourceLine classname="UsefulReports" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+    </Class>
+    <Method classname="UsefulReports" name="usefulReportMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="UsefulReports" start="53" end="231" startBytecode="0" endBytecode="2704" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+    </Method>
+    <LocalVariable name="userIDString" register="14" pc="222" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="UsefulReports" start="119" end="119" startBytecode="224" endBytecode="224" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+    <SourceLine classname="UsefulReports" start="119" end="119" startBytecode="224" endBytecode="224" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+  </BugInstance>
+  <BugInstance type="NP_DEREFERENCE_OF_READLINE_VALUE" priority="2" rank="15" abbrev="NP" category="STYLE" first="1">
+    <Class classname="UsefulReports">
+      <SourceLine classname="UsefulReports" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+    </Class>
+    <Method classname="UsefulReports" name="usefulReportMenu" signature="(Ljava/io/BufferedReader;Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="UsefulReports" start="53" end="231" startBytecode="0" endBytecode="2704" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+    </Method>
+    <LocalVariable name="yearString" register="16" pc="688" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="UsefulReports" start="185" end="185" startBytecode="690" endBytecode="690" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+    <SourceLine classname="UsefulReports" start="185" end="185" startBytecode="690" endBytecode="690" sourcefile="UsefulReports.java" sourcepath="UsefulReports.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_COMPARETO_USE_OBJECT_EQUALS" priority="2" rank="16" abbrev="Eq" category="BAD_PRACTICE" first="1">
+    <Class classname="Warehouse">
+      <SourceLine classname="Warehouse" sourcefile="Warehouse.java" sourcepath="Warehouse.java"/>
+    </Class>
+    <Method classname="Warehouse" name="compareTo" signature="(LWarehouse;)I" isStatic="false">
+      <SourceLine classname="Warehouse" start="81" end="86" startBytecode="0" endBytecode="105" sourcefile="Warehouse.java" sourcepath="Warehouse.java"/>
+    </Method>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 14 Apr 2023 15:14:01 -0400" total_classes="1" referenced_classes="35" total_bugs="170" total_size="541" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="2.19" clock_seconds="0.91" peak_mbytes="876.71" alloc_mbytes="2048.00" gc_seconds="0.03" priority_2="149" priority_1="21">
+    <PackageStats package="" total_bugs="170" total_types="12" total_size="541" priority_2="149" priority_1="21">
+      <ClassStats class="DatabaseForNonProfitLendor" sourceFile="DatabaseForNonProfitLendor.java" interface="false" size="541" bugs="16" priority_2="14" priority_1="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="136" invocations="433" avgMicrosecondsPerInvocation="316" maxMicrosecondsPerInvocation="15857" standardDeviationMicrosecondsPerInvocation="919"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="135" invocations="166" avgMicrosecondsPerInvocation="813" maxMicrosecondsPerInvocation="2248" standardDeviationMicrosecondsPerInvocation="485"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="108" invocations="2" avgMicrosecondsPerInvocation="54252" maxMicrosecondsPerInvocation="94390" standardDeviationMicrosecondsPerInvocation="40138"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="47" invocations="434" avgMicrosecondsPerInvocation="108" maxMicrosecondsPerInvocation="645" standardDeviationMicrosecondsPerInvocation="79"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="39" invocations="140" avgMicrosecondsPerInvocation="280" maxMicrosecondsPerInvocation="1401" standardDeviationMicrosecondsPerInvocation="295"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="34" invocations="18" avgMicrosecondsPerInvocation="1916" maxMicrosecondsPerInvocation="7657" standardDeviationMicrosecondsPerInvocation="2262"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="27" invocations="12" avgMicrosecondsPerInvocation="2303" maxMicrosecondsPerInvocation="10968" standardDeviationMicrosecondsPerInvocation="3311"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="26" invocations="18" avgMicrosecondsPerInvocation="1474" maxMicrosecondsPerInvocation="6275" standardDeviationMicrosecondsPerInvocation="1719"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="26" invocations="35" avgMicrosecondsPerInvocation="757" maxMicrosecondsPerInvocation="3637" standardDeviationMicrosecondsPerInvocation="957"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="22" invocations="12" avgMicrosecondsPerInvocation="1839" maxMicrosecondsPerInvocation="8742" standardDeviationMicrosecondsPerInvocation="2521"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="21" invocations="12" avgMicrosecondsPerInvocation="1805" maxMicrosecondsPerInvocation="7317" standardDeviationMicrosecondsPerInvocation="2339"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="19" invocations="1" avgMicrosecondsPerInvocation="19657" maxMicrosecondsPerInvocation="19657" standardDeviationMicrosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="19" invocations="35" avgMicrosecondsPerInvocation="553" maxMicrosecondsPerInvocation="3423" standardDeviationMicrosecondsPerInvocation="660"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1681499075984" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1681499075989" release="" codeSize="6445" numClasses="12"/>
+    <AppVersion sequence="2" timestamp="1681499099796" release="" codeSize="541" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1681499149032" release="" codeSize="541" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1681499157423" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1681499177984" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1681499294071" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1681499406815" release="" codeSize="24" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1681499408956" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1681499412757" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1681499427257" release="" codeSize="541" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1681499460861" release="" codeSize="541" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1681499573794" release="" codeSize="542" numClasses="1"/>
+  </History>
+</BugCollection>

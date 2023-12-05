@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.5.3" sequence="1" timestamp="1650560958283" analysisTimestamp="1650560957225" release="">
+  <Project projectName="EmailAccounts">
+    <Jar>C:\Users\mrocc\Documents\workspace\EmailAccounts\bin\EmailAccount1.class</Jar>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\workspace\EmailAccounts\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Downloads\components (1).jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\mrocc\Documents\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\EmailAccounts\src</SrcDir>
+    <SrcDir>C:\Users\mrocc\Documents\workspace\EmailAccounts\test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 21 Apr 2022 13:09:17 -0400" total_classes="1" referenced_classes="17" total_bugs="0" total_size="37" num_packages="1" java_version="15.0.2" vm_version="15.0.2+7-27" cpu_seconds="5.47" clock_seconds="1.06" peak_mbytes="988.93" alloc_mbytes="2048.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="37">
+      <ClassStats class="EmailAccount1" sourceFile="EmailAccount1.java" interface="false" size="37" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="499" invocations="357" avgMicrosecondsPerInvocation="1399" maxMicrosecondsPerInvocation="40049" standardDeviationMicrosecondsPerInvocation="4274"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="236" invocations="2" avgMicrosecondsPerInvocation="118361" maxMicrosecondsPerInvocation="218871" standardDeviationMicrosecondsPerInvocation="100509"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="58" invocations="358" avgMicrosecondsPerInvocation="163" maxMicrosecondsPerInvocation="5335" standardDeviationMicrosecondsPerInvocation="293"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1650560958283" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

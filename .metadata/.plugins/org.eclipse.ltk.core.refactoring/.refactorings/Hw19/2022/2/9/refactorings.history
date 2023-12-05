@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Heapsort&apos; to &apos;Stack2&apos;&#x0D;&#x0A;- Original project: &apos;Hw18&apos;&#x0D;&#x0A;- Original element: &apos;Heapsort&apos;&#x0D;&#x0A;- Renamed element: &apos;Stack2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Heapsort&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Heapsort.java[Heapsort" matchStrategy="1" name="Stack2" qualified="false" references="true" similarDeclarations="false" stamp="1645676257882" textual="false" version="1.0"/>
+</session>
